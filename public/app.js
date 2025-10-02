@@ -199,7 +199,7 @@ function renderTopEvents(events) {
     card.innerHTML = `
       ${topRightBadges}
       <div class="flex flex-col gap-2">
-        <h3 class="font-semibold leading-snug pr-32">${escapeHtml(ev.eventName)}</h3>
+        <h3 class="font-semibold leading-snug pr-32 event-title">${escapeHtml(ev.eventName)}</h3>
         ${combinedBadge}
         <div class="flex flex-wrap gap-1">${genreTags}</div>
       </div>
@@ -214,8 +214,9 @@ function renderTopEvents(events) {
 
 async function loadTopEvents() {
   try {
-    const { top } = await fetchJSON('/api/top?limit=6');
-    renderTopEvents(top || []);
+    const { top } = await fetchJSON('/api/top?limit=3');
+    // Defensive: selbst wenn Backend mehr liefert, lokal auf 3 begrenzen
+    renderTopEvents((top || []).slice(0,3));
   } catch (e) {
     console.error('Top Events Fehler', e);
     topEventsContainer.innerHTML = '<p class="text-red-400 text-sm">Fehler beim Laden der Top Events.</p>';
@@ -348,14 +349,14 @@ function renderRegion(region) {
     }
 
     item.innerHTML = `
-      <div class="flex items-start justify-between gap-4 ${already ? 'opacity-90' : ''}">
+      <div class="flex items-start justify-between gap-4 ${already ? 'opacity-90' : ''} event-row">
         <div class="min-w-0 cursor-pointer flex-1" data-open-full>
-          <p class="font-medium truncate">${escapeHtml(ev.eventName)}</p>
+          <p class="font-medium truncate event-title">${escapeHtml(ev.eventName)}</p>
           <div class="flex flex-col mt-1 mb-2 gap-1">${venueBadge}</div>
         </div>
         <div class="flex items-start gap-3 shrink-0">
           <div class="flex flex-col gap-1 items-stretch genre-stack w-[110px]">${genreTags || ''}</div>
-          <div class="flex flex-col items-end gap-1 w-20">
+          <div class="flex flex-col items-end gap-1 w-20 vote-box">
             <span class="text-[11px] px-2 py-0.5 rounded bg-neutral-700/60 text-neutral-200 leading-none">${ev.votes || 0}❤</span>
             <button class="vote-btn-anim text-[11px] px-2 py-1 rounded ${already ? 'bg-neutral-600 cursor-not-allowed text-neutral-300' : 'bg-fuchsia-600/70 hover:bg-fuchsia-500 text-white font-semibold'} vote-btn" data-vote ${already ? 'disabled' : ''}>${already ? 'Voted' : 'Vote'}</button>
           </div>

@@ -225,6 +225,24 @@
         rgba(12,12,20,0.34) 100%
       );
     }
+
+    /* Mobile Optimierungen */
+    @media (max-width: 640px) {
+      .event-item { padding-top: 2.4rem; }
+      .event-row { flex-direction: column; align-items: flex-start; gap: .5rem; }
+      .event-row > .flex.items-start.gap-3 { width: 100%; justify-content: flex-start; }
+      .event-row .genre-stack { flex-direction: row; flex-wrap: wrap; width: 100%; display: flex; gap: .4rem; }
+      .event-row .genre-stack span { width: auto !important; min-width: 70px; }
+      .event-row .vote-box { position: absolute; top: 6px; right: 8px; width: auto; flex-direction: row; align-items: center; }
+      .event-row .vote-box span { order: 1; }
+      .event-row .vote-box button { order: 2; margin-left: .4rem; }
+      /* Mehrzeiliger Titel trotz Tailwind 'truncate' */
+      .event-title { white-space: normal !important; overflow: hidden !important; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; padding-right: 90px; }
+      /* Genre-Tags kleiner auf Mobile */
+      .event-row .genre-stack span { font-size: 10px; padding: 2px 6px; }
+      /* Top Events Titel auch mehrzeilig erlauben */
+      #topEvents .event-title { white-space: normal !important; -webkit-line-clamp: 3; padding-right: 0; }
+    }
   </style>
   <script src="./app.js" type="module"></script>
 </body>
