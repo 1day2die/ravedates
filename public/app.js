@@ -70,6 +70,16 @@ const state = {
   collectedGenres: new Set()
 };
 
+// Hilfsfunktion: Event ist vergangen, wenn endTime/sonst startTime/date < jetzt
+function isPastEvent(ev, nowTs = Date.now()) {
+  if (!ev) return false;
+  const ref = ev.endTime || ev.startTime || ev.date;
+  if (!ref) return false;
+  const ts = Date.parse(ref);
+  if (isNaN(ts)) return false;
+  return ts < nowTs;
+}
+
 // LocalStorage Handling für bereits gevotete Events
 const VOTED_KEY = 'votedEvents';
 function loadVotedSet() {
@@ -134,6 +144,9 @@ async function loadRegionEvents(region) {
 }
 
 function renderTopEvents(events) {
+  const nowTs = Date.now();
+  // Safety: entferne vergangene Events (falls Servercache alt ist)
+  events = (events || []).filter(ev => !isPastEvent(ev, nowTs));
   topEventsContainer.innerHTML = '';
   if (!events.length) {
     topEventsContainer.innerHTML = '<p class="text-neutral-400 text-sm">Noch keine Votes.</p>';
@@ -148,10 +161,12 @@ function renderTopEvents(events) {
     card.innerHTML = `
       <div class="flex justify-between items-start gap-3">
         <div class="flex-1">
-          <h3 class="font-semibold leading-snug mb-2">${escapeHtml(ev.eventName)}</h3>
+          <h3 class="font-semibold leading-snug mb-2">${escapeHtml(ev.eventName)}       
+          <span class="text-neutral-600">•</span>               
+          <span class="text-xs text-neutral-400">${escapeHtml(ev.region)}</span>
+          
+            </h3>
           <div class="flex items-center gap-2 mb-2">
-            <span class="text-xs text-neutral-400">${escapeHtml(ev.region)}</span>
-            <span class="text-neutral-600">•</span>
             ${venueTag}
           </div>
           <div class="flex flex-wrap gap-1">${genreTags}</div>
@@ -181,19 +196,21 @@ function regionTitle(name) {
   return name.charAt(0).toUpperCase() + name.slice(1);
 }
 
+
 function renderRegionsSkeleton() {
   regionsContainer.innerHTML = '';
   state.regions.forEach(r => {
     const wrapper = document.createElement('div');
     wrapper.id = `region-${r}`;
     wrapper.className = 'border border-neutral-700 rounded-lg overflow-hidden bg-neutral-800/50 backdrop-blur-sm';
+    // Einheitlicher Status-Text – keine Region wird auto-geladen
     wrapper.innerHTML = `
       <button class="w-full flex justify-between items-center px-4 py-3 font-semibold bg-neutral-800/60 hover:bg-neutral-700/60 transition region-toggle" data-region-toggle="${r}">
         <span>${escapeHtml(regionTitle(r))}</span>
         <span class="chevron text-neutral-400">▼</span>
       </button>
       <div class="region-content hidden divide-y divide-neutral-800" data-region-content="${r}">
-        <div class="p-4 text-sm text-neutral-400" data-region-status>${r === state.regions[0] ? 'Lade Events...' : 'Noch nicht geladen. Aufklappen zum Laden.'}</div>
+        <div class="p-4 text-sm text-neutral-400" data-region-status>Noch nicht geladen. Aufklappen zum Laden.</div>
       </div>`;
     regionsContainer.appendChild(wrapper);
   });
@@ -213,10 +230,9 @@ function attachRegionToggleHandlers() {
         // Lazy Load wenn noch nicht vorhanden
         if (!state.eventsByRegion[r]) {
           const statusEl = content.querySelector('[data-region-status]');
-            if (statusEl) statusEl.textContent = 'Lade Events...';
+          if (statusEl) statusEl.textContent = 'Lade Events...';
           try {
             await loadRegionEvents(r);
-            // Nach Laden Genres Select updaten
             rebuildGenreSelect();
           } catch (e) {
             if (statusEl) statusEl.textContent = 'Fehler beim Laden.';
@@ -228,11 +244,7 @@ function attachRegionToggleHandlers() {
       }
     });
   });
-  // Optional: erste Region automatisch laden
-  if (state.regions[0]) {
-    const firstBtn = regionsContainer.querySelector(`[data-region-toggle="${state.regions[0]}"]`);
-    if (firstBtn) firstBtn.click();
-  }
+  // Entfernt: automatisches Öffnen der ersten Region
 }
 
 function rebuildGenreSelect() {
@@ -243,7 +255,9 @@ function rebuildGenreSelect() {
 }
 
 function renderRegion(region) {
-  const events = state.eventsByRegion[region] || [];
+  let events = state.eventsByRegion[region] || [];
+  const nowTs = Date.now();
+  events = events.filter(ev => !isPastEvent(ev, nowTs));
   const container = document.querySelector(`[data-region-content="${region}"]`);
   if (!container) return;
   if (!events.length) {
@@ -273,9 +287,10 @@ function renderRegion(region) {
   filtered.forEach(ev => {
     const already = votedSet.has(ev.voteId);
     const item = document.createElement('div');
-    item.className = 'group px-4 py-3 mb-2 last:mb-0 flex flex-col gap-2 hover:bg-neutral-700/40 transition border border-neutral-800/80 rounded-md shadow-[0_0_0_1px_rgba(255,255,255,0.04)]';
+    item.className = 'event-item group px-4 py-3 mb-2 last:mb-0 flex flex-col gap-2 hover:bg-neutral-700/40 transition border border-neutral-800/80 rounded-md shadow-[0_0_0_1px_rgba(255,255,255,0.04)]';
     const genreTags = (ev.genres || []).map(g => createNeonTag(g, 'genre')).join(' ');
-    const venueWithDate = ev.venue ? `${ev.venue} • ${formatDate(ev.date)}` : formatDate(ev.date);
+    // Präfix "Club:" vor Venue, falls vorhanden
+    const venueWithDate = ev.venue ? `Club: ${ev.venue} • ${formatDate(ev.date)}` : formatDate(ev.date);
     const venueTag = createNeonTag(venueWithDate, 'venue');
     item.innerHTML = `
       <div class="flex items-start justify-between gap-4 ${already ? 'opacity-90' : ''}">

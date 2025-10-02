@@ -64,6 +64,18 @@ function eventKey(evt) {
   return evt.eventUrl || `${evt.eventName}_${evt.date}`;
 }
 
+// Hilfsfunktion: Prüft, ob ein Event vollständig in der Vergangenheit liegt.
+// Regel:
+// - Wenn endTime vorhanden: Event ist vorbei, wenn endTime < jetzt.
+// - Sonst: nutze startTime oder als Fallback date. Ohne parsebares Datum => nicht filtern.
+function isPastEvent(evt, nowTs = Date.now()) {
+  if (!evt) return false;
+  const endRef = evt.endTime || evt.startTime || evt.date;
+  const endTs = Date.parse(endRef || 0);
+  if (isNaN(endTs)) return false;
+  return endTs < nowTs;
+}
+
 function augmentEventsWithVotes(region, events, votes) {
   const regionVotes = votes[region] || {};
   return events.map(e => ({
@@ -85,7 +97,10 @@ app.get('/api/region/:name', (req, res) => {
   if (!data) return res.status(404).json({ error: 'Region nicht gefunden' });
   const votes = readVotes();
   let events = augmentEventsWithVotes(region, data, votes);
-  // Neue Sortierung: zuerst Datum/Startzeit aufsteigend
+  // Vergangene Events rausfiltern
+  const nowTs = Date.now();
+  events = events.filter(ev => !isPastEvent(ev, nowTs));
+  // Sortierung: frühestes (Start- oder Datum) zuerst
   events = events.sort((a, b) => {
     const ta = Date.parse(a.startTime || a.date || 0);
     const tb = Date.parse(b.startTime || b.date || 0);
@@ -105,14 +120,15 @@ app.get('/api/top', (req, res) => {
     all = all.concat(events.map(ev => ({ ...ev, region: r })));
   });
 
-  // Nur Events mit votes > 0 anzeigen
+  // Nur Events mit votes > 0
   all = all.filter(ev => (ev.votes || 0) > 0);
+  // Vergangene Events entfernen
+  const nowTs = Date.now();
+  all = all.filter(ev => !isPastEvent(ev, nowTs));
 
   all.sort((a, b) => {
     if ((b.votes || 0) !== (a.votes || 0)) return (b.votes || 0) - (a.votes || 0);
-    // Fallback: höheres attending zuerst
     if ((b.attending || 0) !== (a.attending || 0)) return (b.attending || 0) - (a.attending || 0);
-    // Danach frühestes Datum zuerst
     const ta = Date.parse(a.startTime || a.date || 0);
     const tb = Date.parse(b.startTime || b.date || 0);
     return ta - tb;
