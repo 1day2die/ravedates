@@ -40,7 +40,7 @@
 
   <main class="flex-1 w-full max-w-7xl mx-auto p-4 md:p-6 space-y-10">
     <!-- Filter Bar -->
-    <section class="rounded-lg border border-neutral-800/80 bg-neutral-900/70 backdrop-blur-sm shadow-neon-blue px-4 py-4 flex flex-col gap-4 md:flex-row md:items-start md:gap-6">
+    <section class="relative z-50 rounded-lg border border-neutral-800/80 bg-neutral-900/70 backdrop-blur-sm shadow-neon-blue px-4 py-4 flex flex-col gap-4 md:flex-row md:items-start md:gap-6">
       <div class="flex-1 min-w-[200px]">
         <label for="searchInput" class="block text-[11px] uppercase tracking-wide text-neutral-400 mb-1">Suche (Name / Venue / Artist / Genre)</label>
         <div class="relative">
@@ -55,7 +55,7 @@
             <div id="genreSelectedChips" class="flex flex-wrap gap-1 items-center leading-tight text-[11px] text-neutral-400">Alle Genres</div>
             <span class="ml-auto text-neutral-500 text-[10px] pt-0.5 group-hover:text-neutral-300">▼</span>
           </button>
-          <div id="genreDropdownPanel" class="hidden absolute z-40 mt-1 w-full rounded-md border border-neutral-700 bg-neutral-900/95 backdrop-blur p-2 max-h-72 overflow-y-auto shadow-neon-blue animate-fadeIn origin-top">
+          <div id="genreDropdownPanel" class="hidden absolute z-[1200] mt-1 w-full rounded-md border border-neutral-700 bg-neutral-900/95 backdrop-blur p-2 max-h-72 overflow-y-auto shadow-neon-blue animate-fadeIn origin-top">
             <div class="flex items-center justify-between mb-2 gap-2">
               <button type="button" data-genre-select-all class="px-2 py-1 rounded bg-neutral-800 hover:bg-neutral-700 text-[11px]">Alle</button>
               <button type="button" data-genre-clear class="px-2 py-1 rounded bg-neutral-800 hover:bg-neutral-700 text-[11px]">Keine</button>
