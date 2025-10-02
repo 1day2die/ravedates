@@ -82,9 +82,10 @@
         </div>
         <div class="flex flex-wrap gap-1 mt-1" id="dateQuickBtns">
           <button type="button" data-range="today" class="px-2 py-1 rounded bg-neutral-800 hover:bg-neutral-700 text-[10px]">Heute</button>
-          <button type="button" data-range="weekend" class="px-2 py-1 rounded bg-neutral-800 hover:bg-neutral-700 text-[10px]">Wochenende</button>
-            <button type="button" data-range="7" class="px-2 py-1 rounded bg-neutral-800 hover:bg-neutral-700 text-[10px]">7 Tage</button>
-          <button type="button" data-range="30" class="px-2 py-1 rounded bg-neutral-800 hover:bg-neutral-700 text-[10px]">30 Tage</button>
+          <button type="button" data-range="7" class="px-2 py-1 rounded bg-neutral-800 hover:bg-neutral-700 text-[10px]">7 Tage</button>
+          <button type="button" data-range="thisWeekend" class="px-2 py-1 rounded bg-neutral-800 hover:bg-neutral-700 text-[10px]">Dieses Wochenende</button>
+          <button type="button" data-range="nextWeekend" class="px-2 py-1 rounded bg-neutral-800 hover:bg-neutral-700 text-[10px]">Nächstes Wochenende</button>
+
         </div>
         <p class="text-[10px] text-neutral-500 leading-snug">Es werden Events gezeigt, die den Zeitraum überlappen. Leer = alle.</p>
       </div>
@@ -187,7 +188,7 @@
       left: 50%;
       bottom: -6px; /* etwas Abstand unterhalb des Items */
       transform: translateX(-50%);
-      width: 65%;
+      width: 75%;
       height: 3px;
       pointer-events: none;
       background: radial-gradient(circle at 50% 50%, rgba(255,13,217,0.95) 0%, rgba(255,13,217,0.6) 20%, rgba(0,234,255,0.5) 45%, rgba(0,234,255,0.15) 60%, rgba(0,0,0,0) 75%);
@@ -207,6 +208,22 @@
       background: radial-gradient(circle at 50% 20%, rgba(255,13,217,0.55), rgba(0,234,255,0.15) 55%, rgba(0,0,0,0) 70%);
       filter: blur(8px) saturate(140%);
       opacity: 0.7;
+    }
+    .venue-fade-badge { position: relative; overflow: hidden; padding-right: 2.25rem; }
+    .venue-fade-badge::after {
+      content: '';
+      position: absolute;
+      top: 0; right: 0; bottom: 0;
+      width: 48px; /* reduzierte Fade-Breite */
+      pointer-events: none;
+      /* aufgehellter, subtiler Verlauf statt starkes Schwarz */
+      background: linear-gradient(to right,
+        rgba(0,0,0,0) 0%,
+        rgba(12,12,20,0.08) 40%,
+        rgba(12,12,20,0.18) 65%,
+        rgba(12,12,20,0.28) 82%,
+        rgba(12,12,20,0.34) 100%
+      );
     }
   </style>
   <script src="./app.js" type="module"></script>

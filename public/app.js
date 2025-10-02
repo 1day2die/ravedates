@@ -59,8 +59,22 @@ function createNeonTag(text, type = 'genre', keyForColor = null) {
   if (type === 'venue') {
     return `<span class="inline-block text-xs px-3 py-1 border-l-2 ${color.bg} ${color.text} ${color.border} ${color.glow} shadow-md font-bold uppercase tracking-wide">${escapeHtml(text)}</span>`;
   } else {
-    return `<span class="inline-block text-xs px-2 py-1 rounded-full border ${color.bg} ${color.text} ${color.border} ${color.glow} shadow-sm font-medium">${escapeHtml(text)}</span>`;
+    // Text mittig zentrieren via inline-flex, fixe Breite für einheitlichen Stack
+    return `<span class="inline-flex items-center justify-center text-center text-xs px-2 py-1 rounded-full border ${color.bg} ${color.text} ${color.border} ${color.glow} shadow-sm font-medium w-[110px] whitespace-normal break-words leading-tight">${escapeHtml(text)}</span>`;
   }
+}
+
+function createVenueBadge(venueName, dateStr, opts = {}){
+  const { fullWidth = false } = opts;
+  const color = getColorForText(venueName);
+  const safeVenue = escapeHtml(`Club: ${venueName}`);
+  const safeDate = escapeHtml(dateStr || '-');
+  // Breitere Badge (~40% Container) bei nicht-fullWidth
+  const widthClass = fullWidth ? 'w-full' : 'w-[40%] min-w-[240px] venue-fade-badge';
+  return `<span class="${widthClass} relative inline-flex flex-col justify-start text-xs px-3 py-1 border-l-2 ${color.bg} ${color.text} ${color.border} ${color.glow} shadow-md font-bold uppercase tracking-wide whitespace-normal break-words">`+
+         `<span class="leading-snug">${safeVenue}</span>`+
+         `<span class="mt-0.5 text-[12px] font-semibold normal-case tracking-normal opacity-95">${safeDate}</span>`+
+         `</span>`;
 }
 
 const state = {
@@ -156,7 +170,6 @@ async function loadRegionEvents(region) {
 
 function renderTopEvents(events) {
   const nowTs = Date.now();
-  // Safety: entferne vergangene Events (falls Servercache alt ist)
   events = (events || []).filter(ev => !isPastEvent(ev, nowTs));
   topEventsContainer.innerHTML = '';
   if (!events.length) {
@@ -165,29 +178,30 @@ function renderTopEvents(events) {
   }
   events.forEach(ev => {
     const card = document.createElement('div');
-    card.className = 'relative rounded-lg border border-fuchsia-600/40 bg-neutral-800/60 p-4 flex flex-col gap-2 hover:border-fuchsia-400 transition';
+    card.className = 'relative rounded-lg border border-fuchsia-600/40 bg-neutral-800/60 p-4 flex flex-col gap-2 hover:border-fuchsia-400 transition shadow-neon-pink';
+
     const genreTags = (ev.genres || []).slice(0,3).map(g => createNeonTag(g, 'genre')).join(' ');
-    const venueWithDate = ev.venue ? `${ev.venue} • ${formatDate(ev.date)}` : formatDate(ev.date);
-    // Farb-Key = reiner Venue Name (falls vorhanden) => konsistente Club-Farbe
-    const venueTag = createNeonTag(venueWithDate, 'venue', ev.venue || venueWithDate);
+    const dateFormatted = formatDate(ev.date);
+    // Club Badge ohne Datum
+    const venueTag = ev.venue ? createNeonTag(`Club: ${ev.venue}`, 'venue', ev.venue) : createNeonTag('Event', 'venue');
+    const regionBadge = `<span class="inline-block text-[10px] px-2 py-1 rounded bg-neutral-700/70 text-neutral-200 border border-neutral-600 tracking-wide font-semibold uppercase">${escapeHtml(ev.region)}</span>`;
+    const votesBadge = `<span class="inline-block text-xs px-2 py-1 rounded bg-fuchsia-600/20 text-fuchsia-300 font-medium">${ev.votes || 0} Votes</span>`;
+
     card.innerHTML = `
       <div class="flex justify-between items-start gap-3">
         <div class="flex-1">
-          <h3 class="font-semibold leading-snug mb-2">${escapeHtml(ev.eventName)}       
-          <span class="text-neutral-600">•</span>               
-          <span class="text-xs text-neutral-400">${escapeHtml(ev.region)}</span>
-          
-            </h3>
-          <div class="flex items-center gap-2 mb-2">
-            ${venueTag}
-          </div>
+          <h3 class="font-semibold leading-snug mb-2">${escapeHtml(ev.eventName)}</h3>
+          <div class="flex items-center gap-2 mb-2">${venueTag}</div>
           <div class="flex flex-wrap gap-1">${genreTags}</div>
         </div>
-        <div class="text-right">
-          <span class="inline-block text-xs px-2 py-1 rounded bg-fuchsia-600/20 text-fuchsia-300 font-medium">${ev.votes || 0} Votes</span>
+        <div class="flex flex-col items-end gap-2">
+          <div class="flex items-center gap-2">${regionBadge}${votesBadge}</div>
         </div>
       </div>
-      <button class="mt-auto text-xs underline text-fuchsia-300 hover:text-fuchsia-200 self-start" data-open-modal>Details</button>`;
+      <div class="mt-auto flex justify-center pt-1">
+        <button class="px-4 py-1.5 rounded-md bg-fuchsia-600/80 hover:bg-fuchsia-500 text-white text-[11px] font-semibold tracking-wide transition" data-open-modal>Details</button>
+      </div>`;
+
     card.querySelector('[data-open-modal]').addEventListener('click', () => openModal(ev, ev.region));
     topEventsContainer.appendChild(card);
   });
@@ -290,22 +304,18 @@ function renderRegion(region) {
     if (isNaN(toTs)) toTs = null;
   }
   const filtered = events.filter(ev => {
-    // Genre Filter
     if (selectedGenres.length) {
       const evGenres = (ev.genres || []).map(g=>g.toLowerCase());
       if (!evGenres.some(g => selectedGenres.includes(g))) return false;
     }
-    // Date Range Overlap Filter (wenn gesetzt)
     if (fromTs !== null || toTs !== null) {
       const eventStartTs = Date.parse(ev.startTime || ev.date || 0);
       let eventEndTs = Date.parse(ev.endTime || ev.startTime || ev.date || 0);
-      if (isNaN(eventStartTs)) return false; // ohne Start keine sinnvolle Einordnung
-      if (isNaN(eventEndTs)) eventEndTs = eventStartTs; // Fallback
-      // Overlap-Bedingung: eventStart <= to && eventEnd >= from
+      if (isNaN(eventStartTs)) return false;
+      if (isNaN(eventEndTs)) eventEndTs = eventStartTs;
       if (fromTs !== null && eventEndTs < fromTs) return false;
       if (toTs !== null && eventStartTs > toTs) return false;
     }
-    // Textsuche
     if (!searchLC) return true;
     const hay = [ev.eventName, ev.venue, ...(ev.genres||[]), ...(ev.artists||[]), ...(ev.lineupParsed||[])].join(' \n ').toLowerCase();
     return hay.includes(searchLC);
@@ -322,20 +332,28 @@ function renderRegion(region) {
     const already = votedSet.has(ev.voteId);
     const item = document.createElement('div');
     item.className = 'event-item group px-4 py-3 mb-2 last:mb-0 flex flex-col gap-2 hover:bg-neutral-700/40 transition border border-neutral-800/80 rounded-md shadow-[0_0_0_1px_rgba(255,255,255,0.04)]';
-    const genreTags = (ev.genres || []).map(g => createNeonTag(g, 'genre')).join(' ');
-    const venueWithDate = ev.venue ? `Club: ${ev.venue} • ${formatDate(ev.date)}` : formatDate(ev.date);
-    // Farb-Key: reiner Venue-Name (ohne Datum / Prefix)
-    const venueTag = createNeonTag(venueWithDate, 'venue', ev.venue || venueWithDate);
+    const sortedGenres = (ev.genres || []).slice().sort((a,b)=>a.localeCompare(b,'de',{sensitivity:'base'}));
+    const genreTags = sortedGenres.map(g => createNeonTag(g, 'genre')).join('');
+
+    let venueBadge = '';
+    if (ev.venue) {
+      venueBadge = createVenueBadge(ev.venue, formatDate(ev.date));
+    } else {
+      venueBadge = createVenueBadge('Event', formatDate(ev.date));
+    }
+
     item.innerHTML = `
       <div class="flex items-start justify-between gap-4 ${already ? 'opacity-90' : ''}">
         <div class="min-w-0 cursor-pointer flex-1" data-open-full>
           <p class="font-medium truncate">${escapeHtml(ev.eventName)}</p>
-          <div class="flex items-center gap-2 mt-1 mb-2">${venueTag}</div>
-          <div class="flex flex-wrap gap-1">${genreTags}</div>
+          <div class="flex flex-col mt-1 mb-2 gap-1">${venueBadge}</div>
         </div>
-        <div class="flex flex-col items-end gap-1 w-20 shrink-0">
-          <span class="text-[11px] px-2 py-0.5 rounded bg-neutral-700/60 text-neutral-200 leading-none">${ev.votes || 0}❤</span>
-          <button class="vote-btn-anim text-[11px] px-2 py-1 rounded ${already ? 'bg-neutral-600 cursor-not-allowed text-neutral-300' : 'bg-fuchsia-600/70 hover:bg-fuchsia-500 text-white font-semibold'} vote-btn" data-vote ${already ? 'disabled' : ''}>${already ? 'Voted' : 'Vote'}</button>
+        <div class="flex items-start gap-3 shrink-0">
+          <div class="flex flex-col gap-1 items-stretch genre-stack w-[110px]">${genreTags || ''}</div>
+          <div class="flex flex-col items-end gap-1 w-20">
+            <span class="text-[11px] px-2 py-0.5 rounded bg-neutral-700/60 text-neutral-200 leading-none">${ev.votes || 0}❤</span>
+            <button class="vote-btn-anim text-[11px] px-2 py-1 rounded ${already ? 'bg-neutral-600 cursor-not-allowed text-neutral-300' : 'bg-fuchsia-600/70 hover:bg-fuchsia-500 text-white font-semibold'} vote-btn" data-vote ${already ? 'disabled' : ''}>${already ? 'Voted' : 'Vote'}</button>
+          </div>
         </div>
       </div>`;
     item.querySelector('[data-open-full]').addEventListener('click', () => openModal(ev, region));
@@ -371,7 +389,8 @@ function openModal(ev, region) {
     lines.push(`<div><h4 class='font-semibold mb-1 text-sm'>Lineup</h4><pre class='text-[11px] whitespace-pre-wrap bg-neutral-800/60 p-2 rounded'>${escapeHtml(ev.lineupRaw)}</pre></div>`);
   }
   if (ev.eventUrl) {
-    lines.push(`<div class='text-xs'><span class='text-emerald-300'><a href='https://de.ra.co${escapeHtml(ev.eventUrl)}'>Mehr Infos zum Event (hier klicken)</a></div>`);
+    lines.push(`<div class='text-xs'><span class='bg-purple-500/20 border-purple-500/40 shadow-purple-500/25 text-purple-300'><a href='https://de.ra.co${escapeHtml(ev.eventUrl)}'>Mehr Infos zum Event (hier klicken)</a></div>`);
+
   }
   modalBody.innerHTML = lines.join('');
   modal.classList.remove('hidden');
@@ -511,16 +530,39 @@ if (dateQuickBtns) {
     btn.addEventListener('click', ()=>{
       const val = btn.getAttribute('data-range');
       const today = new Date(); today.setHours(0,0,0,0);
+      function getThisFriday(base){
+        const day = base.getDay(); // 0 So, 1 Mo, ... 6 Sa
+        let friday = new Date(base);
+        if (day === 5) { // Freitag
+          // already friday
+        } else if (day === 6) { // Samstag -> gestern
+          friday.setDate(friday.getDate() - 1);
+        } else if (day === 0) { // Sonntag -> zwei Tage zurück
+          friday.setDate(friday.getDate() - 2);
+        } else { // Montag-Donnerstag -> nach vorne bis Freitag
+          friday.setDate(friday.getDate() + (5 - day));
+        }
+        friday.setHours(0,0,0,0);
+        return friday;
+      }
       if (val === 'today') {
         setDateRange(today, today);
       } else if (val === 'weekend') {
-        const day = today.getDay(); // 0 So ... 6 Sa
+        const day = today.getDay();
         const friday = new Date(today);
-        const offsetToFriday = (5 - day + 7) % 7; // Tage bis Freitag
+        const offsetToFriday = (5 - day + 7) % 7; // nächster Freitag (auch wenn heute Sa/So => nächstes Wochenende)
         friday.setDate(friday.getDate() + offsetToFriday);
-        const sunday = new Date(friday);
-        sunday.setDate(friday.getDate() + 2);
+        const sunday = new Date(friday); sunday.setDate(friday.getDate() + 2);
         setDateRange(friday, sunday);
+      } else if (val === 'thisWeekend') {
+        const friday = getThisFriday(today);
+        const sunday = new Date(friday); sunday.setDate(friday.getDate() + 2);
+        setDateRange(friday, sunday);
+      } else if (val === 'nextWeekend') {
+        const thisFriday = getThisFriday(today);
+        const nextFriday = new Date(thisFriday); nextFriday.setDate(thisFriday.getDate() + 7);
+        const nextSunday = new Date(nextFriday); nextSunday.setDate(nextFriday.getDate() + 2);
+        setDateRange(nextFriday, nextSunday);
       } else if (/^\d+$/.test(val)) {
         const days = parseInt(val,10);
         const to = new Date(today); to.setDate(today.getDate() + (days-1));
