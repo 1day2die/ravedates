@@ -52,14 +52,13 @@ function getColorForText(text) {
   return color;
 }
 
-function createNeonTag(text, type = 'genre') {
-  const color = getColorForText(text);
+function createNeonTag(text, type = 'genre', keyForColor = null) {
+  // keyForColor erlaubt es, einen stabilen Farb-Key zu nutzen (z.B. Venue ohne Datum)
+  const color = getColorForText(keyForColor || text);
 
   if (type === 'venue') {
-    // Venues: Rechteckiger Stil mit stärkerem Glow und anderem Border
     return `<span class="inline-block text-xs px-3 py-1 border-l-2 ${color.bg} ${color.text} ${color.border} ${color.glow} shadow-md font-bold uppercase tracking-wide">${escapeHtml(text)}</span>`;
   } else {
-    // Genres: Runder Stil wie bisher
     return `<span class="inline-block text-xs px-2 py-1 rounded-full border ${color.bg} ${color.text} ${color.border} ${color.glow} shadow-sm font-medium">${escapeHtml(text)}</span>`;
   }
 }
@@ -169,7 +168,8 @@ function renderTopEvents(events) {
     card.className = 'relative rounded-lg border border-fuchsia-600/40 bg-neutral-800/60 p-4 flex flex-col gap-2 hover:border-fuchsia-400 transition';
     const genreTags = (ev.genres || []).slice(0,3).map(g => createNeonTag(g, 'genre')).join(' ');
     const venueWithDate = ev.venue ? `${ev.venue} • ${formatDate(ev.date)}` : formatDate(ev.date);
-    const venueTag = createNeonTag(venueWithDate, 'venue');
+    // Farb-Key = reiner Venue Name (falls vorhanden) => konsistente Club-Farbe
+    const venueTag = createNeonTag(venueWithDate, 'venue', ev.venue || venueWithDate);
     card.innerHTML = `
       <div class="flex justify-between items-start gap-3">
         <div class="flex-1">
@@ -324,7 +324,8 @@ function renderRegion(region) {
     item.className = 'event-item group px-4 py-3 mb-2 last:mb-0 flex flex-col gap-2 hover:bg-neutral-700/40 transition border border-neutral-800/80 rounded-md shadow-[0_0_0_1px_rgba(255,255,255,0.04)]';
     const genreTags = (ev.genres || []).map(g => createNeonTag(g, 'genre')).join(' ');
     const venueWithDate = ev.venue ? `Club: ${ev.venue} • ${formatDate(ev.date)}` : formatDate(ev.date);
-    const venueTag = createNeonTag(venueWithDate, 'venue');
+    // Farb-Key: reiner Venue-Name (ohne Datum / Prefix)
+    const venueTag = createNeonTag(venueWithDate, 'venue', ev.venue || venueWithDate);
     item.innerHTML = `
       <div class="flex items-start justify-between gap-4 ${already ? 'opacity-90' : ''}">
         <div class="min-w-0 cursor-pointer flex-1" data-open-full>
