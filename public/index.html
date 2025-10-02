@@ -55,7 +55,7 @@
             <div id="genreSelectedChips" class="flex flex-wrap gap-1 items-center leading-tight text-[11px] text-neutral-400">Alle Genres</div>
             <span class="ml-auto text-neutral-500 text-[10px] pt-0.5 group-hover:text-neutral-300">▼</span>
           </button>
-          <div id="genreDropdownPanel" class="hidden absolute z-[1200] mt-1 w-full rounded-md border border-neutral-700 bg-neutral-900/95 backdrop-blur p-2 max-h-72 overflow-y-auto shadow-neon-blue animate-fadeIn origin-top">
+          <div id="genreDropdownPanel" class="hidden absolute z-50 mt-1 w-full rounded-md border border-neutral-700 bg-neutral-900/95 backdrop-blur p-2 max-h-72 overflow-y-auto shadow-neon-blue animate-fadeIn origin-top">
             <div class="flex items-center justify-between mb-2 gap-2">
               <button type="button" data-genre-select-all class="px-2 py-1 rounded bg-neutral-800 hover:bg-neutral-700 text-[11px]">Alle</button>
               <button type="button" data-genre-clear class="px-2 py-1 rounded bg-neutral-800 hover:bg-neutral-700 text-[11px]">Keine</button>
@@ -66,6 +66,27 @@
         </div>
         <select id="genreSelect" multiple class="hidden" aria-hidden="true"></select>
         <p class="text-[10px] text-neutral-500">Wähle beliebig viele Genres – leer bedeutet alle.</p>
+      </div>
+      <!-- Neuer Datumsfilter -->
+      <div class="w-full md:w-72 space-y-2">
+        <label class="block text-[11px] uppercase tracking-wide text-neutral-400">Zeitraum</label>
+        <div class="grid grid-cols-2 gap-2">
+          <div class="space-y-1">
+            <label for="dateFrom" class="block text-[10px] text-neutral-500">Von</label>
+            <input id="dateFrom" type="date" class="w-full bg-neutral-800/70 focus:bg-neutral-800 rounded-md px-2 py-1.5 text-xs outline-none border border-neutral-700 focus:border-neon-blue" />
+          </div>
+          <div class="space-y-1">
+            <label for="dateTo" class="block text-[10px] text-neutral-500">Bis</label>
+            <input id="dateTo" type="date" class="w-full bg-neutral-800/70 focus:bg-neutral-800 rounded-md px-2 py-1.5 text-xs outline-none border border-neutral-700 focus:border-neon-pink" />
+          </div>
+        </div>
+        <div class="flex flex-wrap gap-1 mt-1" id="dateQuickBtns">
+          <button type="button" data-range="today" class="px-2 py-1 rounded bg-neutral-800 hover:bg-neutral-700 text-[10px]">Heute</button>
+          <button type="button" data-range="weekend" class="px-2 py-1 rounded bg-neutral-800 hover:bg-neutral-700 text-[10px]">Wochenende</button>
+            <button type="button" data-range="7" class="px-2 py-1 rounded bg-neutral-800 hover:bg-neutral-700 text-[10px]">7 Tage</button>
+          <button type="button" data-range="30" class="px-2 py-1 rounded bg-neutral-800 hover:bg-neutral-700 text-[10px]">30 Tage</button>
+        </div>
+        <p class="text-[10px] text-neutral-500 leading-snug">Es werden Events gezeigt, die den Zeitraum überlappen. Leer = alle.</p>
       </div>
       <div class="flex gap-2 md:ml-auto pt-1">
         <button id="clearFilters" class="px-3 py-2 text-xs rounded bg-neutral-800 border border-neutral-700 hover:bg-neutral-700/70">Reset</button>

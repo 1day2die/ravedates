@@ -9,6 +9,10 @@ const modalBody = document.getElementById('modalBody');
 const searchInput = document.getElementById('searchInput');
 const genreSelect = document.getElementById('genreSelect');
 const clearFiltersBtn = document.getElementById('clearFilters');
+// Neue Date-Filter Inputs
+const dateFromInput = document.getElementById('dateFrom');
+const dateToInput = document.getElementById('dateTo');
+const dateQuickBtns = document.getElementById('dateQuickBtns');
 
 // Neon-Farbpalette für Genres und Locations
 const NEON_COLORS = [
@@ -65,7 +69,9 @@ const state = {
   eventsByRegion: {},
   filters: {
     search: '',
-    genres: [] // leeres Array => alle Genres erlaubt
+    genres: [], // leeres Array => alle Genres erlaubt
+    dateFrom: null, // Format YYYY-MM-DD
+    dateTo: null
   },
   collectedGenres: new Set()
 };
@@ -270,14 +276,36 @@ function renderRegion(region) {
     container.innerHTML = '<div class="p-4 text-sm text-neutral-400">Keine Events gefunden.</div>';
     return;
   }
-  const { search, genres: genreFilter } = state.filters;
+  const { search, genres: genreFilter, dateFrom, dateTo } = state.filters;
   const searchLC = search.trim().toLowerCase();
   const selectedGenres = (genreFilter || []).map(g=>g.toLowerCase());
+  // Vorbereiten der Zeitgrenzen (Ganzer Tag Bereich)
+  let fromTs = null, toTs = null;
+  if (dateFrom) {
+    fromTs = Date.parse(dateFrom + 'T00:00:00');
+    if (isNaN(fromTs)) fromTs = null;
+  }
+  if (dateTo) {
+    toTs = Date.parse(dateTo + 'T23:59:59.999');
+    if (isNaN(toTs)) toTs = null;
+  }
   const filtered = events.filter(ev => {
+    // Genre Filter
     if (selectedGenres.length) {
       const evGenres = (ev.genres || []).map(g=>g.toLowerCase());
       if (!evGenres.some(g => selectedGenres.includes(g))) return false;
     }
+    // Date Range Overlap Filter (wenn gesetzt)
+    if (fromTs !== null || toTs !== null) {
+      const eventStartTs = Date.parse(ev.startTime || ev.date || 0);
+      let eventEndTs = Date.parse(ev.endTime || ev.startTime || ev.date || 0);
+      if (isNaN(eventStartTs)) return false; // ohne Start keine sinnvolle Einordnung
+      if (isNaN(eventEndTs)) eventEndTs = eventStartTs; // Fallback
+      // Overlap-Bedingung: eventStart <= to && eventEnd >= from
+      if (fromTs !== null && eventEndTs < fromTs) return false;
+      if (toTs !== null && eventStartTs > toTs) return false;
+    }
+    // Textsuche
     if (!searchLC) return true;
     const hay = [ev.eventName, ev.venue, ...(ev.genres||[]), ...(ev.artists||[]), ...(ev.lineupParsed||[])].join(' \n ').toLowerCase();
     return hay.includes(searchLC);
@@ -295,7 +323,6 @@ function renderRegion(region) {
     const item = document.createElement('div');
     item.className = 'event-item group px-4 py-3 mb-2 last:mb-0 flex flex-col gap-2 hover:bg-neutral-700/40 transition border border-neutral-800/80 rounded-md shadow-[0_0_0_1px_rgba(255,255,255,0.04)]';
     const genreTags = (ev.genres || []).map(g => createNeonTag(g, 'genre')).join(' ');
-    // Präfix "Club:" vor Venue, falls vorhanden
     const venueWithDate = ev.venue ? `Club: ${ev.venue} • ${formatDate(ev.date)}` : formatDate(ev.date);
     const venueTag = createNeonTag(venueWithDate, 'venue');
     item.innerHTML = `
@@ -456,7 +483,7 @@ buildGenreOptions(); updateGenreSelectedChips();
 loadRegions().catch(err => { console.error(err); regionsContainer.innerHTML = '<p class="text-red-400">Fehler beim Laden der Regionen.</p>'; });
 searchInput?.addEventListener('input', (e)=>{ state.filters.search = e.target.value; applyFiltersAndRenderAll(); });
 genreSelect?.addEventListener('change', (e)=>{ const sel = Array.from(e.target.selectedOptions).map(o=>o.value); state.filters.genres = sel; applyFiltersAndRenderAll(); });
-clearFiltersBtn?.addEventListener('click', ()=>{ state.filters.search=''; state.filters.genres=[]; if (searchInput) searchInput.value=''; if (genreSelect) Array.from(genreSelect.options).forEach(o=>o.selected=false); applyFiltersAndRenderAll(); });
+clearFiltersBtn?.addEventListener('click', ()=>{ state.filters.search=''; state.filters.genres=[]; state.filters.dateFrom=null; state.filters.dateTo=null; if (searchInput) searchInput.value=''; if (genreSelect) Array.from(genreSelect.options).forEach(o=>o.selected=false); if(dateFromInput) dateFromInput.value=''; if(dateToInput) dateToInput.value=''; applyFiltersAndRenderAll(); });
 
 // Intro Modal
 const introModal = document.getElementById('introModal');
@@ -468,3 +495,36 @@ function closeIntro(permanent=false){ if(!introModal) return; introModal.classLi
 function showIntroIfNeeded(){ try{ if(localStorage.getItem(INTRO_KEY)) return; }catch(_){} openIntro(); }
 if (introModal){ introModal.querySelectorAll('[data-intro-close]').forEach(el=> el.addEventListener('click', ()=> closeIntro())); if(introStartBtn){ introStartBtn.addEventListener('click', ()=> closeIntro(introDontShow?.checked)); } introModal.addEventListener('click', (e)=>{ if(e.target===introModal || e.target.hasAttribute('data-intro-close')) closeIntro(); }); }
 showIntroIfNeeded();
+
+// Date Filter Listener & Quick Ranges
+function formatYMD(d){ return d.toISOString().slice(0,10); }
+function setDateRange(fromDate, toDate){
+  if (dateFromInput && fromDate){ dateFromInput.value = formatYMD(fromDate); state.filters.dateFrom = dateFromInput.value; }
+  if (dateToInput && toDate){ dateToInput.value = formatYMD(toDate); state.filters.dateTo = dateToInput.value; }
+  applyFiltersAndRenderAll();
+}
+if (dateFromInput) dateFromInput.addEventListener('change', ()=>{ state.filters.dateFrom = dateFromInput.value || null; applyFiltersAndRenderAll(); });
+if (dateToInput) dateToInput.addEventListener('change', ()=>{ state.filters.dateTo = dateToInput.value || null; applyFiltersAndRenderAll(); });
+if (dateQuickBtns) {
+  dateQuickBtns.querySelectorAll('button[data-range]').forEach(btn => {
+    btn.addEventListener('click', ()=>{
+      const val = btn.getAttribute('data-range');
+      const today = new Date(); today.setHours(0,0,0,0);
+      if (val === 'today') {
+        setDateRange(today, today);
+      } else if (val === 'weekend') {
+        const day = today.getDay(); // 0 So ... 6 Sa
+        const friday = new Date(today);
+        const offsetToFriday = (5 - day + 7) % 7; // Tage bis Freitag
+        friday.setDate(friday.getDate() + offsetToFriday);
+        const sunday = new Date(friday);
+        sunday.setDate(friday.getDate() + 2);
+        setDateRange(friday, sunday);
+      } else if (/^\d+$/.test(val)) {
+        const days = parseInt(val,10);
+        const to = new Date(today); to.setDate(today.getDate() + (days-1));
+        setDateRange(today, to);
+      }
+    });
+  });
+}
