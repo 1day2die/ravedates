@@ -178,25 +178,30 @@ function renderTopEvents(events) {
   }
   events.forEach(ev => {
     const card = document.createElement('div');
-    card.className = 'relative rounded-lg border border-fuchsia-600/40 bg-neutral-800/60 p-4 flex flex-col gap-2 hover:border-fuchsia-400 transition shadow-neon-pink';
+    // Extra pt-7 damit die absoluten Badges oben rechts Platz haben
+    card.className = 'relative rounded-lg border border-fuchsia-600/40 bg-neutral-800/60 p-4 pt-7 flex flex-col gap-3 hover:border-fuchsia-400 transition shadow-neon-pink';
 
     const genreTags = (ev.genres || []).slice(0,3).map(g => createNeonTag(g, 'genre')).join(' ');
     const dateFormatted = formatDate(ev.date);
-    // Club Badge ohne Datum
-    const venueTag = ev.venue ? createNeonTag(`Club: ${ev.venue}`, 'venue', ev.venue) : createNeonTag('Event', 'venue');
+    const venueLabel = ev.venue ? `Club: ${ev.venue}` : 'Event';
+
+    const colorKey = ev.venue || 'Event';
+    const colorForVenue = getColorForText(colorKey);
+    const combinedBadge = `<div class="w-full flex justify-between items-center text-xs pl-3 pr-1 py-1 border-l-2 ${colorForVenue.bg} ${colorForVenue.text} ${colorForVenue.border} ${colorForVenue.glow} shadow-md font-bold tracking-wide rounded-sm overflow-hidden">`+
+      `<span class="uppercase flex-1 min-w-0 truncate" title="${escapeHtml(venueLabel)}">${escapeHtml(venueLabel)}</span>`+
+      `<span class="shrink-0 font-semibold normal-case tracking-normal text-right whitespace-nowrap">${escapeHtml(dateFormatted)}</span>`+
+    `</div>`;
+
     const regionBadge = `<span class="inline-block text-[10px] px-2 py-1 rounded bg-neutral-700/70 text-neutral-200 border border-neutral-600 tracking-wide font-semibold uppercase">${escapeHtml(ev.region)}</span>`;
-    const votesBadge = `<span class="inline-block text-xs px-2 py-1 rounded bg-fuchsia-600/20 text-fuchsia-300 font-medium">${ev.votes || 0} Votes</span>`;
+    const votesBadge = `<span class="inline-block text-[10px] px-2 py-1 rounded bg-fuchsia-600/20 text-fuchsia-300 font-medium">${ev.votes || 0} Votes</span>`;
+    const topRightBadges = `<div class="absolute top-2 right-2 flex items-center gap-2">${regionBadge}${votesBadge}</div>`;
 
     card.innerHTML = `
-      <div class="flex justify-between items-start gap-3">
-        <div class="flex-1">
-          <h3 class="font-semibold leading-snug mb-2">${escapeHtml(ev.eventName)}</h3>
-          <div class="flex items-center gap-2 mb-2">${venueTag}</div>
-          <div class="flex flex-wrap gap-1">${genreTags}</div>
-        </div>
-        <div class="flex flex-col items-end gap-2">
-          <div class="flex items-center gap-2">${regionBadge}${votesBadge}</div>
-        </div>
+      ${topRightBadges}
+      <div class="flex flex-col gap-2">
+        <h3 class="font-semibold leading-snug pr-32">${escapeHtml(ev.eventName)}</h3>
+        ${combinedBadge}
+        <div class="flex flex-wrap gap-1">${genreTags}</div>
       </div>
       <div class="mt-auto flex justify-center pt-1">
         <button class="px-4 py-1.5 rounded-md bg-fuchsia-600/80 hover:bg-fuchsia-500 text-white text-[11px] font-semibold tracking-wide transition" data-open-modal>Details</button>
