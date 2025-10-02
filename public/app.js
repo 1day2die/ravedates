@@ -109,11 +109,9 @@ async function loadRegions() {
   const { regions } = await fetchJSON('/api/regions');
   state.regions = regions.sort();
   renderRegionsSkeleton();
-  await Promise.all(regions.map(loadRegionEvents));
-  // Fallback: sicherstellen, dass nach dem asynchronen Laden alles gerendert wird
-  state.regions.forEach(r => renderRegion(r));
-  rebuildGenreSelect();
+  // Top Events unabhängig laden
   await loadTopEvents();
+  // Genres werden erst nach dem Laden einzelner Regionen befüllt
 }
 
 async function loadRegionEvents(region) {
@@ -131,6 +129,7 @@ async function loadRegionEvents(region) {
     console.error('Fehler beim Laden Region', region, e);
     const container = document.querySelector(`[data-region-content="${region}"]`);
     if (container) container.innerHTML = '<div class="p-4 text-xs text-red-400">Fehler beim Laden.</div>';
+    throw e;
   }
 }
 
@@ -167,6 +166,16 @@ function renderTopEvents(events) {
   });
 }
 
+async function loadTopEvents() {
+  try {
+    const { top } = await fetchJSON('/api/top?limit=6');
+    renderTopEvents(top || []);
+  } catch (e) {
+    console.error('Top Events Fehler', e);
+    topEventsContainer.innerHTML = '<p class="text-red-400 text-sm">Fehler beim Laden der Top Events.</p>';
+  }
+}
+
 function regionTitle(name) {
   if (!name) return '';
   return name.charAt(0).toUpperCase() + name.slice(1);
@@ -184,7 +193,7 @@ function renderRegionsSkeleton() {
         <span class="chevron text-neutral-400">▼</span>
       </button>
       <div class="region-content hidden divide-y divide-neutral-800" data-region-content="${r}">
-        <div class="p-4 text-sm text-neutral-400">Lade Events...</div>
+        <div class="p-4 text-sm text-neutral-400" data-region-status>${r === state.regions[0] ? 'Lade Events...' : 'Noch nicht geladen. Aufklappen zum Laden.'}</div>
       </div>`;
     regionsContainer.appendChild(wrapper);
   });
@@ -193,7 +202,7 @@ function renderRegionsSkeleton() {
 
 function attachRegionToggleHandlers() {
   regionsContainer.querySelectorAll('[data-region-toggle]').forEach(btn => {
-    btn.addEventListener('click', () => {
+    btn.addEventListener('click', async () => {
       const r = btn.getAttribute('data-region-toggle');
       const content = regionsContainer.querySelector(`[data-region-content="${r}"]`);
       const chev = btn.querySelector('.chevron');
@@ -201,12 +210,29 @@ function attachRegionToggleHandlers() {
       if (hidden) {
         content.classList.remove('hidden');
         chev.textContent = '▲';
+        // Lazy Load wenn noch nicht vorhanden
+        if (!state.eventsByRegion[r]) {
+          const statusEl = content.querySelector('[data-region-status]');
+            if (statusEl) statusEl.textContent = 'Lade Events...';
+          try {
+            await loadRegionEvents(r);
+            // Nach Laden Genres Select updaten
+            rebuildGenreSelect();
+          } catch (e) {
+            if (statusEl) statusEl.textContent = 'Fehler beim Laden.';
+          }
+        }
       } else {
         content.classList.add('hidden');
         chev.textContent = '▼';
       }
     });
   });
+  // Optional: erste Region automatisch laden
+  if (state.regions[0]) {
+    const firstBtn = regionsContainer.querySelector(`[data-region-toggle="${state.regions[0]}"]`);
+    if (firstBtn) firstBtn.click();
+  }
 }
 
 function rebuildGenreSelect() {
