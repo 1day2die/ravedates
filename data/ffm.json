@@ -1,0 +1,1374 @@
+[
+  {
+    "eventName": "WE ARE ONE x MTW with DYEN",
+    "date": "2025-10-02T00:00:00.000",
+    "startTime": "2025-10-02T23:00:00.000",
+    "endTime": "2025-10-03T08:00:00.000",
+    "artists": [
+      "DYEN",
+      "Kacy",
+      "PENELOPE (DE)",
+      "CiKi",
+      "Formale Bassgestaltung"
+    ],
+    "genres": [
+      "Trance",
+      "Techno"
+    ],
+    "lineupRaw": "Mainfloor\t\n23:00\tKatrinity\n00:30\tDJ CARDIOSESSION\n02:00\t<artist id=\"77028\">DYEN</artist>\n03:30\t<artist id=\"110746\">Kacy</artist>\n05:00\tVOLLAUFSUSI\n06:30\tNomitekk\n\t\nLounge\t\n00:00\t<artist id=\"153416\">PENELOPE (DE)</artist>\n01:30\tLönni\n03:00\t<artist id=\"111080\">CiKi</artist>\n04:30\t<artist id=\"111084\">Formale Bassgestaltung</artist>",
+    "lineupParsed": [
+      "Mainfloor",
+      "23:00\tKatrinity",
+      "00:30\tDJ CARDIOSESSION",
+      "02:00\t<artist id=\"77028\">DYEN</artist>",
+      "03:30\t<artist id=\"110746\">Kacy</artist>",
+      "05:00\tVOLLAUFSUSI",
+      "06:30\tNomitekk",
+      "Lounge",
+      "00:00\t<artist id=\"153416\">PENELOPE (DE)</artist>",
+      "01:30\tLönni",
+      "03:00\t<artist id=\"111080\">CiKi</artist>",
+      "04:30\t<artist id=\"111084\">Formale Bassgestaltung</artist>"
+    ],
+    "venue": "MTW",
+    "eventUrl": "/events/2235136",
+    "attending": 30
+  },
+  {
+    "eventName": "Heartcore X Kabinett der Kuriositäten",
+    "date": "2025-10-02T00:00:00.000",
+    "startTime": "2025-10-02T21:00:00.000",
+    "endTime": "2025-10-03T11:00:00.000",
+    "artists": [],
+    "genres": [
+      "Trance",
+      "Techno"
+    ],
+    "lineupRaw": "Secret Line Up",
+    "lineupParsed": [
+      "Secret Line Up"
+    ],
+    "venue": "Tanzhaus West",
+    "eventUrl": "/events/2256158",
+    "attending": 12
+  },
+  {
+    "eventName": "Bus zu den Sandsteinhöhlen 2025 - Tekk",
+    "date": "2025-10-02T00:00:00.000",
+    "startTime": "2025-10-02T16:30:00.000",
+    "endTime": "2025-10-03T12:30:00.000",
+    "artists": [
+      "Alfred Heinrichs"
+    ],
+    "genres": [
+      "Techno",
+      "Electro"
+    ],
+    "lineupRaw": "<artist id=\"45464\">Alfred Heinrichs</artist> – iam melodic techno\nLYDIA M\nGOBLIN GRAVE\nEYCER\nFABITEKK\nCHEAPEX\nKANNADISS\nENTZUGSZKLINIQUE\nTEKKSTREETBOYZ",
+    "lineupParsed": [
+      "<artist id=\"45464\">Alfred Heinrichs</artist> – iam melodic techno",
+      "LYDIA M",
+      "GOBLIN GRAVE",
+      "EYCER",
+      "FABITEKK",
+      "CHEAPEX",
+      "KANNADISS",
+      "ENTZUGSZKLINIQUE",
+      "TEKKSTREETBOYZ"
+    ],
+    "venue": "P36 Terminal 1 Busparkplatz  / Sonic-Warrior Festival Tours Abfahrt",
+    "eventUrl": "/events/2227785",
+    "attending": 9
+  },
+  {
+    "eventName": "Dexterous Energy",
+    "date": "2025-10-02T00:00:00.000",
+    "startTime": "2025-10-02T23:59:00.000",
+    "endTime": "2025-10-03T06:00:00.000",
+    "artists": [
+      "Carly Zeng",
+      "DJ CHICHI",
+      "²nimble"
+    ],
+    "genres": [
+      "Breakbeat",
+      "House"
+    ],
+    "lineupRaw": "<artist id=\"90854\">Carly Zeng</artist> \n<artist id=\"119417\">DJ CHICHI</artist> \n<artist id=\"137469\">²nimble</artist>",
+    "lineupParsed": [
+      "<artist id=\"90854\">Carly Zeng</artist>",
+      "<artist id=\"119417\">DJ CHICHI</artist>",
+      "<artist id=\"137469\">²nimble</artist>"
+    ],
+    "venue": "Silbergold",
+    "eventUrl": "/events/2270654",
+    "attending": 4
+  },
+  {
+    "eventName": "BAHNHOFSVIERTEL AT NIGHT with Beyond us, Ms. Romanow, Johann Starck",
+    "date": "2025-10-02T00:00:00.000",
+    "startTime": "2025-10-02T22:00:00.000",
+    "endTime": "2025-10-03T06:00:00.000",
+    "artists": [],
+    "genres": [
+      "Tech House",
+      "Deep House"
+    ],
+    "lineupRaw": "Beyond us \nMs. Romanow \nJohann Starck",
+    "lineupParsed": [
+      "Beyond us",
+      "Ms. Romanow",
+      "Johann Starck"
+    ],
+    "venue": "Pracht",
+    "eventUrl": "/events/2265848",
+    "attending": 3
+  },
+  {
+    "eventName": "LUCID x Sachsentrance",
+    "date": "2025-10-03T00:00:00.000",
+    "startTime": "2025-10-03T23:00:00.000",
+    "endTime": "2025-10-04T07:00:00.000",
+    "artists": [],
+    "genres": [
+      "Trance",
+      "Techno"
+    ],
+    "lineupRaw": "TBA",
+    "lineupParsed": [
+      "TBA"
+    ],
+    "venue": "K39",
+    "eventUrl": "/events/2254088",
+    "attending": 135
+  },
+  {
+    "eventName": "Schrotthagen Nostalgie & Traurigkeit Tour",
+    "date": "2025-10-03T00:00:00.000",
+    "startTime": "2025-10-03T21:00:00.000",
+    "endTime": "2025-10-04T03:00:00.000",
+    "artists": [
+      "Schrotthagen"
+    ],
+    "genres": [
+      "Techno"
+    ],
+    "lineupRaw": "<artist id=\"151787\">Schrotthagen</artist>",
+    "lineupParsed": [
+      "<artist id=\"151787\">Schrotthagen</artist>"
+    ],
+    "venue": "Batschkapp",
+    "eventUrl": "/events/2121830",
+    "attending": 35
+  },
+  {
+    "eventName": "WE ARE ONE x MUK GIEßEN - OPEN AIR (Day & Night) with FAPPE & BRU, AKKI",
+    "date": "2025-10-03T00:00:00.000",
+    "startTime": "2025-10-03T18:00:00.000",
+    "endTime": "2025-10-04T06:00:00.000",
+    "artists": [
+      "Jozh",
+      "The Belgian Stallion",
+      "Fappe & Bru (2)",
+      "AKKI (DE)"
+    ],
+    "genres": [
+      "Trance",
+      "Techno"
+    ],
+    "lineupRaw": "Open Air\t\n18:00\t<artist id=\"157474\">Jozh</artist>\n19:30\tLila Luke\n21:00\tBlondy\n22:30\t<artist id=\"100531\">The Belgian Stallion</artist> \n00:00\tLÖNNI\n\t\nMainfloor\t\n23:30\tFABIELLA & MRCL\n01:00\t<artist id=\"114914\">Fappe & Bru (2)</artist> \n02:30\t<artist id=\"144903\">AKKI (DE)</artist> \n04:00\tAtek\n05:30\tDie Störung\n\t\n2. Floor\t\n22:00\tPAU\n23:30\tLEO\n01:00\tKinematic\n02:30\tNisha\n04:00\tNicknakk",
+    "lineupParsed": [
+      "Open Air",
+      "18:00\t<artist id=\"157474\">Jozh</artist>",
+      "19:30\tLila Luke",
+      "21:00\tBlondy",
+      "22:30\t<artist id=\"100531\">The Belgian Stallion</artist>",
+      "00:00\tLÖNNI",
+      "Mainfloor",
+      "23:30\tFABIELLA & MRCL",
+      "01:00\t<artist id=\"114914\">Fappe & Bru (2)</artist>",
+      "02:30\t<artist id=\"144903\">AKKI (DE)</artist>",
+      "04:00\tAtek",
+      "05:30\tDie Störung",
+      "2. Floor",
+      "22:00\tPAU",
+      "23:30\tLEO",
+      "01:00\tKinematic",
+      "02:30\tNisha",
+      "04:00\tNicknakk"
+    ],
+    "venue": "MuK Giessen",
+    "eventUrl": "/events/2235151",
+    "attending": 30
+  },
+  {
+    "eventName": "soundpark session // Eileen, Denis Burg",
+    "date": "2025-10-03T00:00:00.000",
+    "startTime": "2025-10-03T18:00:00.000",
+    "endTime": "2025-10-03T22:00:00.000",
+    "artists": [
+      "Eileen (2)",
+      "Denis Burg"
+    ],
+    "genres": [
+      "House",
+      "Electro"
+    ],
+    "lineupRaw": "<artist id=\"123474\">Eileen (2)</artist>, <artist id=\"102779\">Denis Burg</artist>",
+    "lineupParsed": [
+      "<artist id=\"123474\">Eileen (2)</artist>, <artist id=\"102779\">Denis Burg</artist>"
+    ],
+    "venue": "saasfee*pavillon",
+    "eventUrl": "/events/2271062",
+    "attending": 2
+  },
+  {
+    "eventName": "Aquarium",
+    "date": "2025-10-03T00:00:00.000",
+    "startTime": "2025-10-03T23:59:00.000",
+    "endTime": "2025-10-04T06:00:00.000",
+    "artists": [
+      "Lisa Liesinger"
+    ],
+    "genres": [
+      "Techno",
+      "Electro"
+    ],
+    "lineupRaw": "<artist id=\"108935\">Lisa Liesinger</artist>\nFred-D2000\nBenediktMontielMathews\nGutelauni",
+    "lineupParsed": [
+      "<artist id=\"108935\">Lisa Liesinger</artist>",
+      "Fred-D2000",
+      "BenediktMontielMathews",
+      "Gutelauni"
+    ],
+    "venue": "Silbergold",
+    "eventUrl": "/events/2270659",
+    "attending": 2
+  },
+  {
+    "eventName": "SCAD X Fuzion",
+    "date": "2025-10-03T00:00:00.000",
+    "startTime": "2025-10-03T23:00:00.000",
+    "endTime": "2025-10-04T06:00:00.000",
+    "artists": [
+      "RITM",
+      "Jaden Brown",
+      "Druckvoll",
+      "Jozh"
+    ],
+    "genres": [
+      "Trance",
+      "Techno"
+    ],
+    "lineupRaw": "<artist id=\"146625\">RITM</artist> \n<artist id=\"129710\">Jaden Brown</artist> \n<artist id=\"111780\">Druckvoll</artist> \n<artist id=\"157474\">Jozh</artist> \n@vego",
+    "lineupParsed": [
+      "<artist id=\"146625\">RITM</artist>",
+      "<artist id=\"129710\">Jaden Brown</artist>",
+      "<artist id=\"111780\">Druckvoll</artist>",
+      "<artist id=\"157474\">Jozh</artist>",
+      "@vego"
+    ],
+    "venue": "Tokonoma Club",
+    "eventUrl": "/events/2271378",
+    "attending": 1
+  },
+  {
+    "eventName": "Pracht PRES. SPIELEKTRO with NURI, Biagio Sibilla, Trashkan",
+    "date": "2025-10-03T00:00:00.000",
+    "startTime": "2025-10-03T22:00:00.000",
+    "endTime": "2025-10-04T06:00:00.000",
+    "artists": [
+      "Biagio Sibilla"
+    ],
+    "genres": [
+      "Tech House",
+      "Minimal"
+    ],
+    "lineupRaw": "NURI\n<artist id=\"71783\">Biagio Sibilla</artist> \nTrashkan",
+    "lineupParsed": [
+      "NURI",
+      "<artist id=\"71783\">Biagio Sibilla</artist>",
+      "Trashkan"
+    ],
+    "venue": "Pracht",
+    "eventUrl": "/events/2268719",
+    "attending": 0
+  },
+  {
+    "eventName": "MAMA'S BASSMENT",
+    "date": "2025-10-04T00:00:00.000",
+    "startTime": "2025-10-04T22:00:00.000",
+    "endTime": "2025-10-05T03:30:00.000",
+    "artists": [
+      "Abraham (GER)"
+    ],
+    "genres": [
+      "House",
+      "Disco"
+    ],
+    "lineupRaw": "<artist id=\"116092\">Abraham (GER)</artist>",
+    "lineupParsed": [
+      "<artist id=\"116092\">Abraham (GER)</artist>"
+    ],
+    "venue": "Shuka Bar",
+    "eventUrl": "/events/2259594",
+    "attending": 8
+  },
+  {
+    "eventName": "Electric Grooves",
+    "date": "2025-10-04T00:00:00.000",
+    "startTime": "2025-10-04T23:00:00.000",
+    "endTime": "2025-10-05T12:00:00.000",
+    "artists": [
+      "Luuk van Dijk",
+      "Chris Di Perri",
+      "Alexander Aurel",
+      "Jermaine Dotson",
+      "Merissa Mahilaa"
+    ],
+    "genres": [
+      "Techno",
+      "Tech House"
+    ],
+    "lineupRaw": "<artist id=\"59414\">Luuk van Dijk</artist>\n<artist id=\"71285\">Chris Di Perri</artist>\n<artist id=\"23023\">Alexander Aurel</artist>\nCarsten Schreiber\n<artist id=\"8550\">Jermaine Dotson</artist>\nMarcel Roemer\n<artist id=\"136609\">Merissa Mahilaa</artist>",
+    "lineupParsed": [
+      "<artist id=\"59414\">Luuk van Dijk</artist>",
+      "<artist id=\"71285\">Chris Di Perri</artist>",
+      "<artist id=\"23023\">Alexander Aurel</artist>",
+      "Carsten Schreiber",
+      "<artist id=\"8550\">Jermaine Dotson</artist>",
+      "Marcel Roemer",
+      "<artist id=\"136609\">Merissa Mahilaa</artist>"
+    ],
+    "venue": "Tanzhaus West",
+    "eventUrl": "/events/2265577",
+    "attending": 7
+  },
+  {
+    "eventName": "Bus zum Syndicate Festival 2025 - Hardcore, Uptempo",
+    "date": "2025-10-04T00:00:00.000",
+    "startTime": "2025-10-04T15:30:00.000",
+    "endTime": "2025-10-05T10:00:00.000",
+    "artists": [
+      "Anime",
+      "Deadly Guns",
+      "Ophidian",
+      "Act of Rage",
+      "Adjuzt",
+      "Mish",
+      "Omnya",
+      "Sound Rush",
+      "Spitfire",
+      "Marc Acardipane",
+      "Neophyte"
+    ],
+    "genres": [
+      "Hardcore",
+      "Gabber"
+    ],
+    "lineupRaw": "LPRA BETI CAL\nB RUE\nCATSCAN\n<artist id=\"144003\">Anime</artist>\nD-FENCE IGNITED\n<artist id=\"113080\">Deadly Guns</artist>\nDR. PEACOCK\nGRIDKILLERLIVE\nFURYAN MYSTERIES OF CREATION\nHYSTA\nMISS K8\nNEVER SURRENDER RAVE & PLUNDER\nN-VITRAL\nNOISEFLOW\nNOSFERATU\nTHE TIMEMACHINE PAUL ELSTAK\n<artist id=\"130704\">Ophidian</artist>\nHOSTED EY THA WATCHER\n\nHARDSTYLE Floor \nLPRA BETICAL\nO RUE\n<artist id=\"113071\">Act of Rage</artist>\n<artist id=\"113586\">Adjuzt</artist>\n<artist id=\"3253\">Mish</artist>\n<artist id=\"139287\">Omnya</artist>\nREJECTA\nRIOT SHIFT\n<artist id=\"78915\">Sound Rush</artist>\n<artist id=\"22016\">Spitfire</artist>\nWARFACE\nHOSTED BY NOLZ\n\nEARLY HARDCORE Floor\nLPRA BETI CAIL\nBRN\nBASS-D\n<artist id=\"76702\">Marc Acardipane</artist>\n<artist id=\"143358\">Neophyte</artist>\nPREDATOR\nRUFFNECK\nTHE VIPER\nvince\nHOSTED BY ALEE",
+    "lineupParsed": [
+      "LPRA BETI CAL",
+      "B RUE",
+      "CATSCAN",
+      "<artist id=\"144003\">Anime</artist>",
+      "D-FENCE IGNITED",
+      "<artist id=\"113080\">Deadly Guns</artist>",
+      "DR. PEACOCK",
+      "GRIDKILLERLIVE",
+      "FURYAN MYSTERIES OF CREATION",
+      "HYSTA",
+      "MISS K8",
+      "NEVER SURRENDER RAVE & PLUNDER",
+      "N-VITRAL",
+      "NOISEFLOW",
+      "NOSFERATU",
+      "THE TIMEMACHINE PAUL ELSTAK",
+      "<artist id=\"130704\">Ophidian</artist>",
+      "HOSTED EY THA WATCHER",
+      "HARDSTYLE Floor",
+      "LPRA BETICAL",
+      "O RUE",
+      "<artist id=\"113071\">Act of Rage</artist>",
+      "<artist id=\"113586\">Adjuzt</artist>",
+      "<artist id=\"3253\">Mish</artist>",
+      "<artist id=\"139287\">Omnya</artist>",
+      "REJECTA",
+      "RIOT SHIFT",
+      "<artist id=\"78915\">Sound Rush</artist>",
+      "<artist id=\"22016\">Spitfire</artist>",
+      "WARFACE",
+      "HOSTED BY NOLZ",
+      "EARLY HARDCORE Floor",
+      "LPRA BETI CAIL",
+      "BRN",
+      "BASS-D",
+      "<artist id=\"76702\">Marc Acardipane</artist>",
+      "<artist id=\"143358\">Neophyte</artist>",
+      "PREDATOR",
+      "RUFFNECK",
+      "THE VIPER",
+      "vince",
+      "HOSTED BY ALEE"
+    ],
+    "venue": "P36 Terminal 1 Busparkplatz  / Sonic-Warrior Festival Tours Abfahrt",
+    "eventUrl": "/events/2227789",
+    "attending": 2
+  },
+  {
+    "eventName": "AZUD @ROOF",
+    "date": "2025-10-04T00:00:00.000",
+    "startTime": "2025-10-04T23:00:00.000",
+    "endTime": "2025-10-05T07:00:00.000",
+    "artists": [],
+    "genres": [
+      "Techno",
+      "Industrial"
+    ],
+    "lineupRaw": "George Perry\nPatrick Doré\nAmin\nDaniel Soave\nTay Düz",
+    "lineupParsed": [
+      "George Perry",
+      "Patrick Doré",
+      "Amin",
+      "Daniel Soave",
+      "Tay Düz"
+    ],
+    "venue": "Roof 175",
+    "eventUrl": "/events/2265602",
+    "attending": 1
+  },
+  {
+    "eventName": "Presto",
+    "date": "2025-10-04T00:00:00.000",
+    "startTime": "2025-10-04T23:59:00.000",
+    "endTime": "2025-10-05T06:00:00.000",
+    "artists": [
+      "Pasch"
+    ],
+    "genres": [
+      "Drum & Bass"
+    ],
+    "lineupRaw": "Surreal\n<artist id=\"14061\">Pasch</artist> \nD-licious\nMC Mantiz\nDoc Dressla",
+    "lineupParsed": [
+      "Surreal",
+      "<artist id=\"14061\">Pasch</artist>",
+      "D-licious",
+      "MC Mantiz",
+      "Doc Dressla"
+    ],
+    "venue": "Silbergold",
+    "eventUrl": "/events/2270678",
+    "attending": 1
+  },
+  {
+    "eventName": "PrachtNACHT with Lexer, Vikosh, Abraham",
+    "date": "2025-10-04T00:00:00.000",
+    "startTime": "2025-10-04T22:00:00.000",
+    "endTime": "2025-10-05T06:00:00.000",
+    "artists": [
+      "Lexer",
+      "Abraham (GER)"
+    ],
+    "genres": [
+      "Progressive House",
+      "Deep House"
+    ],
+    "lineupRaw": "<artist id=\"47763\">Lexer</artist> \nVikosh \n<artist id=\"116092\">Abraham (GER)</artist>",
+    "lineupParsed": [
+      "<artist id=\"47763\">Lexer</artist>",
+      "Vikosh",
+      "<artist id=\"116092\">Abraham (GER)</artist>"
+    ],
+    "venue": "Pracht",
+    "eventUrl": "/events/2268750",
+    "attending": 0
+  },
+  {
+    "eventName": "WE ARE ONE x MTW with KomaCasper",
+    "date": "2025-10-10T00:00:00.000",
+    "startTime": "2025-10-10T23:00:00.000",
+    "endTime": "2025-10-11T08:00:00.000",
+    "artists": [
+      "Jozh",
+      "DeGuzman",
+      "Polytoxic"
+    ],
+    "genres": [
+      "Techno",
+      "Hardcore"
+    ],
+    "lineupRaw": "Mainfloor\t\n23:00\t<artist id=\"157474\">Jozh</artist>\n00:30\tJosh Yob\n02:00\tKomacasper\n03:30\t<artist id=\"114529\">DeGuzman</artist>\n05:00\tANN LUX\n06:30\tGABBERTANTE\n\t\nLounge (Tekk)\t\n00:00\tDANZIA\n01:30\tNars\n03:00\tDRKNSS\n04:30\t<artist id=\"147478\">Polytoxic</artist>",
+    "lineupParsed": [
+      "Mainfloor",
+      "23:00\t<artist id=\"157474\">Jozh</artist>",
+      "00:30\tJosh Yob",
+      "02:00\tKomacasper",
+      "03:30\t<artist id=\"114529\">DeGuzman</artist>",
+      "05:00\tANN LUX",
+      "06:30\tGABBERTANTE",
+      "Lounge (Tekk)",
+      "00:00\tDANZIA",
+      "01:30\tNars",
+      "03:00\tDRKNSS",
+      "04:30\t<artist id=\"147478\">Polytoxic</artist>"
+    ],
+    "venue": "MTW",
+    "eventUrl": "/events/2235160",
+    "attending": 28
+  },
+  {
+    "eventName": "From Strangers 2 Friends",
+    "date": "2025-10-10T00:00:00.000",
+    "startTime": "2025-10-10T22:00:00.000",
+    "endTime": "2025-10-11T05:00:00.000",
+    "artists": [
+      "ÜBERKIKZ",
+      "Iman Janes"
+    ],
+    "genres": [
+      "Techno"
+    ],
+    "lineupRaw": "<artist id=\"112905\">ÜBERKIKZ</artist> \n<artist id=\"170323\">Iman Janes</artist> \nSecret Act",
+    "lineupParsed": [
+      "<artist id=\"112905\">ÜBERKIKZ</artist>",
+      "<artist id=\"170323\">Iman Janes</artist>",
+      "Secret Act"
+    ],
+    "venue": "Basement Wiesbaden",
+    "eventUrl": "/events/2266537",
+    "attending": 4
+  },
+  {
+    "eventName": "QRave: cuteness extravaganza",
+    "date": "2025-10-10T00:00:00.000",
+    "startTime": "2025-10-10T23:00:00.000",
+    "endTime": "2025-10-11T05:00:00.000",
+    "artists": [
+      "Acidine",
+      "Kakuzi"
+    ],
+    "genres": [
+      "Trance",
+      "Techno"
+    ],
+    "lineupRaw": "<artist id=\"164988\">Acidine</artist> \n<artist id=\"148301\">Kakuzi</artist>\nQ Nani\nNASSTIE",
+    "lineupParsed": [
+      "<artist id=\"164988\">Acidine</artist>",
+      "<artist id=\"148301\">Kakuzi</artist>",
+      "Q Nani",
+      "NASSTIE"
+    ],
+    "venue": "Elfer Club",
+    "eventUrl": "/events/2265422",
+    "attending": 1
+  },
+  {
+    "eventName": "Hard Impact & Fury pres. Noiseflow (deutscher Krach)",
+    "date": "2025-10-10T00:00:00.000",
+    "startTime": "2025-10-10T22:00:00.000",
+    "endTime": "2025-10-11T06:00:00.000",
+    "artists": [],
+    "genres": [
+      "Hardcore",
+      "Gabber"
+    ],
+    "lineupRaw": "Noiseflow\nOpgekonkerd\nLuvvtige\nFlinke Herrie\nSaw\nGet a Min\nSkipper",
+    "lineupParsed": [
+      "Noiseflow",
+      "Opgekonkerd",
+      "Luvvtige",
+      "Flinke Herrie",
+      "Saw",
+      "Get a Min",
+      "Skipper"
+    ],
+    "venue": "Roof 175",
+    "eventUrl": "/events/2269452",
+    "attending": 1
+  },
+  {
+    "eventName": "Not From This Earth X Alto Artists",
+    "date": "2025-10-11T00:00:00.000",
+    "startTime": "2025-10-11T22:00:00.000",
+    "endTime": "2025-10-12T10:00:00.000",
+    "artists": [
+      "LAMALICE",
+      "Massaï",
+      "Gabriel Belabbas"
+    ],
+    "genres": [
+      "Techno",
+      "House"
+    ],
+    "lineupRaw": "<artist id=\"114663\">LAMALICE</artist>  B2B <artist id=\"53333\">Massaï</artist> B2B <artist id=\"40414\">Gabriel Belabbas</artist> (Paris) \n\nAmina & Ivo Total (Buerro) \n\nHalluxvalgus & Melomano (Not From This Earth/ Freiquenz)",
+    "lineupParsed": [
+      "<artist id=\"114663\">LAMALICE</artist>  B2B <artist id=\"53333\">Massaï</artist> B2B <artist id=\"40414\">Gabriel Belabbas</artist> (Paris)",
+      "Amina & Ivo Total (Buerro)",
+      "Halluxvalgus & Melomano (Not From This Earth/ Freiquenz)"
+    ],
+    "venue": "TBA",
+    "eventUrl": "/events/2215237",
+    "attending": 87
+  },
+  {
+    "eventName": "WE ARE ONE X K5 - MICROFESTIVAL with IKKIMEL, DJ DRECKISCH",
+    "date": "2025-10-11T00:00:00.000",
+    "startTime": "2025-10-11T22:00:00.000",
+    "endTime": "2025-10-12T08:00:00.000",
+    "artists": [
+      "Eurodance2000",
+      "Kacy",
+      "IKKIMEL",
+      "DJ DRECKISCH",
+      "TiDo"
+    ],
+    "genres": [
+      "Trance",
+      "Hip-Hop"
+    ],
+    "lineupRaw": "Halle\t\t\n22:00\n23:00\t<artist id=\"143291\">Eurodance2000</artist>\t\n00:30\t<artist id=\"110746\">Kacy</artist> b2b DJ Cardiosession\t\n02:00\t<artist id=\"167795\">IKKIMEL</artist>\t\n03:30\t<artist id=\"146992\">DJ DRECKISCH</artist> \t\n\t\t\nKesselhaus\t\t\n00:00\t<artist id=\"127277\">TiDo</artist>\t\n01:30\tNIKUSH\t\n03:00\tBlondy\t\n04:30\tCravings320\t\n06:00\tPau\n\t\t\nBox\t\t\n00:00\tHENI\t\n01:30\tLilaluke\t\n03:00\tVanea \t\n04:30\tVEGO",
+    "lineupParsed": [
+      "Halle",
+      "22:00",
+      "23:00\t<artist id=\"143291\">Eurodance2000</artist>",
+      "00:30\t<artist id=\"110746\">Kacy</artist> b2b DJ Cardiosession",
+      "02:00\t<artist id=\"167795\">IKKIMEL</artist>",
+      "03:30\t<artist id=\"146992\">DJ DRECKISCH</artist>",
+      "Kesselhaus",
+      "00:00\t<artist id=\"127277\">TiDo</artist>",
+      "01:30\tNIKUSH",
+      "03:00\tBlondy",
+      "04:30\tCravings320",
+      "06:00\tPau",
+      "Box",
+      "00:00\tHENI",
+      "01:30\tLilaluke",
+      "03:00\tVanea",
+      "04:30\tVEGO"
+    ],
+    "venue": "Schlachthof Wiesbaden",
+    "eventUrl": "/events/2237050",
+    "attending": 33
+  },
+  {
+    "eventName": "COLOURS pres. WirZusammenEins, 3000Grad, Ohral",
+    "date": "2025-10-11T00:00:00.000",
+    "startTime": "2025-10-11T23:00:00.000",
+    "endTime": "2025-10-12T11:00:00.000",
+    "artists": [
+      "Danilo Kupfernagel",
+      "Danjo",
+      "Verena",
+      "Ele Luz",
+      "Hardy Heller",
+      "Patrick de Ville",
+      "Tom Schön"
+    ],
+    "genres": [
+      "Techno",
+      "House"
+    ],
+    "lineupRaw": "Alex Connors\nAnimée\n<artist id=\"104557\">Danilo Kupfernagel</artist>\n<artist id=\"84939\">Danjo</artist> & <artist id=\"170367\">Verena</artist>\n<artist id=\"110527\">Ele Luz</artist>\nGeny\n<artist id=\"18498\">Hardy Heller</artist>\nHenrik Steffen\nJonas Neo\nK.T.F.\nLEENI\nMarc Lenz\n<artist id=\"17888\">Patrick de Ville</artist>\nTDK\n<artist id=\"12092\">Tom Schön</artist>\nWOODKIN aka\nMollono.Bass & MAZ`N\nYannick Möbius",
+    "lineupParsed": [
+      "Alex Connors",
+      "Animée",
+      "<artist id=\"104557\">Danilo Kupfernagel</artist>",
+      "<artist id=\"84939\">Danjo</artist> & <artist id=\"170367\">Verena</artist>",
+      "<artist id=\"110527\">Ele Luz</artist>",
+      "Geny",
+      "<artist id=\"18498\">Hardy Heller</artist>",
+      "Henrik Steffen",
+      "Jonas Neo",
+      "K.T.F.",
+      "LEENI",
+      "Marc Lenz",
+      "<artist id=\"17888\">Patrick de Ville</artist>",
+      "TDK",
+      "<artist id=\"12092\">Tom Schön</artist>",
+      "WOODKIN aka",
+      "Mollono.Bass & MAZ`N",
+      "Yannick Möbius"
+    ],
+    "venue": "Tanzhaus West",
+    "eventUrl": "/events/2249571",
+    "attending": 11
+  },
+  {
+    "eventName": "𝖗𝖔𝖚𝖌𝖍 𝖈𝖚𝖗𝖊 invites SYNTETHICA with VISHY, DeGuzman & Crews",
+    "date": "2025-10-11T00:00:00.000",
+    "startTime": "2025-10-11T23:00:00.000",
+    "endTime": "2025-10-12T08:00:00.000",
+    "artists": [
+      "VISHY",
+      "DeGuzman"
+    ],
+    "genres": [
+      "Trance",
+      "Techno"
+    ],
+    "lineupRaw": "<artist id=\"167002\">VISHY</artist> \n<artist id=\"114529\">DeGuzman</artist> \nJosh Yob.\nNotphilwerner\nSila\nByrdman b2b Theo",
+    "lineupParsed": [
+      "<artist id=\"167002\">VISHY</artist>",
+      "<artist id=\"114529\">DeGuzman</artist>",
+      "Josh Yob.",
+      "Notphilwerner",
+      "Sila",
+      "Byrdman b2b Theo"
+    ],
+    "venue": "Roof 175",
+    "eventUrl": "/events/2256358",
+    "attending": 8
+  },
+  {
+    "eventName": "Ritter Butzke in Frankfurt (Main)",
+    "date": "2025-10-17T00:00:00.000",
+    "startTime": "2025-10-17T23:00:00.000",
+    "endTime": "2025-10-18T08:00:00.000",
+    "artists": [
+      "Township Rebellion",
+      "Super Flu",
+      "Prismode",
+      "Solvane",
+      "Markus Klee"
+    ],
+    "genres": [
+      "Progressive House",
+      "Afro House"
+    ],
+    "lineupRaw": "<artist id=\"56834\">Township Rebellion</artist> \n<artist id=\"2341\">Super Flu</artist> \n<artist id=\"59109\">Prismode</artist> & <artist id=\"48613\">Solvane</artist> \n<artist id=\"33436\">Markus Klee</artist>",
+    "lineupParsed": [
+      "<artist id=\"56834\">Township Rebellion</artist>",
+      "<artist id=\"2341\">Super Flu</artist>",
+      "<artist id=\"59109\">Prismode</artist> & <artist id=\"48613\">Solvane</artist>",
+      "<artist id=\"33436\">Markus Klee</artist>"
+    ],
+    "venue": "Tanzhaus West",
+    "eventUrl": "/events/2226151",
+    "attending": 36
+  },
+  {
+    "eventName": "WE ARE ONE x KINKY SOLUTION - K39 | 4 Floors - 3 Etagen - 2 Playrooms - no phone - dresscode",
+    "date": "2025-10-17T00:00:00.000",
+    "startTime": "2025-10-17T23:00:00.000",
+    "endTime": "2025-10-18T07:00:00.000",
+    "artists": [
+      "Traumtherapie",
+      "Mødze"
+    ],
+    "genres": [
+      "Trance",
+      "Techno"
+    ],
+    "lineupRaw": "Mainfloor\t\n23:00\t<artist id=\"119092\">Traumtherapie</artist>\n00:45\tYakami Yumi b2b Hydon\n03:00\tGIU-C\n04:45\tHeartbeats\n\t\nBox\t\n23:00\tANN LUX\n00:30\tELAIOS\n02:00\tDJ Contest\n03:30\tNicknakk\n\t\nTechnoir\n23:00\tBlondy\n00:30\tLönni\n02:00\tREUSSIDI\n03:30\tAtek\n\t\nOrange Peel\t\n23:00\tNisha\n00:30\tPri\n02:00\t<artist id=\"126708\">Mødze</artist> \n03:30\tKinematic\n05:00\tBSTIJ",
+    "lineupParsed": [
+      "Mainfloor",
+      "23:00\t<artist id=\"119092\">Traumtherapie</artist>",
+      "00:45\tYakami Yumi b2b Hydon",
+      "03:00\tGIU-C",
+      "04:45\tHeartbeats",
+      "Box",
+      "23:00\tANN LUX",
+      "00:30\tELAIOS",
+      "02:00\tDJ Contest",
+      "03:30\tNicknakk",
+      "Technoir",
+      "23:00\tBlondy",
+      "00:30\tLönni",
+      "02:00\tREUSSIDI",
+      "03:30\tAtek",
+      "Orange Peel",
+      "23:00\tNisha",
+      "00:30\tPri",
+      "02:00\t<artist id=\"126708\">Mødze</artist>",
+      "03:30\tKinematic",
+      "05:00\tBSTIJ"
+    ],
+    "venue": "K39",
+    "eventUrl": "/events/2235326",
+    "attending": 24
+  },
+  {
+    "eventName": "Paul Van Dyk at the Zoom Frankfurt",
+    "date": "2025-10-17T00:00:00.000",
+    "startTime": "2025-10-17T23:00:00.000",
+    "endTime": "2025-10-18T06:00:00.000",
+    "artists": [
+      "Paul Van Dyk",
+      "Talla 2XLC"
+    ],
+    "genres": [
+      "Progressive House",
+      "Trance"
+    ],
+    "lineupRaw": "<artist id=\"32\">Paul Van Dyk</artist> \n<artist id=\"1369\">Talla 2XLC</artist>",
+    "lineupParsed": [
+      "<artist id=\"32\">Paul Van Dyk</artist>",
+      "<artist id=\"1369\">Talla 2XLC</artist>"
+    ],
+    "venue": "Zoom Club",
+    "eventUrl": "/events/2170812",
+    "attending": 19
+  },
+  {
+    "eventName": "HELIX x Roof 175 Mainz - Hardtechno",
+    "date": "2025-10-17T00:00:00.000",
+    "startTime": "2025-10-17T23:00:00.000",
+    "endTime": "2025-10-18T07:00:00.000",
+    "artists": [
+      "Zoe Zett"
+    ],
+    "genres": [
+      "Techno"
+    ],
+    "lineupRaw": "<artist id=\"110658\">Zoe Zett</artist> \nJosh Yob.\nBME\nSchreinerjunge\nMrs. & Mr. Polster",
+    "lineupParsed": [
+      "<artist id=\"110658\">Zoe Zett</artist>",
+      "Josh Yob.",
+      "BME",
+      "Schreinerjunge",
+      "Mrs. & Mr. Polster"
+    ],
+    "venue": "Roof 175",
+    "eventUrl": "/events/2270083",
+    "attending": 1
+  },
+  {
+    "eventName": "+You",
+    "date": "2025-10-17T00:00:00.000",
+    "startTime": "2025-10-17T22:00:00.000",
+    "endTime": "2025-10-18T05:00:00.000",
+    "artists": [],
+    "genres": [
+      "House",
+      "Tech House"
+    ],
+    "lineupRaw": "BEN.RN\nPatrick Doré \nmuchomacho",
+    "lineupParsed": [
+      "BEN.RN",
+      "Patrick Doré",
+      "muchomacho"
+    ],
+    "venue": "Basement Wiesbaden",
+    "eventUrl": "/events/2272030",
+    "attending": 0
+  },
+  {
+    "eventName": "Bus ins Glashaus Extaso BDay 2025 - Tekk",
+    "date": "2025-10-18T00:00:00.000",
+    "startTime": "2025-10-18T16:00:00.000",
+    "endTime": "2025-10-19T10:00:00.000",
+    "artists": [],
+    "genres": [
+      "Techno",
+      "Electro"
+    ],
+    "lineupRaw": "4 Floors\n40 Acts",
+    "lineupParsed": [
+      "4 Floors",
+      "40 Acts"
+    ],
+    "venue": "P36 Terminal 1 Busparkplatz  / Sonic-Warrior Festival Tours Abfahrt",
+    "eventUrl": "/events/2227796",
+    "attending": 2
+  },
+  {
+    "eventName": "Elysium x Adam Riese 24.10.2025 with Noise Not War, KARAMUSTAN, BME ",
+    "date": "2025-10-24T00:00:00.000",
+    "startTime": "2025-10-24T22:00:00.000",
+    "endTime": "2025-10-25T07:00:00.000",
+    "artists": [
+      "Noise Not War"
+    ],
+    "genres": [
+      "Techno",
+      "Industrial"
+    ],
+    "lineupRaw": "<artist id=\"154158\">Noise Not War</artist> \nKaramustan\nBME\nADAN\nCALAMITY B2B NISHA\nLIO\nCONTEST WINNER",
+    "lineupParsed": [
+      "<artist id=\"154158\">Noise Not War</artist>",
+      "Karamustan",
+      "BME",
+      "ADAN",
+      "CALAMITY B2B NISHA",
+      "LIO",
+      "CONTEST WINNER"
+    ],
+    "venue": "Konfuzius Franz",
+    "eventUrl": "/events/2237304",
+    "attending": 4
+  },
+  {
+    "eventName": "26 Jahre Toxic Family - Techno, Melodic, House, Retro",
+    "date": "2025-10-25T00:00:00.000",
+    "startTime": "2025-10-25T23:00:00.000",
+    "endTime": "2025-10-26T10:00:00.000",
+    "artists": [
+      "DJ Hildegard",
+      "Gunman"
+    ],
+    "genres": [
+      "Techno",
+      "Tech House"
+    ],
+    "lineupRaw": "<artist id=\"50475\">DJ Hildegard</artist> [hmm, blufin]\nGreg Welsh [maybe music, tofa records]\nPhonoart [fridays for techno]\n<artist id=\"51183\">Gunman</artist> [shaker plate, göttingen]\nChrisDizz & C.O.S.M.O. [extravaganca]\nGrille [toxic family]\nMarco Freudenberg [toxic family]\nNanorausch [toxic family]\nChristian Reichert [toxic family, random]\nDennis Babion [toxic family, random]\nSteve Simon [toxic family]",
+    "lineupParsed": [
+      "<artist id=\"50475\">DJ Hildegard</artist> [hmm, blufin]",
+      "Greg Welsh [maybe music, tofa records]",
+      "Phonoart [fridays for techno]",
+      "<artist id=\"51183\">Gunman</artist> [shaker plate, göttingen]",
+      "ChrisDizz & C.O.S.M.O. [extravaganca]",
+      "Grille [toxic family]",
+      "Marco Freudenberg [toxic family]",
+      "Nanorausch [toxic family]",
+      "Christian Reichert [toxic family, random]",
+      "Dennis Babion [toxic family, random]",
+      "Steve Simon [toxic family]"
+    ],
+    "venue": "Tanzhaus West",
+    "eventUrl": "/events/2259423",
+    "attending": 3
+  },
+  {
+    "eventName": "Kabinett pres. Naschen",
+    "date": "2025-10-25T00:00:00.000",
+    "startTime": "2025-10-25T23:00:00.000",
+    "endTime": "2025-10-26T06:00:00.000",
+    "artists": [],
+    "genres": [
+      "Techno",
+      "House"
+    ],
+    "lineupRaw": "Secert Line up",
+    "lineupParsed": [
+      "Secert Line up"
+    ],
+    "venue": "TBA",
+    "eventUrl": "/events/2261688",
+    "attending": 2
+  },
+  {
+    "eventName": "WE ARE ONE x K39 - HALLOWEEN",
+    "date": "2025-10-31T00:00:00.000",
+    "startTime": "2025-10-31T23:00:00.000",
+    "endTime": "2025-11-01T06:00:00.000",
+    "artists": [
+      "carlo kalu",
+      "PENELOPE (DE)",
+      "Kacy",
+      "AMBAM"
+    ],
+    "genres": [
+      "Trance",
+      "Techno"
+    ],
+    "lineupRaw": "Mascha\nDANZIA\nNomitekk\n<artist id=\"146501\">carlo kalu</artist>\n<artist id=\"153416\">PENELOPE (DE)</artist> \nVanea\nLeyLey\nDaro\nKiko b2b Specktrumstörung\nDJ CARDIOSESSION\n<artist id=\"110746\">Kacy</artist>\nAtek\n<artist id=\"153834\">AMBAM</artist>\nDRKNSS",
+    "lineupParsed": [
+      "Mascha",
+      "DANZIA",
+      "Nomitekk",
+      "<artist id=\"146501\">carlo kalu</artist>",
+      "<artist id=\"153416\">PENELOPE (DE)</artist>",
+      "Vanea",
+      "LeyLey",
+      "Daro",
+      "Kiko b2b Specktrumstörung",
+      "DJ CARDIOSESSION",
+      "<artist id=\"110746\">Kacy</artist>",
+      "Atek",
+      "<artist id=\"153834\">AMBAM</artist>",
+      "DRKNSS"
+    ],
+    "venue": "K39",
+    "eventUrl": "/events/2235668",
+    "attending": 25
+  },
+  {
+    "eventName": "TRUCE",
+    "date": "2025-10-31T00:00:00.000",
+    "startTime": "2025-10-31T22:00:00.000",
+    "endTime": "2025-11-01T05:00:00.000",
+    "artists": [],
+    "genres": [
+      "Techno"
+    ],
+    "lineupRaw": "tba",
+    "lineupParsed": [
+      "tba"
+    ],
+    "venue": "Basement Wiesbaden",
+    "eventUrl": "/events/2265500",
+    "attending": 9
+  },
+  {
+    "eventName": "SONEX Halloween Special",
+    "date": "2025-11-01T00:00:00.000",
+    "startTime": "2025-11-01T22:00:00.000",
+    "endTime": "2025-11-02T04:00:00.000",
+    "artists": [
+      "Orakel"
+    ],
+    "genres": [
+      "Trance",
+      "Techno"
+    ],
+    "lineupRaw": "Ian The Machine\nMadame Blueberry\n<artist id=\"110272\">Orakel</artist>\nVego\nVika",
+    "lineupParsed": [
+      "Ian The Machine",
+      "Madame Blueberry",
+      "<artist id=\"110272\">Orakel</artist>",
+      "Vego",
+      "Vika"
+    ],
+    "venue": "Alte Kanzlei Hanau",
+    "eventUrl": "/events/2268546",
+    "attending": 1
+  },
+  {
+    "eventName": "Die Anstalt (live) + Sinnthese (live) + Shia LaBiff (DJ) presented by Blank Wave",
+    "date": "2025-11-08T00:00:00.000",
+    "startTime": "2025-11-08T20:00:00.000",
+    "endTime": "2025-11-09T03:00:00.000",
+    "artists": [],
+    "genres": [
+      "New Wave",
+      "Post-Punk"
+    ],
+    "lineupRaw": "BLANK WAVE presents:\n\nDie Anstalt (live, Berlin)\n\n+ Sinnthese (live, Wien)\n\n+ Shia LaBiff (DJ, FFM)",
+    "lineupParsed": [
+      "BLANK WAVE presents:",
+      "Die Anstalt (live, Berlin)",
+      "+ Sinnthese (live, Wien)",
+      "+ Shia LaBiff (DJ, FFM)"
+    ],
+    "venue": "Dreikönigskeller",
+    "eventUrl": "/events/2256821",
+    "attending": 1
+  },
+  {
+    "eventName": "Bus ins K7 Stendal 2025 - Tekk",
+    "date": "2025-11-14T00:00:00.000",
+    "startTime": "2025-11-14T14:00:00.000",
+    "endTime": "2025-11-15T17:00:00.000",
+    "artists": [],
+    "genres": [
+      "Techno",
+      "Electro"
+    ],
+    "lineupRaw": "noch kein Line up bekannt",
+    "lineupParsed": [
+      "noch kein Line up bekannt"
+    ],
+    "venue": "P36 Terminal 1 Busparkplatz  / Sonic-Warrior Festival Tours Abfahrt",
+    "eventUrl": "/events/2227799",
+    "attending": 2
+  },
+  {
+    "eventName": "WE ARE ONE x MTW with Zapravka, Ephy Pinkman",
+    "date": "2025-11-22T00:00:00.000",
+    "startTime": "2025-11-22T23:00:00.000",
+    "endTime": "2025-11-23T06:00:00.000",
+    "artists": [
+      "Ephy Pinkman",
+      "Polytoxic"
+    ],
+    "genres": [
+      "Techno",
+      "Hardcore"
+    ],
+    "lineupRaw": "<artist id=\"107475\">Ephy Pinkman</artist>\nZAPRAVKA\n<artist id=\"147478\">Polytoxic</artist>\nPri",
+    "lineupParsed": [
+      "<artist id=\"107475\">Ephy Pinkman</artist>",
+      "ZAPRAVKA",
+      "<artist id=\"147478\">Polytoxic</artist>",
+      "Pri"
+    ],
+    "venue": "MTW",
+    "eventUrl": "/events/2235339",
+    "attending": 22
+  },
+  {
+    "eventName": "Bus zu BKJN Dimitri K. Sacrifice Day 2025 - Uptemp",
+    "date": "2025-11-22T00:00:00.000",
+    "startTime": "2025-11-22T07:00:00.000",
+    "endTime": "2025-11-23T06:00:00.000",
+    "artists": [
+      "The Dark Horror",
+      "Noxiouz",
+      "Satirized",
+      "Da Mouth of Madness",
+      "Lekkerfaces",
+      "Pinotello",
+      "MOUTH"
+    ],
+    "genres": [
+      "Hardcore",
+      "Gabber"
+    ],
+    "lineupRaw": "<artist id=\"126903\">The Dark Horror</artist> – og of the orange freaks\nTHE DARK HORROR & GUIZCORE PRES. HEAVY ENERGY PART 2\nTHE DARK HORROR VS. TOZA\n<artist id=\"115721\">Noxiouz</artist>:\nRAYZEN LIVE\nHOSTED BY: MC ROBS\n\n<artist id=\"126517\">Satirized</artist> – leader of the red cartel\nSATIRIZED LIVE\nBARBER VS. MANIFEST DESTINY VS. AKIMBO\nKILI VS. ROOSTERZ VS. REVEALER\nHOSTED BY: <artist id=\"82944\">Da Mouth of Madness</artist>\n\n<artist id=\"118454\">Lekkerfaces</artist> – chief o the black gang\nLEKKERFACES PRES. STEAM POWER LIVE\n<artist id=\"124653\">Pinotello</artist> & YOSHIKO PRES, TEAM ROCKET LIVE\nMIND COMPRESSOR: MENTAL DOMINION LIVE\nHOSTED BY: DA <artist id=\"168950\">MOUTH</artist> OF MADNESS",
+    "lineupParsed": [
+      "<artist id=\"126903\">The Dark Horror</artist> – og of the orange freaks",
+      "THE DARK HORROR & GUIZCORE PRES. HEAVY ENERGY PART 2",
+      "THE DARK HORROR VS. TOZA",
+      "<artist id=\"115721\">Noxiouz</artist>:",
+      "RAYZEN LIVE",
+      "HOSTED BY: MC ROBS",
+      "<artist id=\"126517\">Satirized</artist> – leader of the red cartel",
+      "SATIRIZED LIVE",
+      "BARBER VS. MANIFEST DESTINY VS. AKIMBO",
+      "KILI VS. ROOSTERZ VS. REVEALER",
+      "HOSTED BY: <artist id=\"82944\">Da Mouth of Madness</artist>",
+      "<artist id=\"118454\">Lekkerfaces</artist> – chief o the black gang",
+      "LEKKERFACES PRES. STEAM POWER LIVE",
+      "<artist id=\"124653\">Pinotello</artist> & YOSHIKO PRES, TEAM ROCKET LIVE",
+      "MIND COMPRESSOR: MENTAL DOMINION LIVE",
+      "HOSTED BY: DA <artist id=\"168950\">MOUTH</artist> OF MADNESS"
+    ],
+    "venue": "P36 Terminal 1 Busparkplatz  / Sonic-Warrior Festival Tours Abfahrt",
+    "eventUrl": "/events/2227801",
+    "attending": 5
+  },
+  {
+    "eventName": "oblique // L.F.T. (live), Andreas Aprill (live)",
+    "date": "2025-11-28T00:00:00.000",
+    "startTime": "2025-11-28T21:00:00.000",
+    "endTime": "2025-11-29T01:00:00.000",
+    "artists": [
+      "L.F.T.",
+      "Aprill"
+    ],
+    "genres": [
+      "Electro",
+      "New Wave"
+    ],
+    "lineupRaw": "<artist id=\"57483\">L.F.T.</artist> (live), Andreas <artist id=\"25112\">Aprill</artist> (live)",
+    "lineupParsed": [
+      "<artist id=\"57483\">L.F.T.</artist> (live), Andreas <artist id=\"25112\">Aprill</artist> (live)"
+    ],
+    "venue": "saasfee*pavillon",
+    "eventUrl": "/events/2271066",
+    "attending": 2
+  },
+  {
+    "eventName": "WE ARE ONE x K39",
+    "date": "2025-11-29T00:00:00.000",
+    "startTime": "2025-11-29T23:00:00.000",
+    "endTime": "2025-11-30T06:00:00.000",
+    "artists": [
+      "l!l!"
+    ],
+    "genres": [
+      "Trance",
+      "Techno"
+    ],
+    "lineupRaw": "<artist id=\"157900\">l!l!</artist>",
+    "lineupParsed": [
+      "<artist id=\"157900\">l!l!</artist>"
+    ],
+    "venue": "K39",
+    "eventUrl": "/events/2235350",
+    "attending": 16
+  },
+  {
+    "eventName": "Bus Annihilation 2025 - Uptempo",
+    "date": "2025-11-29T00:00:00.000",
+    "startTime": "2025-11-29T06:30:00.000",
+    "endTime": "2025-11-30T06:00:00.000",
+    "artists": [
+      "Screecher",
+      "Deviation",
+      "Rosbeek"
+    ],
+    "genres": [
+      "Hardcore",
+      "Gabber"
+    ],
+    "lineupRaw": "AALST & <artist id=\"126516\">Screecher</artist> [Dragonized –live–]\nBÖSSELS vs LATINITY\nCOMPLEX [Rammeroni –live–]\n<artist id=\"32145\">Deviation</artist> [Sonic Surge (live)]\nDMRC vs VALHALLA vs DARK INDIVIDUAL\nERAIZED (live)\nGUIBERZ (live)\nMAISTRØ vs DJ CONTEST WINNER\nMISSY vs DIMMA vs VICTUS\nNOISE OF AGGRESSION [Aggression Therapy (live)]\nREVELLERS (live)\n<artist id=\"132772\">Rosbeek</artist> [Maximaal Klappen (live)]\nSCREECHER vs MT vs LUXO\nSILKY NOIZE (live)\nTHAROZA (live) or Die\nUDOW vs SAMYNATOR\nMC FLO",
+    "lineupParsed": [
+      "AALST & <artist id=\"126516\">Screecher</artist> [Dragonized –live–]",
+      "BÖSSELS vs LATINITY",
+      "COMPLEX [Rammeroni –live–]",
+      "<artist id=\"32145\">Deviation</artist> [Sonic Surge (live)]",
+      "DMRC vs VALHALLA vs DARK INDIVIDUAL",
+      "ERAIZED (live)",
+      "GUIBERZ (live)",
+      "MAISTRØ vs DJ CONTEST WINNER",
+      "MISSY vs DIMMA vs VICTUS",
+      "NOISE OF AGGRESSION [Aggression Therapy (live)]",
+      "REVELLERS (live)",
+      "<artist id=\"132772\">Rosbeek</artist> [Maximaal Klappen (live)]",
+      "SCREECHER vs MT vs LUXO",
+      "SILKY NOIZE (live)",
+      "THAROZA (live) or Die",
+      "UDOW vs SAMYNATOR",
+      "MC FLO"
+    ],
+    "venue": "P36 Terminal 1 Busparkplatz  / Sonic-Warrior Festival Tours Abfahrt",
+    "eventUrl": "/events/2227805",
+    "attending": 0
+  },
+  {
+    "eventName": "Cocoon Frankfurt",
+    "date": "2025-12-12T00:00:00.000",
+    "startTime": "2025-12-12T23:00:00.000",
+    "endTime": "2025-12-13T06:00:00.000",
+    "artists": [
+      "Richie Hawtin",
+      "Extrawelt",
+      "Robag Wruhme",
+      "Jonathan Kaspar",
+      "Aquatic Reflector",
+      "Yuada",
+      "SAFA"
+    ],
+    "genres": [
+      "Techno",
+      "Tech House"
+    ],
+    "lineupRaw": "<artist id=\"55\">Richie Hawtin</artist> \n<artist id=\"960\">Extrawelt</artist> \n<artist id=\"10978\">Robag Wruhme</artist> \n<artist id=\"24735\">Jonathan Kaspar</artist> \n<artist id=\"102669\">Aquatic Reflector</artist> \n<artist id=\"82581\">Yuada</artist> \n<artist id=\"118646\">SAFA</artist>",
+    "lineupParsed": [
+      "<artist id=\"55\">Richie Hawtin</artist>",
+      "<artist id=\"960\">Extrawelt</artist>",
+      "<artist id=\"10978\">Robag Wruhme</artist>",
+      "<artist id=\"24735\">Jonathan Kaspar</artist>",
+      "<artist id=\"102669\">Aquatic Reflector</artist>",
+      "<artist id=\"82581\">Yuada</artist>",
+      "<artist id=\"118646\">SAFA</artist>"
+    ],
+    "venue": "Zoom Club",
+    "eventUrl": "/events/2224234",
+    "attending": 78
+  },
+  {
+    "eventName": "WE ARE ONE x MTW with Russian Village Boys",
+    "date": "2025-12-13T00:00:00.000",
+    "startTime": "2025-12-13T23:00:00.000",
+    "endTime": "2025-12-14T08:00:00.000",
+    "artists": [
+      "Russian Village Boys"
+    ],
+    "genres": [
+      "Trance",
+      "Techno"
+    ],
+    "lineupRaw": "<artist id=\"160420\">Russian Village Boys</artist>",
+    "lineupParsed": [
+      "<artist id=\"160420\">Russian Village Boys</artist>"
+    ],
+    "venue": "MTW",
+    "eventUrl": "/events/2235364",
+    "attending": 21
+  },
+  {
+    "eventName": "Saalschutz / The Belgian Stallion / Rolf Saxer",
+    "date": "2025-12-13T00:00:00.000",
+    "startTime": "2025-12-13T20:00:00.000",
+    "endTime": "2025-12-14T02:00:00.000",
+    "artists": [
+      "Rolf Saxer"
+    ],
+    "genres": [
+      "Bass",
+      "Electro"
+    ],
+    "lineupRaw": "Saalschutz (Live), The Belgian Stallion, <artist id=\"58901\">Rolf Saxer</artist>",
+    "lineupParsed": [
+      "Saalschutz (Live), The Belgian Stallion, <artist id=\"58901\">Rolf Saxer</artist>"
+    ],
+    "venue": "Kreativfabrik Wiesbaden",
+    "eventUrl": "/events/2243669",
+    "attending": 1
+  },
+  {
+    "eventName": "A Techno Ballet Odyssey",
+    "date": "2025-12-18T00:00:00.000",
+    "startTime": "2025-12-18T18:00:00.000",
+    "endTime": "2025-12-19T01:00:00.000",
+    "artists": [
+      "Marko Nastic",
+      "Fireground",
+      "Ata"
+    ],
+    "genres": [
+      "Techno"
+    ],
+    "lineupRaw": "<artist id=\"1002\">Marko Nastic</artist>\n<artist id=\"102884\">Fireground</artist>\n<artist id=\"932\">Ata</artist>",
+    "lineupParsed": [
+      "<artist id=\"1002\">Marko Nastic</artist>",
+      "<artist id=\"102884\">Fireground</artist>",
+      "<artist id=\"932\">Ata</artist>"
+    ],
+    "venue": "TBA - Zoo Gesellschaftshaus",
+    "eventUrl": "/events/2258713",
+    "attending": 3
+  },
+  {
+    "eventName": "A Techno Ballet Odyssey",
+    "date": "2025-12-19T00:00:00.000",
+    "startTime": "2025-12-19T19:00:00.000",
+    "endTime": "2025-12-20T02:00:00.000",
+    "artists": [
+      "Marko Nastic",
+      "Pauli Pocket"
+    ],
+    "genres": [
+      "Techno"
+    ],
+    "lineupRaw": "<artist id=\"1002\">Marko Nastic</artist> \n<artist id=\"34877\">Pauli Pocket</artist> \nJoe Arabica",
+    "lineupParsed": [
+      "<artist id=\"1002\">Marko Nastic</artist>",
+      "<artist id=\"34877\">Pauli Pocket</artist>",
+      "Joe Arabica"
+    ],
+    "venue": "TBA - Zoo Gesellschaftshaus",
+    "eventUrl": "/events/2258714",
+    "attending": 0
+  },
+  {
+    "eventName": "A Techno Ballet Odyssey",
+    "date": "2025-12-20T00:00:00.000",
+    "startTime": "2025-12-20T19:00:00.000",
+    "endTime": "2025-12-21T02:00:00.000",
+    "artists": [
+      "Marko Nastic",
+      "SUDO",
+      "Lauer"
+    ],
+    "genres": [
+      "Techno"
+    ],
+    "lineupRaw": "<artist id=\"1002\">Marko Nastic</artist> \n<artist id=\"84940\">SUDO</artist> \n<artist id=\"32006\">Lauer</artist>",
+    "lineupParsed": [
+      "<artist id=\"1002\">Marko Nastic</artist>",
+      "<artist id=\"84940\">SUDO</artist>",
+      "<artist id=\"32006\">Lauer</artist>"
+    ],
+    "venue": "TBA - Zoo Gesellschaftshaus",
+    "eventUrl": "/events/2258734",
+    "attending": 3
+  },
+  {
+    "eventName": "KURIOSES BEBEN X-MAS EDITION",
+    "date": "2025-12-20T00:00:00.000",
+    "startTime": "2025-12-20T23:00:00.000",
+    "endTime": "2025-12-21T07:00:00.000",
+    "artists": [
+      "ANN-LUX"
+    ],
+    "genres": [
+      "Techno",
+      "Industrial"
+    ],
+    "lineupRaw": "ADAN\nA.T.E.K\n<artist id=\"168975\">ANN-LUX</artist>\nPASCØ\nSCHAMBES\nTATAKI",
+    "lineupParsed": [
+      "ADAN",
+      "A.T.E.K",
+      "<artist id=\"168975\">ANN-LUX</artist>",
+      "PASCØ",
+      "SCHAMBES",
+      "TATAKI"
+    ],
+    "venue": "Roof 175",
+    "eventUrl": "/events/2265653",
+    "attending": 1
+  }
+]

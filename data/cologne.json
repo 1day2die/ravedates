@@ -1,0 +1,3422 @@
+[
+  {
+    "eventName": "Beats x Bass x Cologne with RAVES OF GERMANY & MK RAVES #MittWochenende",
+    "date": "2025-10-01T00:00:00.000",
+    "startTime": "2025-10-01T23:00:00.000",
+    "endTime": "2025-10-02T06:00:00.000",
+    "artists": [
+      "ISSAM",
+      "Rui Da Silva"
+    ],
+    "genres": [
+      "Trance",
+      "Techno"
+    ],
+    "lineupRaw": "#Bouncy #Trancy\nHosted By Raves Of Germany\nSimba\nSuper Dario\nDj Danevska\nDj Eddyble\nDj Mäsisch B2B <artist id=\"91234\">ISSAM</artist>\nDr Pheelgood\n\n#Hardtechno #Schranz\nHosted By Mk Raves\n<artist id=\"103\">Rui Da Silva</artist>\nBbxngz\nPrayinhell\nZoltec\n+ Winner Slot",
+    "lineupParsed": [
+      "#Bouncy #Trancy",
+      "Hosted By Raves Of Germany",
+      "Simba",
+      "Super Dario",
+      "Dj Danevska",
+      "Dj Eddyble",
+      "Dj Mäsisch B2B <artist id=\"91234\">ISSAM</artist>",
+      "Dr Pheelgood",
+      "#Hardtechno #Schranz",
+      "Hosted By Mk Raves",
+      "<artist id=\"103\">Rui Da Silva</artist>",
+      "Bbxngz",
+      "Prayinhell",
+      "Zoltec",
+      "+ Winner Slot"
+    ],
+    "venue": "Odonien",
+    "eventUrl": "/events/2267626",
+    "attending": 16
+  },
+  {
+    "eventName": "TECHNOLIEBE a.M. w\\ Edin Van Burgh",
+    "date": "2025-10-01T00:00:00.000",
+    "startTime": "2025-10-01T19:00:00.000",
+    "endTime": "2025-10-02T01:00:00.000",
+    "artists": [],
+    "genres": [
+      "Techno"
+    ],
+    "lineupRaw": "RGB EDIN VAN BURGH",
+    "lineupParsed": [
+      "RGB EDIN VAN BURGH"
+    ],
+    "venue": "Garagen Club",
+    "eventUrl": "/events/2268873",
+    "attending": 4
+  },
+  {
+    "eventName": "TechnoGermany presents Charlie Sparks, JOWI AKA DOLVE VITA, Lukas Meunier a.m",
+    "date": "2025-10-02T00:00:00.000",
+    "startTime": "2025-10-02T23:00:00.000",
+    "endTime": "2025-10-03T06:00:00.000",
+    "artists": [
+      "Charlie Sparks",
+      "Pelin Vedis",
+      "Lukas Meunier",
+      "Charlie"
+    ],
+    "genres": [
+      "Techno"
+    ],
+    "lineupRaw": "<artist id=\"95413\">Charlie Sparks</artist> \n@chrissyjeey \n@dolcevita (Jowi)\n<artist id=\"102424\">Pelin Vedis</artist> \n<artist id=\"68508\">Lukas Meunier</artist> \n@miguelito\n<artist id=\"25019\">Charlie</artist>",
+    "lineupParsed": [
+      "<artist id=\"95413\">Charlie Sparks</artist>",
+      "@chrissyjeey",
+      "@dolcevita (Jowi)",
+      "<artist id=\"102424\">Pelin Vedis</artist>",
+      "<artist id=\"68508\">Lukas Meunier</artist>",
+      "@miguelito",
+      "<artist id=\"25019\">Charlie</artist>"
+    ],
+    "venue": "Artheater",
+    "eventUrl": "/events/2249196",
+    "attending": 28
+  },
+  {
+    "eventName": "Hyperlove",
+    "date": "2025-10-02T00:00:00.000",
+    "startTime": "2025-10-02T23:30:00.000",
+    "endTime": "2025-10-03T06:00:00.000",
+    "artists": [
+      "Sophti",
+      "DJ ASS TITS",
+      "paaradoxx"
+    ],
+    "genres": [
+      "House",
+      "Electro"
+    ],
+    "lineupRaw": "Slaymira \n<artist id=\"138257\">Sophti</artist> \njuno.j\nL3OO\n<artist id=\"140815\">DJ ASS TITS</artist> \n<artist id=\"116992\">paaradoxx</artist>",
+    "lineupParsed": [
+      "Slaymira",
+      "<artist id=\"138257\">Sophti</artist>",
+      "juno.j",
+      "L3OO",
+      "<artist id=\"140815\">DJ ASS TITS</artist>",
+      "<artist id=\"116992\">paaradoxx</artist>"
+    ],
+    "venue": "JAKI",
+    "eventUrl": "/events/2266718",
+    "attending": 7
+  },
+  {
+    "eventName": "Tonic Walter – It All Comes Together Tour 2025, Cologne",
+    "date": "2025-10-02T00:00:00.000",
+    "startTime": "2025-10-02T19:00:00.000",
+    "endTime": "2025-10-03T00:00:00.000",
+    "artists": [
+      "Tonic Walter"
+    ],
+    "genres": [
+      "Deep House"
+    ],
+    "lineupRaw": "<artist id=\"141001\">Tonic Walter</artist>",
+    "lineupParsed": [
+      "<artist id=\"141001\">Tonic Walter</artist>"
+    ],
+    "venue": "Carlswerk Victoria",
+    "eventUrl": "/events/2170262",
+    "attending": 6
+  },
+  {
+    "eventName": "Klubnacht with DCHM, KiNK (live), Shumi",
+    "date": "2025-10-02T00:00:00.000",
+    "startTime": "2025-10-02T23:00:00.000",
+    "endTime": "2025-10-03T06:00:00.000",
+    "artists": [
+      "DCHM",
+      "KiNK",
+      "Shumi"
+    ],
+    "genres": [
+      "House"
+    ],
+    "lineupRaw": "<artist id=\"68801\">DCHM</artist> \n<artist id=\"2887\">KiNK</artist> \n<artist id=\"8919\">Shumi</artist>",
+    "lineupParsed": [
+      "<artist id=\"68801\">DCHM</artist>",
+      "<artist id=\"2887\">KiNK</artist>",
+      "<artist id=\"8919\">Shumi</artist>"
+    ],
+    "venue": "Gewölbe",
+    "eventUrl": "/events/2257455",
+    "attending": 5
+  },
+  {
+    "eventName": "122 pres. Marten Lou - 1 YEAR ANNIVERSARY EVENT",
+    "date": "2025-10-02T00:00:00.000",
+    "startTime": "2025-10-02T22:00:00.000",
+    "endTime": "2025-10-03T06:00:00.000",
+    "artists": [
+      "Marten Lou",
+      "Mcfly",
+      "Nicole da Silva"
+    ],
+    "genres": [
+      "House"
+    ],
+    "lineupRaw": "Mainfloor:\n<artist id=\"119346\">Marten Lou</artist>\n<artist id=\"83897\">Mcfly</artist>\n<artist id=\"165630\">Nicole da Silva</artist>",
+    "lineupParsed": [
+      "Mainfloor:",
+      "<artist id=\"119346\">Marten Lou</artist>",
+      "<artist id=\"83897\">Mcfly</artist>",
+      "<artist id=\"165630\">Nicole da Silva</artist>"
+    ],
+    "venue": "Bootshaus",
+    "eventUrl": "/events/2252711",
+    "attending": 4
+  },
+  {
+    "eventName": "fi = altshift5 with Cormac & I'm In Love",
+    "date": "2025-10-02T00:00:00.000",
+    "startTime": "2025-10-02T23:00:00.000",
+    "endTime": "2025-10-03T08:00:00.000",
+    "artists": [
+      "Cormac",
+      "Gîn Bali",
+      "no:elia",
+      "Sandilé"
+    ],
+    "genres": [
+      "Techno",
+      "House"
+    ],
+    "lineupRaw": "↓\n<artist id=\"4977\">Cormac</artist>\n<artist id=\"139860\">Gîn Bali</artist>\n<artist id=\"144473\">no:elia</artist>\n\n↑\nI‘M IN LOVE w/\nBLACK M1D1\nMIRA M\n<artist id=\"77492\">Sandilé</artist>",
+    "lineupParsed": [
+      "↓",
+      "<artist id=\"4977\">Cormac</artist>",
+      "<artist id=\"139860\">Gîn Bali</artist>",
+      "<artist id=\"144473\">no:elia</artist>",
+      "↑",
+      "I‘M IN LOVE w/",
+      "BLACK M1D1",
+      "MIRA M",
+      "<artist id=\"77492\">Sandilé</artist>"
+    ],
+    "venue": "fi",
+    "eventUrl": "/events/2262724",
+    "attending": 4
+  },
+  {
+    "eventName": "SOLI-Rave // 3 Floors: KölnKalkVerbot, Hochschulradio Aachen, tp_soundsystem",
+    "date": "2025-10-02T00:00:00.000",
+    "startTime": "2025-10-02T22:00:00.000",
+    "endTime": "2025-10-03T06:00:00.000",
+    "artists": [],
+    "genres": [
+      "Trance",
+      "Techno"
+    ],
+    "lineupRaw": "👯‍ 3Floors, hosted by:\nKölnKalkVerbot: Techno, Progressive House, Trance\nHochschulradio Aachen: Breaks, Acid, Progressive House\nTranceport Soundsystems: Goa, Suomi",
+    "lineupParsed": [
+      "👯‍ 3Floors, hosted by:",
+      "KölnKalkVerbot: Techno, Progressive House, Trance",
+      "Hochschulradio Aachen: Breaks, Acid, Progressive House",
+      "Tranceport Soundsystems: Goa, Suomi"
+    ],
+    "venue": "Autonomes Zentrum Köln",
+    "eventUrl": "/events/2268781",
+    "attending": 2
+  },
+  {
+    "eventName": "Desire with Pegassi, KIM SWIM, Florian Picasso, Beau Didier, a.m",
+    "date": "2025-10-02T00:00:00.000",
+    "startTime": "2025-10-02T23:00:00.000",
+    "endTime": "2025-10-03T07:00:00.000",
+    "artists": [
+      "Pegassi",
+      "Beau Didier",
+      "KIM SWIM",
+      "Human Safari",
+      "Florian Picasso",
+      "Gutkind"
+    ],
+    "genres": [
+      "Trance",
+      "Techno"
+    ],
+    "lineupRaw": "<artist id=\"117719\">Pegassi</artist>  \n<artist id=\"109902\">Beau Didier</artist> \n<artist id=\"106993\">KIM SWIM</artist>\n<artist id=\"112369\">Human Safari</artist>\n<artist id=\"137783\">Florian Picasso</artist>\n<artist id=\"59367\">Gutkind</artist>\nTschatsching",
+    "lineupParsed": [
+      "<artist id=\"117719\">Pegassi</artist>",
+      "<artist id=\"109902\">Beau Didier</artist>",
+      "<artist id=\"106993\">KIM SWIM</artist>",
+      "<artist id=\"112369\">Human Safari</artist>",
+      "<artist id=\"137783\">Florian Picasso</artist>",
+      "<artist id=\"59367\">Gutkind</artist>",
+      "Tschatsching"
+    ],
+    "venue": "Schrotty",
+    "eventUrl": "/events/2271726",
+    "attending": 2
+  },
+  {
+    "eventName": "Chin Chin Bonn - Schwanz der Vampire",
+    "date": "2025-10-02T00:00:00.000",
+    "startTime": "2025-10-02T23:00:00.000",
+    "endTime": "2025-10-03T06:00:00.000",
+    "artists": [],
+    "genres": [
+      "Techno",
+      "Pop"
+    ],
+    "lineupRaw": "@nico.held (DJ Techno)\n@djane_julia (DJ Pop)\n@fabulous_productions_ (Performance)\n@b.b.bounce (DJ Techno)",
+    "lineupParsed": [
+      "@nico.held (DJ Techno)",
+      "@djane_julia (DJ Pop)",
+      "@fabulous_productions_ (Performance)",
+      "@b.b.bounce (DJ Techno)"
+    ],
+    "venue": "N8Lounge",
+    "eventUrl": "/events/2224256",
+    "attending": 1
+  },
+  {
+    "eventName": "WIR Schwestern - Tanz Die Einheit, Baby",
+    "date": "2025-10-02T00:00:00.000",
+    "startTime": "2025-10-02T23:00:00.000",
+    "endTime": "2025-10-03T10:00:00.000",
+    "artists": [
+      "wonka",
+      "Trockener Sekt",
+      "Redfocks",
+      "AGNY",
+      "Vivi Wahnsinn",
+      "Tamer"
+    ],
+    "genres": [
+      "Techno",
+      "House"
+    ],
+    "lineupRaw": "WIR Schwestern verbrüdert\nDO, 2. Oktober – Vorfeiertag\nTanz die Einheit, Baby! 💜\n\nLine-Up:\nlil lili (analogues Liveset)\nSusi & Paula\n<artist id=\"156350\">wonka</artist>\nSoSo aka Tante Kante & <artist id=\"114900\">Trockener Sekt</artist> b2b\n<artist id=\"111902\">Redfocks</artist>\nEszter\n<artist id=\"157246\">AGNY</artist>\nDanaconda\n<artist id=\"126441\">Vivi Wahnsinn</artist>\n<artist id=\"20764\">Tamer</artist>\nDynamit Sash\nSteve Bonde",
+    "lineupParsed": [
+      "WIR Schwestern verbrüdert",
+      "DO, 2. Oktober – Vorfeiertag",
+      "Tanz die Einheit, Baby! 💜",
+      "Line-Up:",
+      "lil lili (analogues Liveset)",
+      "Susi & Paula",
+      "<artist id=\"156350\">wonka</artist>",
+      "SoSo aka Tante Kante & <artist id=\"114900\">Trockener Sekt</artist> b2b",
+      "<artist id=\"111902\">Redfocks</artist>",
+      "Eszter",
+      "<artist id=\"157246\">AGNY</artist>",
+      "Danaconda",
+      "<artist id=\"126441\">Vivi Wahnsinn</artist>",
+      "<artist id=\"20764\">Tamer</artist>",
+      "Dynamit Sash",
+      "Steve Bonde"
+    ],
+    "venue": "Odonien",
+    "eventUrl": "/events/2271173",
+    "attending": 1
+  },
+  {
+    "eventName": "Nonchalance x KOMM RAVEN",
+    "date": "2025-10-03T00:00:00.000",
+    "startTime": "2025-10-03T23:00:00.000",
+    "endTime": "2025-10-04T09:00:00.000",
+    "artists": [
+      "Carmen Electro",
+      "Penglord",
+      "MATHILDA (2)",
+      "Flavius (2)",
+      "Arninho",
+      "DJ SPORTSCHUH",
+      "Jan Trovato"
+    ],
+    "genres": [
+      "Techno",
+      "House"
+    ],
+    "lineupRaw": "<artist id=\"102929\">Carmen Electro</artist> \n<artist id=\"162531\">Penglord</artist> \n<artist id=\"141457\">MATHILDA (2)</artist> \n<artist id=\"129012\">Flavius (2)</artist> \n<artist id=\"154549\">Arninho</artist> \n<artist id=\"127843\">DJ SPORTSCHUH</artist> \nc-arla \nDr.PheelGood \nEskarlation3000\n<artist id=\"170114\">Jan Trovato</artist> \n Frau Schmitt \nGotta Loves Scoozy",
+    "lineupParsed": [
+      "<artist id=\"102929\">Carmen Electro</artist>",
+      "<artist id=\"162531\">Penglord</artist>",
+      "<artist id=\"141457\">MATHILDA (2)</artist>",
+      "<artist id=\"129012\">Flavius (2)</artist>",
+      "<artist id=\"154549\">Arninho</artist>",
+      "<artist id=\"127843\">DJ SPORTSCHUH</artist>",
+      "c-arla",
+      "Dr.PheelGood",
+      "Eskarlation3000",
+      "<artist id=\"170114\">Jan Trovato</artist>",
+      "Frau Schmitt",
+      "Gotta Loves Scoozy"
+    ],
+    "venue": "Odonien",
+    "eventUrl": "/events/2261593",
+    "attending": 20
+  },
+  {
+    "eventName": "ELECTRIC RHYTHEMS - NL FR GER",
+    "date": "2025-10-03T00:00:00.000",
+    "startTime": "2025-10-03T23:00:00.000",
+    "endTime": "2025-10-04T05:00:00.000",
+    "artists": [],
+    "genres": [
+      "House",
+      "Tech House"
+    ],
+    "lineupRaw": "fishmoon (Südstraßen Festival / Aachen)\n\nGrèg (Phenospex Records FR)\n\nMingus (EPM-Music NL)\n\nCronny Sockett (NL)\n\nMilan Palma (River Rhythems, NL)",
+    "lineupParsed": [
+      "fishmoon (Südstraßen Festival / Aachen)",
+      "Grèg (Phenospex Records FR)",
+      "Mingus (EPM-Music NL)",
+      "Cronny Sockett (NL)",
+      "Milan Palma (River Rhythems, NL)"
+    ],
+    "venue": "Hotel Europa",
+    "eventUrl": "/events/1800079",
+    "attending": 8
+  },
+  {
+    "eventName": "AESTHETIC with. FELICIE, MOIA, DANIEL NØAH, ARRAX, RØM",
+    "date": "2025-10-03T00:00:00.000",
+    "startTime": "2025-10-03T23:00:00.000",
+    "endTime": "2025-10-04T07:00:00.000",
+    "artists": [
+      "Félicie",
+      "MOIA",
+      "Daniel Noah"
+    ],
+    "genres": [
+      "Techno"
+    ],
+    "lineupRaw": "<artist id=\"83975\">Félicie</artist> <artist id=\"94248\">MOIA</artist> <artist id=\"161106\">Daniel Noah</artist> RØM ARRAX",
+    "lineupParsed": [
+      "<artist id=\"83975\">Félicie</artist> <artist id=\"94248\">MOIA</artist> <artist id=\"161106\">Daniel Noah</artist> RØM ARRAX"
+    ],
+    "venue": "Helios37",
+    "eventUrl": "/events/2253423",
+    "attending": 7
+  },
+  {
+    "eventName": "Feines Tier with Franca, Philipp Fein",
+    "date": "2025-10-03T00:00:00.000",
+    "startTime": "2025-10-03T23:00:00.000",
+    "endTime": "2025-10-04T06:00:00.000",
+    "artists": [
+      "Franca",
+      "Philipp Fein"
+    ],
+    "genres": [
+      "House"
+    ],
+    "lineupRaw": "<artist id=\"67207\">Franca</artist> \n<artist id=\"46142\">Philipp Fein</artist>",
+    "lineupParsed": [
+      "<artist id=\"67207\">Franca</artist>",
+      "<artist id=\"46142\">Philipp Fein</artist>"
+    ],
+    "venue": "Gewölbe",
+    "eventUrl": "/events/2255332",
+    "attending": 2
+  },
+  {
+    "eventName": "Electronic Garden of Love -OPEN AIR- #1 at Kessel Sued/Suedbrücke with Pawlowski, Nyco und SZG",
+    "date": "2025-10-04T00:00:00.000",
+    "startTime": "2025-10-04T14:00:00.000",
+    "endTime": "2025-10-04T22:00:00.000",
+    "artists": [
+      "Pawlowski",
+      "Nyco",
+      "SZG",
+      "DJ SODBRENNEN",
+      "Limoncello"
+    ],
+    "genres": [
+      "Trance"
+    ],
+    "lineupRaw": "★ <artist id=\"85190\">Pawlowski</artist> ★\n★ <artist id=\"20165\">Nyco</artist> ★\n★ <artist id=\"114767\">SZG</artist> ★\n★ <artist id=\"164663\">DJ SODBRENNEN</artist> ★\n★ DJulia ★\n★ <artist id=\"146034\">Limoncello</artist> ★",
+    "lineupParsed": [
+      "★ <artist id=\"85190\">Pawlowski</artist> ★",
+      "★ <artist id=\"20165\">Nyco</artist> ★",
+      "★ <artist id=\"114767\">SZG</artist> ★",
+      "★ <artist id=\"164663\">DJ SODBRENNEN</artist> ★",
+      "★ DJulia ★",
+      "★ <artist id=\"146034\">Limoncello</artist> ★"
+    ],
+    "venue": "TBA - KESSEL SUED at Südbrücke",
+    "eventUrl": "/events/2257144",
+    "attending": 26
+  },
+  {
+    "eventName": "Gourski & Friends presents Basstripper (DNB Allstars, Belgium) + Bounce / Trance Floor",
+    "date": "2025-10-04T00:00:00.000",
+    "startTime": "2025-10-04T23:00:00.000",
+    "endTime": "2025-10-05T06:00:00.000",
+    "artists": [
+      "Basstripper",
+      "Gourski",
+      "Jon Void",
+      "LYNE",
+      "Voicians"
+    ],
+    "genres": [
+      "Trance",
+      "Drum & Bass"
+    ],
+    "lineupRaw": "Mainfloor #DrumandBass:\n\n<artist id=\"139270\">Basstripper</artist> (Belgium / DnB Allstars)\n\nA-Z:\nBass Adder (Bochum / Tante Emma)\nDizzturb (Exoplanet)\n<artist id=\"144042\">Gourski</artist> (Nibirii / Boosthaus)\n<artist id=\"145928\">Jon Void</artist> (Liquicity)\n<artist id=\"120417\">LYNE</artist> (Nibirii)\nRebko (Drop That/ PLAY! Music)\nSira Brooks (CGN DNB)\nTillted (Local Bass)\n<artist id=\"154136\">Voicians</artist> (Liquicity) \n\nHotbox #Bounce #Trance #Hardgroove:\nJACUZI (hyperrave)\nElyante (krawall.kollektiv)",
+    "lineupParsed": [
+      "Mainfloor #DrumandBass:",
+      "<artist id=\"139270\">Basstripper</artist> (Belgium / DnB Allstars)",
+      "A-Z:",
+      "Bass Adder (Bochum / Tante Emma)",
+      "Dizzturb (Exoplanet)",
+      "<artist id=\"144042\">Gourski</artist> (Nibirii / Boosthaus)",
+      "<artist id=\"145928\">Jon Void</artist> (Liquicity)",
+      "<artist id=\"120417\">LYNE</artist> (Nibirii)",
+      "Rebko (Drop That/ PLAY! Music)",
+      "Sira Brooks (CGN DNB)",
+      "Tillted (Local Bass)",
+      "<artist id=\"154136\">Voicians</artist> (Liquicity)",
+      "Hotbox #Bounce #Trance #Hardgroove:",
+      "JACUZI (hyperrave)",
+      "Elyante (krawall.kollektiv)"
+    ],
+    "venue": "Helios37",
+    "eventUrl": "/events/2246332",
+    "attending": 22
+  },
+  {
+    "eventName": "Klubnacht with Marcus Worgull, Recondite (live)",
+    "date": "2025-10-04T00:00:00.000",
+    "startTime": "2025-10-04T23:00:00.000",
+    "endTime": "2025-10-05T06:00:00.000",
+    "artists": [
+      "Marcus Worgull",
+      "Recondite"
+    ],
+    "genres": [
+      "Techno",
+      "Deep House"
+    ],
+    "lineupRaw": "<artist id=\"1301\">Marcus Worgull</artist> \n<artist id=\"23824\">Recondite</artist>",
+    "lineupParsed": [
+      "<artist id=\"1301\">Marcus Worgull</artist>",
+      "<artist id=\"23824\">Recondite</artist>"
+    ],
+    "venue": "Gewölbe",
+    "eventUrl": "/events/2256491",
+    "attending": 14
+  },
+  {
+    "eventName": "Klaudia Gawlas x ARTOFURBANLIFE",
+    "date": "2025-10-04T00:00:00.000",
+    "startTime": "2025-10-04T23:00:00.000",
+    "endTime": "2025-10-05T08:00:00.000",
+    "artists": [
+      "Klaudia Gawlas",
+      "kish",
+      "nordcorreia.mp3"
+    ],
+    "genres": [
+      "Techno"
+    ],
+    "lineupRaw": "<artist id=\"8570\">Klaudia Gawlas</artist>\n \nKevin Arnold\nBishalbacht \nHochpotent\n\nBasement hosted by Connected Cologne:\nAAADRICH B2B \n<artist id=\"140273\">kish</artist>\n\nBOYS DO CRY B2B OSKAMAXX\nELYANTE\nNINTENDUO\n<artist id=\"148233\">nordcorreia.mp3</artist>",
+    "lineupParsed": [
+      "<artist id=\"8570\">Klaudia Gawlas</artist>",
+      "Kevin Arnold",
+      "Bishalbacht",
+      "Hochpotent",
+      "Basement hosted by Connected Cologne:",
+      "AAADRICH B2B",
+      "<artist id=\"140273\">kish</artist>",
+      "BOYS DO CRY B2B OSKAMAXX",
+      "ELYANTE",
+      "NINTENDUO",
+      "<artist id=\"148233\">nordcorreia.mp3</artist>"
+    ],
+    "venue": "Artheater",
+    "eventUrl": "/events/2264092",
+    "attending": 14
+  },
+  {
+    "eventName": "Odonien End Of Summer Rave",
+    "date": "2025-10-04T00:00:00.000",
+    "startTime": "2025-10-04T23:00:00.000",
+    "endTime": "2025-10-05T08:00:00.000",
+    "artists": [
+      "Interplay"
+    ],
+    "genres": [
+      "Techno",
+      "House"
+    ],
+    "lineupRaw": "DDR:\n⌆ Cosanne b2b <artist id=\"6266\">Interplay</artist> ⌆\n\nSchienenhalle:\n1Kollektiv w/\n⌆ Arondo b2b Lara G. ⌆\n⌆ Tantchen 363 ⌆ \n⌆ Schubert und Koller ⌆ \n⌆ Moriza ⌆\n\nOdonien-Disco-Bus:\n⌆ Joerg Seven & Roman Jacobs ⌆",
+    "lineupParsed": [
+      "DDR:",
+      "⌆ Cosanne b2b <artist id=\"6266\">Interplay</artist> ⌆",
+      "Schienenhalle:",
+      "1Kollektiv w/",
+      "⌆ Arondo b2b Lara G. ⌆",
+      "⌆ Tantchen 363 ⌆",
+      "⌆ Schubert und Koller ⌆",
+      "⌆ Moriza ⌆",
+      "Odonien-Disco-Bus:",
+      "⌆ Joerg Seven & Roman Jacobs ⌆"
+    ],
+    "venue": "Odonien",
+    "eventUrl": "/events/2232559",
+    "attending": 8
+  },
+  {
+    "eventName": "Tchami b2b AC Slater / CONFESSION b2b NIGHT BASS pres by Bootshaus",
+    "date": "2025-10-04T00:00:00.000",
+    "startTime": "2025-10-04T22:00:00.000",
+    "endTime": "2025-10-05T06:00:00.000",
+    "artists": [
+      "Tchami",
+      "AC Slater"
+    ],
+    "genres": [
+      "House"
+    ],
+    "lineupRaw": "Mainfloor:\n<artist id=\"60688\">Tchami</artist> b2b <artist id=\"164879\">AC Slater</artist>\nBRANDON\nEMIN",
+    "lineupParsed": [
+      "Mainfloor:",
+      "<artist id=\"60688\">Tchami</artist> b2b <artist id=\"164879\">AC Slater</artist>",
+      "BRANDON",
+      "EMIN"
+    ],
+    "venue": "Bootshaus",
+    "eventUrl": "/events/2200007",
+    "attending": 7
+  },
+  {
+    "eventName": "Modul 0",
+    "date": "2025-10-04T00:00:00.000",
+    "startTime": "2025-10-04T21:00:00.000",
+    "endTime": "2025-10-05T06:00:00.000",
+    "artists": [
+      "sarah4K"
+    ],
+    "genres": [
+      "Techno",
+      "Post-Punk"
+    ],
+    "lineupRaw": "@Baby B3ns\n<artist id=\"130335\">sarah4K</artist> \n@davi bplr\n@hot & messy\n@Amandus 99 & Danzinger 99 \n@Diggidaniel\nnand\nPaulinko\nDolce Cita \nLesola",
+    "lineupParsed": [
+      "@Baby B3ns",
+      "<artist id=\"130335\">sarah4K</artist>",
+      "@davi bplr",
+      "@hot & messy",
+      "@Amandus 99 & Danzinger 99",
+      "@Diggidaniel",
+      "nand",
+      "Paulinko",
+      "Dolce Cita",
+      "Lesola"
+    ],
+    "venue": "Club Bahnhof Ehrenfeld",
+    "eventUrl": "/events/2264680",
+    "attending": 5
+  },
+  {
+    "eventName": "9 JAHRE SECRETRAVES // MICROFESTIVAL // OPEN AIR + INDOOR // DANIELA HENSEL / DEBBIE AND MANY",
+    "date": "2025-10-04T00:00:00.000",
+    "startTime": "2025-10-04T18:00:00.000",
+    "endTime": "2025-10-05T08:00:00.000",
+    "artists": [
+      "Molis",
+      "Bambi (Menage a Trois)",
+      "WESTKLANG",
+      "Speedo"
+    ],
+    "genres": [
+      "Techno"
+    ],
+    "lineupRaw": "Daniela Hensel\nDebbie\n\n<artist id=\"109636\">Molis</artist>\n<artist id=\"92399\">Bambi (Menage a Trois)</artist>\n<artist id=\"138338\">WESTKLANG</artist>\nLianka\nKl!nch\nDirco loco \n<artist id=\"83719\">Speedo</artist>\nRankfrijkaard\nMalocha \nLiam Mandiaro",
+    "lineupParsed": [
+      "Daniela Hensel",
+      "Debbie",
+      "<artist id=\"109636\">Molis</artist>",
+      "<artist id=\"92399\">Bambi (Menage a Trois)</artist>",
+      "<artist id=\"138338\">WESTKLANG</artist>",
+      "Lianka",
+      "Kl!nch",
+      "Dirco loco",
+      "<artist id=\"83719\">Speedo</artist>",
+      "Rankfrijkaard",
+      "Malocha",
+      "Liam Mandiaro"
+    ],
+    "venue": "TBA - SECRET WAREHOUSE",
+    "eventUrl": "/events/2264734",
+    "attending": 5
+  },
+  {
+    "eventName": "Tom-Tom Discotec presents: Tropical Sound Clash Vol. 2",
+    "date": "2025-10-04T00:00:00.000",
+    "startTime": "2025-10-04T23:30:00.000",
+    "endTime": "2025-10-05T06:00:00.000",
+    "artists": [],
+    "genres": [
+      "Funk / Soul",
+      "Afrobeat"
+    ],
+    "lineupRaw": "Masala Movement\nFemmetastique Dance Service",
+    "lineupParsed": [
+      "Masala Movement",
+      "Femmetastique Dance Service"
+    ],
+    "venue": "JAKI",
+    "eventUrl": "/events/2266895",
+    "attending": 2
+  },
+  {
+    "eventName": "BZZBZZ TECHNO/ MJK ALL NIGHT LONG",
+    "date": "2025-10-04T00:00:00.000",
+    "startTime": "2025-10-04T22:30:00.000",
+    "endTime": "2025-10-05T06:00:00.000",
+    "artists": [],
+    "genres": [
+      "Trance",
+      "Techno"
+    ],
+    "lineupRaw": "MJK",
+    "lineupParsed": [
+      "MJK"
+    ],
+    "venue": "Club Zimmermanns",
+    "eventUrl": "/events/2262080",
+    "attending": 1
+  },
+  {
+    "eventName": "* IMMERNOCH! TANZEN *",
+    "date": "2025-10-04T00:00:00.000",
+    "startTime": "2025-10-04T17:00:00.000",
+    "endTime": "2025-10-04T23:00:00.000",
+    "artists": [],
+    "genres": [
+      "Techno",
+      "House"
+    ],
+    "lineupRaw": "Pardis\nEric Eltron\nIrwin Leschet",
+    "lineupParsed": [
+      "Pardis",
+      "Eric Eltron",
+      "Irwin Leschet"
+    ],
+    "venue": "Subway",
+    "eventUrl": "/events/2247738",
+    "attending": 0
+  },
+  {
+    "eventName": "Bootshaus presents Herbstfest",
+    "date": "2025-10-04T00:00:00.000",
+    "startTime": "2025-10-04T22:00:00.000",
+    "endTime": "2025-10-05T06:00:00.000",
+    "artists": [],
+    "genres": [
+      "Electro"
+    ],
+    "lineupRaw": "TBA",
+    "lineupParsed": [
+      "TBA"
+    ],
+    "venue": "Bootshaus",
+    "eventUrl": "/events/2264451",
+    "attending": 0
+  },
+  {
+    "eventName": "WHEN THE SUN GOES DOWN Odonien Openair Closing 2025",
+    "date": "2025-10-05T00:00:00.000",
+    "startTime": "2025-10-05T14:00:00.000",
+    "endTime": "2025-10-05T22:00:00.000",
+    "artists": [
+      "LALENA",
+      "Leolo Lozone"
+    ],
+    "genres": [
+      "Techno",
+      "House"
+    ],
+    "lineupRaw": "Niconé (Katermukke) \n <artist id=\"119811\">LALENA</artist> (Reineke Fuchs) \nFreddy Deckert (Gewölbe) \n<artist id=\"30818\">Leolo Lozone</artist> (Treibstoff Klub)",
+    "lineupParsed": [
+      "Niconé (Katermukke)",
+      "<artist id=\"119811\">LALENA</artist> (Reineke Fuchs)",
+      "Freddy Deckert (Gewölbe)",
+      "<artist id=\"30818\">Leolo Lozone</artist> (Treibstoff Klub)"
+    ],
+    "venue": "Odonien",
+    "eventUrl": "/events/2267739",
+    "attending": 4
+  },
+  {
+    "eventName": "Beats x Bass x Cologne #MittWochenende",
+    "date": "2025-10-08T00:00:00.000",
+    "startTime": "2025-10-08T23:00:00.000",
+    "endTime": "2025-10-09T06:00:00.000",
+    "artists": [],
+    "genres": [
+      "Trance",
+      "Techno"
+    ],
+    "lineupRaw": "#techno #bounce #trance on\n\nLineup will be announced soon!",
+    "lineupParsed": [
+      "#techno #bounce #trance on",
+      "Lineup will be announced soon!"
+    ],
+    "venue": "Odonien",
+    "eventUrl": "/events/2267634",
+    "attending": 1
+  },
+  {
+    "eventName": "TECHNOLiEBE a.M. w\\ MASSIMO",
+    "date": "2025-10-08T00:00:00.000",
+    "startTime": "2025-10-08T19:00:00.000",
+    "endTime": "2025-10-09T01:00:00.000",
+    "artists": [
+      "Niko Tesla"
+    ],
+    "genres": [
+      "Techno"
+    ],
+    "lineupRaw": "<artist id=\"107218\">Niko Tesla</artist> Massimo RGB",
+    "lineupParsed": [
+      "<artist id=\"107218\">Niko Tesla</artist> Massimo RGB"
+    ],
+    "venue": "Garagen Club",
+    "eventUrl": "/events/2268878",
+    "attending": 2
+  },
+  {
+    "eventName": "Bruitkasten",
+    "date": "2025-10-09T00:00:00.000",
+    "startTime": "2025-10-09T19:30:00.000",
+    "endTime": "2025-10-09T22:00:00.000",
+    "artists": [
+      "Matthew Ryals"
+    ],
+    "genres": [
+      "Experimental"
+    ],
+    "lineupRaw": "<artist id=\"103345\">Matthew Ryals</artist>, Anna Größbrink, & Jonas Engel Trio",
+    "lineupParsed": [
+      "<artist id=\"103345\">Matthew Ryals</artist>, Anna Größbrink, & Jonas Engel Trio"
+    ],
+    "venue": "Gemeinde Köln",
+    "eventUrl": "/events/2269114",
+    "attending": 0
+  },
+  {
+    "eventName": "GUTE NACHT! mit Human Error & L.zwo",
+    "date": "2025-10-10T00:00:00.000",
+    "startTime": "2025-10-10T23:00:00.000",
+    "endTime": "2025-10-11T07:00:00.000",
+    "artists": [
+      "Human Error",
+      "L.zwo",
+      "Limoncello"
+    ],
+    "genres": [
+      "Trance",
+      "Techno"
+    ],
+    "lineupRaw": "Lineup Main (A - Z):\n* DJ EDDYBLE\n* DJ WERBUNG\n* <artist id=\"74511\">Human Error</artist>\n* <artist id=\"146638\">L.zwo</artist>\n \nHidden Area (A – Z):\n* KIKI\n* <artist id=\"146034\">Limoncello</artist>",
+    "lineupParsed": [
+      "Lineup Main (A - Z):",
+      "* DJ EDDYBLE",
+      "* DJ WERBUNG",
+      "* <artist id=\"74511\">Human Error</artist>",
+      "* <artist id=\"146638\">L.zwo</artist>",
+      "Hidden Area (A – Z):",
+      "* KIKI",
+      "* <artist id=\"146034\">Limoncello</artist>"
+    ],
+    "venue": "Helios37",
+    "eventUrl": "/events/2234490",
+    "attending": 41
+  },
+  {
+    "eventName": "Hakke360 - 3 Decades of Paul Elstak",
+    "date": "2025-10-10T00:00:00.000",
+    "startTime": "2025-10-10T23:00:00.000",
+    "endTime": "2025-10-11T06:00:00.000",
+    "artists": [
+      "Paul Elstak",
+      "Mad Dog",
+      "Panic",
+      "NoXa",
+      "Host (CA)",
+      "Marc Acardipane",
+      "Lenny Dee",
+      "RON [Ron Steiner]",
+      "Akira"
+    ],
+    "genres": [
+      "Gabber"
+    ],
+    "lineupRaw": "FULL LINEUP:\n\nMAINFLOOR – 3 DECADES OF PAUL ELSTAK\nPaul Elstak 3 HOURS feat. 3 DECADES, <artist id=\"76704\">Paul Elstak</artist> b2b <artist id=\"133008\">Mad Dog</artist>, Paul Elstak b2b <artist id=\"129098\">Panic</artist>, Panic, RØZA, Decode, <artist id=\"130698\">NoXa</artist>, <artist id=\"145785\">Host (CA)</artist>: Boogshe\n\nBLCKBX – HOSTED BY PTP HARDCORE\n<artist id=\"76702\">Marc Acardipane</artist>, <artist id=\"11721\">Lenny Dee</artist>, <artist id=\"92309\">RON [Ron Steiner]</artist> & MC Ike, Tensor & Re-Direction, Lab-E & Kahlkopf, Host: MC IKE & Gee MC\n\nDREHEREI – EARLY TERROR\n<artist id=\"15530\">Akira</artist> & Bruhze - ALL NIGHT LONG",
+    "lineupParsed": [
+      "FULL LINEUP:",
+      "MAINFLOOR – 3 DECADES OF PAUL ELSTAK",
+      "Paul Elstak 3 HOURS feat. 3 DECADES, <artist id=\"76704\">Paul Elstak</artist> b2b <artist id=\"133008\">Mad Dog</artist>, Paul Elstak b2b <artist id=\"129098\">Panic</artist>, Panic, RØZA, Decode, <artist id=\"130698\">NoXa</artist>, <artist id=\"145785\">Host (CA)</artist>: Boogshe",
+      "BLCKBX – HOSTED BY PTP HARDCORE",
+      "<artist id=\"76702\">Marc Acardipane</artist>, <artist id=\"11721\">Lenny Dee</artist>, <artist id=\"92309\">RON [Ron Steiner]</artist> & MC Ike, Tensor & Re-Direction, Lab-E & Kahlkopf, Host: MC IKE & Gee MC",
+      "DREHEREI – EARLY TERROR",
+      "<artist id=\"15530\">Akira</artist> & Bruhze - ALL NIGHT LONG"
+    ],
+    "venue": "Bootshaus",
+    "eventUrl": "/events/2193087",
+    "attending": 23
+  },
+  {
+    "eventName": "Aura with ANNĒ,LEVS, Amilli, ESCH B2B mae.ly",
+    "date": "2025-10-10T00:00:00.000",
+    "startTime": "2025-10-10T23:00:00.000",
+    "endTime": "2025-10-11T06:00:00.000",
+    "artists": [
+      "ANNĒ",
+      "LEVS66",
+      "Amilli",
+      "mae.ly"
+    ],
+    "genres": [
+      "Techno"
+    ],
+    "lineupRaw": "<artist id=\"93785\">ANNĒ</artist> \n<artist id=\"128115\">LEVS66</artist>\n<artist id=\"121153\">Amilli</artist> \n<artist id=\"156448\">mae.ly</artist>",
+    "lineupParsed": [
+      "<artist id=\"93785\">ANNĒ</artist>",
+      "<artist id=\"128115\">LEVS66</artist>",
+      "<artist id=\"121153\">Amilli</artist>",
+      "<artist id=\"156448\">mae.ly</artist>"
+    ],
+    "venue": "Artheater",
+    "eventUrl": "/events/2239076",
+    "attending": 19
+  },
+  {
+    "eventName": "fi x Kompakt TOTAL 25",
+    "date": "2025-10-10T00:00:00.000",
+    "startTime": "2025-10-10T23:00:00.000",
+    "endTime": "2025-10-11T08:00:00.000",
+    "artists": [
+      "9OASES",
+      "Michael Mayer",
+      "Raxon",
+      "Reinhard Voigt",
+      "Joyce Muniz",
+      "Stocksaur Dj Team",
+      "Denis Stockhausen",
+      "Jo Saurbier",
+      "Visky",
+      "DJ H0TLINE"
+    ],
+    "genres": [
+      "House",
+      "Minimal Techno"
+    ],
+    "lineupRaw": "↓ \n<artist id=\"149471\">9OASES</artist> (Live)\n<artist id=\"587\">Michael Mayer</artist> \n<artist id=\"27204\">Raxon</artist> \n<artist id=\"12137\">Reinhard Voigt</artist> (Live)\n \n↑ \n<artist id=\"24433\">Joyce Muniz</artist>   \n<artist id=\"44177\">Stocksaur Dj Team</artist>\n(<artist id=\"14533\">Denis Stockhausen</artist> & <artist id=\"16806\">Jo Saurbier</artist>) \n<artist id=\"157619\">Visky</artist> & <artist id=\"164158\">DJ H0TLINE</artist>",
+    "lineupParsed": [
+      "↓",
+      "<artist id=\"149471\">9OASES</artist> (Live)",
+      "<artist id=\"587\">Michael Mayer</artist>",
+      "<artist id=\"27204\">Raxon</artist>",
+      "<artist id=\"12137\">Reinhard Voigt</artist> (Live)",
+      "↑",
+      "<artist id=\"24433\">Joyce Muniz</artist>",
+      "<artist id=\"44177\">Stocksaur Dj Team</artist>",
+      "(<artist id=\"14533\">Denis Stockhausen</artist> & <artist id=\"16806\">Jo Saurbier</artist>)",
+      "<artist id=\"157619\">Visky</artist> & <artist id=\"164158\">DJ H0TLINE</artist>"
+    ],
+    "venue": "fi",
+    "eventUrl": "/events/2242547",
+    "attending": 18
+  },
+  {
+    "eventName": "Phantasy Dance with dj sweet6teen, Lemsn, The Ghost",
+    "date": "2025-10-10T00:00:00.000",
+    "startTime": "2025-10-10T23:00:00.000",
+    "endTime": "2025-10-11T06:00:00.000",
+    "artists": [
+      "dj sweet6teen",
+      "Lemsn",
+      "The Ghost"
+    ],
+    "genres": [
+      "House"
+    ],
+    "lineupRaw": "<artist id=\"102386\">dj sweet6teen</artist> \n<artist id=\"138336\">Lemsn</artist> \n<artist id=\"64941\">The Ghost</artist>",
+    "lineupParsed": [
+      "<artist id=\"102386\">dj sweet6teen</artist>",
+      "<artist id=\"138336\">Lemsn</artist>",
+      "<artist id=\"64941\">The Ghost</artist>"
+    ],
+    "venue": "Gewölbe",
+    "eventUrl": "/events/2262739",
+    "attending": 6
+  },
+  {
+    "eventName": "Technoblock x Hard Edition",
+    "date": "2025-10-10T00:00:00.000",
+    "startTime": "2025-10-10T23:00:00.000",
+    "endTime": "2025-10-11T07:00:00.000",
+    "artists": [],
+    "genres": [
+      "Techno",
+      "Acid"
+    ],
+    "lineupRaw": "Nina Bender\nDana Roosy\nCharlie\nKevin la Nique \nMarinus\nDJ Contest Winner",
+    "lineupParsed": [
+      "Nina Bender",
+      "Dana Roosy",
+      "Charlie",
+      "Kevin la Nique",
+      "Marinus",
+      "DJ Contest Winner"
+    ],
+    "venue": "Elektroküche",
+    "eventUrl": "/events/2264019",
+    "attending": 5
+  },
+  {
+    "eventName": "Best Foot Forward feat. sianza, Freddy, Maxwell, Yung Müller",
+    "date": "2025-10-10T00:00:00.000",
+    "startTime": "2025-10-10T23:30:00.000",
+    "endTime": "2025-10-11T06:00:00.000",
+    "artists": [
+      "sianza"
+    ],
+    "genres": [
+      "House",
+      "Disco"
+    ],
+    "lineupRaw": "<artist id=\"115104\">sianza</artist> \nFreddy\nMaxwell\nYung Müller",
+    "lineupParsed": [
+      "<artist id=\"115104\">sianza</artist>",
+      "Freddy",
+      "Maxwell",
+      "Yung Müller"
+    ],
+    "venue": "JAKI",
+    "eventUrl": "/events/2266923",
+    "attending": 4
+  },
+  {
+    "eventName": "UnderDive with Martin Ka (44 Hertz), Dario Klein (BAR25) & Fisi Matente",
+    "date": "2025-10-10T00:00:00.000",
+    "startTime": "2025-10-10T23:00:00.000",
+    "endTime": "2025-10-11T08:00:00.000",
+    "artists": [
+      "Martin Ka",
+      "Dario Klein",
+      "Max Blumen"
+    ],
+    "genres": [
+      "Progressive House",
+      "Techno"
+    ],
+    "lineupRaw": "<artist id=\"67764\">Martin Ka</artist> (44 Hertz / Praerie Festival)\n<artist id=\"120549\">Dario Klein</artist>  (BAR25 / Monada)\nFisi Matente (Tumult Festival)\n<artist id=\"104144\">Max Blumen</artist> & Julep|z (UnderDive)",
+    "lineupParsed": [
+      "<artist id=\"67764\">Martin Ka</artist> (44 Hertz / Praerie Festival)",
+      "<artist id=\"120549\">Dario Klein</artist>  (BAR25 / Monada)",
+      "Fisi Matente (Tumult Festival)",
+      "<artist id=\"104144\">Max Blumen</artist> & Julep|z (UnderDive)"
+    ],
+    "venue": "Club Zimmermanns",
+    "eventUrl": "/events/2252310",
+    "attending": 1
+  },
+  {
+    "eventName": "resonance w/ Sub Semantics, xe:la & Laenk",
+    "date": "2025-10-10T00:00:00.000",
+    "startTime": "2025-10-10T23:00:00.000",
+    "endTime": "2025-10-11T06:00:00.000",
+    "artists": [
+      "Sub Semantics"
+    ],
+    "genres": [
+      "Techno",
+      "House"
+    ],
+    "lineupRaw": "Laenk\n<artist id=\"113335\">Sub Semantics</artist>\nxe:la",
+    "lineupParsed": [
+      "Laenk",
+      "<artist id=\"113335\">Sub Semantics</artist>",
+      "xe:la"
+    ],
+    "venue": "Nachtigall",
+    "eventUrl": "/events/2249744",
+    "attending": 0
+  },
+  {
+    "eventName": "fi = altshift5 with Courtesy & Dübl & Friends",
+    "date": "2025-10-11T00:00:00.000",
+    "startTime": "2025-10-11T23:00:00.000",
+    "endTime": "2025-10-12T08:00:00.000",
+    "artists": [
+      "Aino DJ",
+      "Courtesy"
+    ],
+    "genres": [
+      "Techno",
+      "House"
+    ],
+    "lineupRaw": "↓\n<artist id=\"110863\">Aino DJ</artist>\n<artist id=\"58186\">Courtesy</artist> \nC00Lm8 \n\n\n↑\nDübl & Friends W/\nDübl\nJohannes Ton\nMimizan",
+    "lineupParsed": [
+      "↓",
+      "<artist id=\"110863\">Aino DJ</artist>",
+      "<artist id=\"58186\">Courtesy</artist>",
+      "C00Lm8",
+      "↑",
+      "Dübl & Friends W/",
+      "Dübl",
+      "Johannes Ton",
+      "Mimizan"
+    ],
+    "venue": "fi",
+    "eventUrl": "/events/2245559",
+    "attending": 10
+  },
+  {
+    "eventName": "Klubnacht with Bennet, Damiano von Erckert, DJ Frank",
+    "date": "2025-10-11T00:00:00.000",
+    "startTime": "2025-10-11T23:00:00.000",
+    "endTime": "2025-10-12T06:00:00.000",
+    "artists": [
+      "Bennet (DE)",
+      "Damiano von Erckert",
+      "DJ Frank"
+    ],
+    "genres": [
+      "House"
+    ],
+    "lineupRaw": "<artist id=\"112078\">Bennet (DE)</artist> \n<artist id=\"21019\">Damiano von Erckert</artist> \n<artist id=\"116988\">DJ Frank</artist>",
+    "lineupParsed": [
+      "<artist id=\"112078\">Bennet (DE)</artist>",
+      "<artist id=\"21019\">Damiano von Erckert</artist>",
+      "<artist id=\"116988\">DJ Frank</artist>"
+    ],
+    "venue": "Gewölbe",
+    "eventUrl": "/events/2261685",
+    "attending": 2
+  },
+  {
+    "eventName": "Tom-Tom Discotec presents: Emile Omar",
+    "date": "2025-10-11T00:00:00.000",
+    "startTime": "2025-10-11T23:30:00.000",
+    "endTime": "2025-10-12T06:00:00.000",
+    "artists": [
+      "Emile Omar"
+    ],
+    "genres": [
+      "Funk / Soul",
+      "Afrobeats"
+    ],
+    "lineupRaw": "<artist id=\"70053\">Emile Omar</artist> \nAsal\nHatomoto Racing Team\nHermes",
+    "lineupParsed": [
+      "<artist id=\"70053\">Emile Omar</artist>",
+      "Asal",
+      "Hatomoto Racing Team",
+      "Hermes"
+    ],
+    "venue": "JAKI",
+    "eventUrl": "/events/2266928",
+    "attending": 1
+  },
+  {
+    "eventName": "BACKSTAGE DiARiES - da 18th BirthdayBash",
+    "date": "2025-10-11T00:00:00.000",
+    "startTime": "2025-10-11T23:00:00.000",
+    "endTime": "2025-10-12T07:00:00.000",
+    "artists": [
+      "Alejandro Alvarez",
+      "Redfocks",
+      "HGR"
+    ],
+    "genres": [
+      "Techno",
+      "Pop"
+    ],
+    "lineupRaw": "<artist id=\"74251\">Alejandro Alvarez</artist> \n<artist id=\"111902\">Redfocks</artist> \n<artist id=\"22129\">HGR</artist> \nQueerMum\nMadGirlsInTown\nLailaLicious\nPasta Parisa\nJanisha Jones\nHarpy Fatale\nBella \nAngel\nThe Only Naomy",
+    "lineupParsed": [
+      "<artist id=\"74251\">Alejandro Alvarez</artist>",
+      "<artist id=\"111902\">Redfocks</artist>",
+      "<artist id=\"22129\">HGR</artist>",
+      "QueerMum",
+      "MadGirlsInTown",
+      "LailaLicious",
+      "Pasta Parisa",
+      "Janisha Jones",
+      "Harpy Fatale",
+      "Bella",
+      "Angel",
+      "The Only Naomy"
+    ],
+    "venue": "Artheater",
+    "eventUrl": "/events/2264633",
+    "attending": 0
+  },
+  {
+    "eventName": "WHEN THE SUN GOES DOWN Odonien Openair Closing 2025",
+    "date": "2025-10-12T00:00:00.000",
+    "startTime": "2025-10-12T14:00:00.000",
+    "endTime": "2025-10-12T22:00:00.000",
+    "artists": [
+      "LALENA",
+      "Leolo Lozone"
+    ],
+    "genres": [
+      "Techno",
+      "House"
+    ],
+    "lineupRaw": "Niconé (Katermukke) \n <artist id=\"119811\">LALENA</artist> (Reineke Fuchs) \n Freddy Deckert (Gewölbe) \n <artist id=\"30818\">Leolo Lozone</artist> (Treibstoff Klub)",
+    "lineupParsed": [
+      "Niconé (Katermukke)",
+      "<artist id=\"119811\">LALENA</artist> (Reineke Fuchs)",
+      "Freddy Deckert (Gewölbe)",
+      "<artist id=\"30818\">Leolo Lozone</artist> (Treibstoff Klub)"
+    ],
+    "venue": "Odonien",
+    "eventUrl": "/events/2267745",
+    "attending": 3
+  },
+  {
+    "eventName": "KDG Morning Rave",
+    "date": "2025-10-15T00:00:00.000",
+    "startTime": "2025-10-15T06:30:00.000",
+    "endTime": "2025-10-15T09:00:00.000",
+    "artists": [],
+    "genres": [
+      "Trance",
+      "House"
+    ],
+    "lineupRaw": "@rezonade\n@RÆV\n@LETSFUN",
+    "lineupParsed": [
+      "@rezonade",
+      "@RÆV",
+      "@LETSFUN"
+    ],
+    "venue": "High.Studios",
+    "eventUrl": "/events/2257189",
+    "attending": 3
+  },
+  {
+    "eventName": "Oliver Schories & Felix Kröcher at BACK2BASICS in Odonien",
+    "date": "2025-10-17T00:00:00.000",
+    "startTime": "2025-10-17T23:00:00.000",
+    "endTime": "2025-10-18T08:00:00.000",
+    "artists": [
+      "Oliver Schories",
+      "Felix Kröcher"
+    ],
+    "genres": [
+      "Techno",
+      "Tech House"
+    ],
+    "lineupRaw": "<artist id=\"14913\">Oliver Schories</artist> \n<artist id=\"2317\">Felix Kröcher</artist> \n\n& many more.",
+    "lineupParsed": [
+      "<artist id=\"14913\">Oliver Schories</artist>",
+      "<artist id=\"2317\">Felix Kröcher</artist>",
+      "& many more."
+    ],
+    "venue": "Odonien",
+    "eventUrl": "/events/2262324",
+    "attending": 28
+  },
+  {
+    "eventName": "Partiboi69 live",
+    "date": "2025-10-17T00:00:00.000",
+    "startTime": "2025-10-17T20:00:00.000",
+    "endTime": "2025-10-17T22:00:00.000",
+    "artists": [
+      "Partiboi69"
+    ],
+    "genres": [
+      "Electro",
+      "Ghetto Tech"
+    ],
+    "lineupRaw": "<artist id=\"89128\">Partiboi69</artist>",
+    "lineupParsed": [
+      "<artist id=\"89128\">Partiboi69</artist>"
+    ],
+    "venue": "Die Kantine",
+    "eventUrl": "/events/2245450",
+    "attending": 23
+  },
+  {
+    "eventName": "Klubnacht with Aino, Rødhåd, Tils",
+    "date": "2025-10-17T00:00:00.000",
+    "startTime": "2025-10-17T23:00:00.000",
+    "endTime": "2025-10-18T06:00:00.000",
+    "artists": [
+      "Aino DJ",
+      "Rødhåd",
+      "Tils"
+    ],
+    "genres": [
+      "Techno"
+    ],
+    "lineupRaw": "<artist id=\"110863\">Aino DJ</artist> \n<artist id=\"10751\">Rødhåd</artist> \n<artist id=\"125430\">Tils</artist>",
+    "lineupParsed": [
+      "<artist id=\"110863\">Aino DJ</artist>",
+      "<artist id=\"10751\">Rødhåd</artist>",
+      "<artist id=\"125430\">Tils</artist>"
+    ],
+    "venue": "Gewölbe",
+    "eventUrl": "/events/2265763",
+    "attending": 7
+  },
+  {
+    "eventName": "Kalipo & Holly North | Köln",
+    "date": "2025-10-17T00:00:00.000",
+    "startTime": "2025-10-17T19:00:00.000",
+    "endTime": "2025-10-17T22:00:00.000",
+    "artists": [
+      "Kalipo",
+      "Holly North"
+    ],
+    "genres": [
+      "Electro"
+    ],
+    "lineupRaw": "<artist id=\"47162\">Kalipo</artist>, <artist id=\"72327\">Holly North</artist>",
+    "lineupParsed": [
+      "<artist id=\"47162\">Kalipo</artist>, <artist id=\"72327\">Holly North</artist>"
+    ],
+    "venue": "Yuca Club",
+    "eventUrl": "/events/2192552",
+    "attending": 5
+  },
+  {
+    "eventName": "DRUCKFABRIK x AREA51 with DØPAIR - Club Z",
+    "date": "2025-10-17T00:00:00.000",
+    "startTime": "2025-10-17T23:00:00.000",
+    "endTime": "2025-10-18T08:00:00.000",
+    "artists": [
+      "CHUPA"
+    ],
+    "genres": [
+      "Techno",
+      "Industrial"
+    ],
+    "lineupRaw": "<artist id=\"156535\">CHUPA</artist> \nDJ XOXO\nDØPAIR \nFLYINGDUTCHMAN\nMECHANIC FREAKZ \nSEELSORGER",
+    "lineupParsed": [
+      "<artist id=\"156535\">CHUPA</artist>",
+      "DJ XOXO",
+      "DØPAIR",
+      "FLYINGDUTCHMAN",
+      "MECHANIC FREAKZ",
+      "SEELSORGER"
+    ],
+    "venue": "Club Zimmermanns",
+    "eventUrl": "/events/2253394",
+    "attending": 4
+  },
+  {
+    "eventName": "Mika Heggemann All Night Long",
+    "date": "2025-10-17T00:00:00.000",
+    "startTime": "2025-10-17T23:00:00.000",
+    "endTime": "2025-10-18T06:00:00.000",
+    "artists": [
+      "Mika Heggemann"
+    ],
+    "genres": [
+      "Trance",
+      "Techno"
+    ],
+    "lineupRaw": "<artist id=\"119843\">Mika Heggemann</artist>",
+    "lineupParsed": [
+      "<artist id=\"119843\">Mika Heggemann</artist>"
+    ],
+    "venue": "Artheater",
+    "eventUrl": "/events/2269666",
+    "attending": 4
+  },
+  {
+    "eventName": "Rave51 - Psychedelic Experience",
+    "date": "2025-10-17T00:00:00.000",
+    "startTime": "2025-10-17T22:00:00.000",
+    "endTime": "2025-10-18T08:30:00.000",
+    "artists": [],
+    "genres": [
+      "Psytrance"
+    ],
+    "lineupRaw": "Fabian Laute *LIVE*\nmexCalito *LIVE* (Alpaka Muzik / klickklackklub)\nNiltis *LIVE* (Hypnotic Space / Ovnimoon Records)\nJoyrider (Mental Arts / Ajourney)\nJanos (iDirty Records / Rave51)",
+    "lineupParsed": [
+      "Fabian Laute *LIVE*",
+      "mexCalito *LIVE* (Alpaka Muzik / klickklackklub)",
+      "Niltis *LIVE* (Hypnotic Space / Ovnimoon Records)",
+      "Joyrider (Mental Arts / Ajourney)",
+      "Janos (iDirty Records / Rave51)"
+    ],
+    "venue": "Kunstwerk",
+    "eventUrl": "/events/2257524",
+    "attending": 3
+  },
+  {
+    "eventName": "Brennan Heart pres. by HARDBRAKE",
+    "date": "2025-10-17T00:00:00.000",
+    "startTime": "2025-10-17T22:30:00.000",
+    "endTime": "2025-10-18T06:00:00.000",
+    "artists": [
+      "Brennan Heart",
+      "Villain"
+    ],
+    "genres": [
+      "Hardcore"
+    ],
+    "lineupRaw": "<artist id=\"28965\">Brennan Heart</artist>\n<artist id=\"16431\">Villain</artist>\nAudiotricz\nJay Reeve",
+    "lineupParsed": [
+      "<artist id=\"28965\">Brennan Heart</artist>",
+      "<artist id=\"16431\">Villain</artist>",
+      "Audiotricz",
+      "Jay Reeve"
+    ],
+    "venue": "Bootshaus",
+    "eventUrl": "/events/2246457",
+    "attending": 1
+  },
+  {
+    "eventName": "fi = altshift5 with BASHKKA & Handwerk",
+    "date": "2025-10-17T00:00:00.000",
+    "startTime": "2025-10-17T23:00:00.000",
+    "endTime": "2025-10-18T08:00:00.000",
+    "artists": [
+      "BASHKKA",
+      "HiHat",
+      "Jascha Yousefi",
+      "Strokr"
+    ],
+    "genres": [
+      "Techno",
+      "House"
+    ],
+    "lineupRaw": "↓\n<artist id=\"92059\">BASHKKA</artist>\n<artist id=\"76019\">HiHat</artist>\n<artist id=\"60966\">Jascha Yousefi</artist>\nMAXWELL\n\n↑\nHANDWERK w/ \nBORIS X\nLICHTENBERG\nLORENZ PRINZ\nMAXIM\n<artist id=\"162527\">Strokr</artist>",
+    "lineupParsed": [
+      "↓",
+      "<artist id=\"92059\">BASHKKA</artist>",
+      "<artist id=\"76019\">HiHat</artist>",
+      "<artist id=\"60966\">Jascha Yousefi</artist>",
+      "MAXWELL",
+      "↑",
+      "HANDWERK w/",
+      "BORIS X",
+      "LICHTENBERG",
+      "LORENZ PRINZ",
+      "MAXIM",
+      "<artist id=\"162527\">Strokr</artist>"
+    ],
+    "venue": "fi",
+    "eventUrl": "/events/2271866",
+    "attending": 1
+  },
+  {
+    "eventName": "Purple Vibrations Vol. 6 with FELICIA BIANCO, Bensonius, AND(W)Y, Solink & BASHII",
+    "date": "2025-10-17T00:00:00.000",
+    "startTime": "2025-10-17T23:00:00.000",
+    "endTime": "2025-10-18T07:00:00.000",
+    "artists": [
+      "Bensonius",
+      "Solink"
+    ],
+    "genres": [
+      "Electro",
+      "Deep House"
+    ],
+    "lineupRaw": "Felicia Bianco\n<artist id=\"158107\">Bensonius</artist> \nAnd(w)y\n<artist id=\"95800\">Solink</artist>\nBashii",
+    "lineupParsed": [
+      "Felicia Bianco",
+      "<artist id=\"158107\">Bensonius</artist>",
+      "And(w)y",
+      "<artist id=\"95800\">Solink</artist>",
+      "Bashii"
+    ],
+    "venue": "Helios37",
+    "eventUrl": "/events/2265165",
+    "attending": 0
+  },
+  {
+    "eventName": "OGUZ! powerd by Nibirii",
+    "date": "2025-10-18T00:00:00.000",
+    "startTime": "2025-10-18T22:00:00.000",
+    "endTime": "2025-10-19T06:00:00.000",
+    "artists": [
+      "OGUZ",
+      "Paranormila",
+      "Rui Da Silva"
+    ],
+    "genres": [
+      "Techno"
+    ],
+    "lineupRaw": "Mainfloor:\n<artist id=\"87460\">OGUZ</artist> - all night long\n\nDreherei hosted by HIGH VOLTAGE\nBBXNGZ\nNØEL\nMATECH \nKULISCHKIN \n<artist id=\"132561\">Paranormila</artist>\n<artist id=\"103\">Rui Da Silva</artist>\nZOLTEC",
+    "lineupParsed": [
+      "Mainfloor:",
+      "<artist id=\"87460\">OGUZ</artist> - all night long",
+      "Dreherei hosted by HIGH VOLTAGE",
+      "BBXNGZ",
+      "NØEL",
+      "MATECH",
+      "KULISCHKIN",
+      "<artist id=\"132561\">Paranormila</artist>",
+      "<artist id=\"103\">Rui Da Silva</artist>",
+      "ZOLTEC"
+    ],
+    "venue": "Bootshaus",
+    "eventUrl": "/events/2253010",
+    "attending": 16
+  },
+  {
+    "eventName": "BACKOFFICE Anniversary day//night & out//indoor with Salzbauer, PETRICORE, annonce, minimon ",
+    "date": "2025-10-18T00:00:00.000",
+    "startTime": "2025-10-18T18:00:00.000",
+    "endTime": "2025-10-19T06:00:00.000",
+    "artists": [
+      "Salzbauer",
+      "annonce",
+      "PETRICORE"
+    ],
+    "genres": [
+      "Trance",
+      "Techno"
+    ],
+    "lineupRaw": "<artist id=\"116587\">Salzbauer</artist> <artist id=\"163480\">annonce</artist> <artist id=\"163795\">PETRICORE</artist>",
+    "lineupParsed": [
+      "<artist id=\"116587\">Salzbauer</artist> <artist id=\"163480\">annonce</artist> <artist id=\"163795\">PETRICORE</artist>"
+    ],
+    "venue": "TBA - Warehouse Rodenkirchen",
+    "eventUrl": "/events/2244206",
+    "attending": 11
+  },
+  {
+    "eventName": "EhrenKlub in Odonien #23 mit DNNS, Isabelle Beaucamp, Kander, Samuel Moriero uvm",
+    "date": "2025-10-18T00:00:00.000",
+    "startTime": "2025-10-18T23:00:00.000",
+    "endTime": "2025-10-19T08:00:00.000",
+    "artists": [
+      "DNNS",
+      "EDNA",
+      "Isabelle Beaucamp",
+      "Kander"
+    ],
+    "genres": [
+      "Trance",
+      "Techno"
+    ],
+    "lineupRaw": "Lineup (A - Z):\n\n* DJ MAESISCH\n\n* <artist id=\"140264\">DNNS</artist>\n\n* <artist id=\"110747\">EDNA</artist>\n\n* <artist id=\"108484\">Isabelle Beaucamp</artist>\n\n* <artist id=\"86980\">Kander</artist>\n\n* KARAMUSTAN\n\n* LAURA VOM JUPITER\n\n* PANZERFAUST\n\n* SAMUEL MORIERO\n\n\nBus Crew hosted by MK Raves:\n\n* DJ VINOO\n\n* DJ WERBUNG\n\n* FABIENNE AKA GEHTHARDT\n\n* JACUZI",
+    "lineupParsed": [
+      "Lineup (A - Z):",
+      "* DJ MAESISCH",
+      "* <artist id=\"140264\">DNNS</artist>",
+      "* <artist id=\"110747\">EDNA</artist>",
+      "* <artist id=\"108484\">Isabelle Beaucamp</artist>",
+      "* <artist id=\"86980\">Kander</artist>",
+      "* KARAMUSTAN",
+      "* LAURA VOM JUPITER",
+      "* PANZERFAUST",
+      "* SAMUEL MORIERO",
+      "Bus Crew hosted by MK Raves:",
+      "* DJ VINOO",
+      "* DJ WERBUNG",
+      "* FABIENNE AKA GEHTHARDT",
+      "* JACUZI"
+    ],
+    "venue": "Odonien",
+    "eventUrl": "/events/2271351",
+    "attending": 8
+  },
+  {
+    "eventName": "INHEAT",
+    "date": "2025-10-18T00:00:00.000",
+    "startTime": "2025-10-18T16:00:00.000",
+    "endTime": "2025-10-19T06:00:00.000",
+    "artists": [
+      "Flits",
+      "Isaiah (NL)",
+      "Krackk",
+      "KUSS"
+    ],
+    "genres": [
+      "Techno"
+    ],
+    "lineupRaw": "<artist id=\"110285\">Flits</artist>\n<artist id=\"109901\">Isaiah (NL)</artist> \n<artist id=\"120242\">Krackk</artist> \n<artist id=\"76710\">KUSS</artist>\nPala\nStego",
+    "lineupParsed": [
+      "<artist id=\"110285\">Flits</artist>",
+      "<artist id=\"109901\">Isaiah (NL)</artist>",
+      "<artist id=\"120242\">Krackk</artist>",
+      "<artist id=\"76710\">KUSS</artist>",
+      "Pala",
+      "Stego"
+    ],
+    "venue": "H26",
+    "eventUrl": "/events/2248122",
+    "attending": 7
+  },
+  {
+    "eventName": "3Ø3 presents CALLUSH, OMAKS, The Muffin Man a.m",
+    "date": "2025-10-18T00:00:00.000",
+    "startTime": "2025-10-18T23:00:00.000",
+    "endTime": "2025-10-19T06:00:00.000",
+    "artists": [
+      "CALLUSH",
+      "OMAKS",
+      "The Muffin Man",
+      "Shrff",
+      "alleira",
+      "SUSKA"
+    ],
+    "genres": [
+      "Techno"
+    ],
+    "lineupRaw": "<artist id=\"102323\">CALLUSH</artist> \n<artist id=\"111484\">OMAKS</artist> \n<artist id=\"106549\">The Muffin Man</artist> \n<artist id=\"135598\">Shrff</artist> \n@Gustav Organo\n<artist id=\"151301\">alleira</artist> \n<artist id=\"164571\">SUSKA</artist>",
+    "lineupParsed": [
+      "<artist id=\"102323\">CALLUSH</artist>",
+      "<artist id=\"111484\">OMAKS</artist>",
+      "<artist id=\"106549\">The Muffin Man</artist>",
+      "<artist id=\"135598\">Shrff</artist>",
+      "@Gustav Organo",
+      "<artist id=\"151301\">alleira</artist>",
+      "<artist id=\"164571\">SUSKA</artist>"
+    ],
+    "venue": "Artheater",
+    "eventUrl": "/events/2254016",
+    "attending": 5
+  },
+  {
+    "eventName": "20YEARS OF KITTBALL, Köln",
+    "date": "2025-10-18T00:00:00.000",
+    "startTime": "2025-10-18T22:00:00.000",
+    "endTime": "2025-10-19T05:00:00.000",
+    "artists": [
+      "Juliet Sikora",
+      "Tube & Berger",
+      "Tony Mess"
+    ],
+    "genres": [
+      "House",
+      "Tech House"
+    ],
+    "lineupRaw": "<artist id=\"10517\">Juliet Sikora</artist>\n<artist id=\"7283\">Tube & Berger</artist>\n<artist id=\"138374\">Tony Mess</artist>\nBiggie Schoellz",
+    "lineupParsed": [
+      "<artist id=\"10517\">Juliet Sikora</artist>",
+      "<artist id=\"7283\">Tube & Berger</artist>",
+      "<artist id=\"138374\">Tony Mess</artist>",
+      "Biggie Schoellz"
+    ],
+    "venue": "Schrotty",
+    "eventUrl": "/events/2245448",
+    "attending": 3
+  },
+  {
+    "eventName": "Night of Surprise 2025",
+    "date": "2025-10-18T00:00:00.000",
+    "startTime": "2025-10-18T19:00:00.000",
+    "endTime": "2025-10-19T06:00:00.000",
+    "artists": [
+      "Andras_2020",
+      "Lolina",
+      "Rian Treanor",
+      "Florence Sinclair",
+      "Lechuga Zafiro",
+      "Slikback",
+      "Ziúr"
+    ],
+    "genres": [
+      "Experimental",
+      "Jazz"
+    ],
+    "lineupRaw": "<artist id=\"149276\">Andras_2020</artist>\nBalmainjeans <artist id=\"123082\">Lolina</artist>\nBarthel / Constance / Nyoukis\nCara Tolmie & <artist id=\"77508\">Rian Treanor</artist>\n(Erwan Keravec & Alban Richard)\nDonatienne Michel-Dansac & Igor Semenoff\nEric Chenaux\n<artist id=\"120196\">Florence Sinclair</artist>\nFlorentin Ginot\nFred Frith / Liz Allbee / Tim Hodgkinson\nHorse Lords & Arnold Dreyblatt\nJohn McCowen & Madison Greenstone\n<artist id=\"55976\">Lechuga Zafiro</artist>\nLukas De Clerck\nOùat\nPlacebo Domingo& Ignaz Schick\nSarah San\nSilvia Tarozzi & Deborah Walker\n<artist id=\"81782\">Slikback</artist>\nStian Westerhus & Frieder Weiss\nThuluth (Magda Mayas / Ute Wassermann / Raed Yassin)\n<artist id=\"65428\">Ziúr</artist>",
+    "lineupParsed": [
+      "<artist id=\"149276\">Andras_2020</artist>",
+      "Balmainjeans <artist id=\"123082\">Lolina</artist>",
+      "Barthel / Constance / Nyoukis",
+      "Cara Tolmie & <artist id=\"77508\">Rian Treanor</artist>",
+      "(Erwan Keravec & Alban Richard)",
+      "Donatienne Michel-Dansac & Igor Semenoff",
+      "Eric Chenaux",
+      "<artist id=\"120196\">Florence Sinclair</artist>",
+      "Florentin Ginot",
+      "Fred Frith / Liz Allbee / Tim Hodgkinson",
+      "Horse Lords & Arnold Dreyblatt",
+      "John McCowen & Madison Greenstone",
+      "<artist id=\"55976\">Lechuga Zafiro</artist>",
+      "Lukas De Clerck",
+      "Oùat",
+      "Placebo Domingo& Ignaz Schick",
+      "Sarah San",
+      "Silvia Tarozzi & Deborah Walker",
+      "<artist id=\"81782\">Slikback</artist>",
+      "Stian Westerhus & Frieder Weiss",
+      "Thuluth (Magda Mayas / Ute Wassermann / Raed Yassin)",
+      "<artist id=\"65428\">Ziúr</artist>"
+    ],
+    "venue": "JAKI",
+    "eventUrl": "/events/2266948",
+    "attending": 2
+  },
+  {
+    "eventName": "Disko Dynamite Vol. II",
+    "date": "2025-10-18T00:00:00.000",
+    "startTime": "2025-10-18T23:00:00.000",
+    "endTime": "2025-10-19T05:00:00.000",
+    "artists": [],
+    "genres": [
+      "House",
+      "Tech House"
+    ],
+    "lineupRaw": "Bjo:rn\nCHIVER\nTobias Portugall \nmonorøme \nDanSolo \nDiskoheinz\nGruberling",
+    "lineupParsed": [
+      "Bjo:rn",
+      "CHIVER",
+      "Tobias Portugall",
+      "monorøme",
+      "DanSolo",
+      "Diskoheinz",
+      "Gruberling"
+    ],
+    "venue": "Die Kunstbar",
+    "eventUrl": "/events/2247751",
+    "attending": 1
+  },
+  {
+    "eventName": "fi = altshift5 with Blasha & Allatt & nonchalance & Mahagoni & Komorebi",
+    "date": "2025-10-18T00:00:00.000",
+    "startTime": "2025-10-18T23:00:00.000",
+    "endTime": "2025-10-19T08:00:00.000",
+    "artists": [
+      "Blasha & Allatt",
+      "Flavius (2)",
+      "Ellen Trenn",
+      "Cecilia Tosh",
+      "Måtyrer",
+      "Vnjoka"
+    ],
+    "genres": [
+      "Techno",
+      "House"
+    ],
+    "lineupRaw": "↓\n<artist id=\"54184\">Blasha & Allatt</artist>\n<artist id=\"129012\">Flavius (2)</artist> B2B <artist id=\"124962\">Ellen Trenn</artist>\nL!L! B2B TSCHATSCHING\n\n↑\nKOMOREBI w/\n<artist id=\"87098\">Cecilia Tosh</artist>\n<artist id=\"67217\">Måtyrer</artist>\n<artist id=\"99723\">Vnjoka</artist>",
+    "lineupParsed": [
+      "↓",
+      "<artist id=\"54184\">Blasha & Allatt</artist>",
+      "<artist id=\"129012\">Flavius (2)</artist> B2B <artist id=\"124962\">Ellen Trenn</artist>",
+      "L!L! B2B TSCHATSCHING",
+      "↑",
+      "KOMOREBI w/",
+      "<artist id=\"87098\">Cecilia Tosh</artist>",
+      "<artist id=\"67217\">Måtyrer</artist>",
+      "<artist id=\"99723\">Vnjoka</artist>"
+    ],
+    "venue": "fi",
+    "eventUrl": "/events/2268815",
+    "attending": 1
+  },
+  {
+    "eventName": "Back to History",
+    "date": "2025-10-18T00:00:00.000",
+    "startTime": "2025-10-18T22:00:00.000",
+    "endTime": "2025-10-19T05:00:00.000",
+    "artists": [],
+    "genres": [
+      "Disco",
+      "Pop"
+    ],
+    "lineupRaw": "Stuart Dee\nCarsten \nFreddy",
+    "lineupParsed": [
+      "Stuart Dee",
+      "Carsten",
+      "Freddy"
+    ],
+    "venue": "Bollwerk Cologne",
+    "eventUrl": "/events/2267200",
+    "attending": 0
+  },
+  {
+    "eventName": "rheinrhythmik with Felix, Gabbs, Nils",
+    "date": "2025-10-18T00:00:00.000",
+    "startTime": "2025-10-18T23:00:00.000",
+    "endTime": "2025-10-19T06:00:00.000",
+    "artists": [
+      "Gabbs",
+      "Nils Boshuesen"
+    ],
+    "genres": [
+      "House"
+    ],
+    "lineupRaw": "Felix\n<artist id=\"66679\">Gabbs</artist> \n<artist id=\"36829\">Nils Boshuesen</artist>",
+    "lineupParsed": [
+      "Felix",
+      "<artist id=\"66679\">Gabbs</artist>",
+      "<artist id=\"36829\">Nils Boshuesen</artist>"
+    ],
+    "venue": "Gewölbe",
+    "eventUrl": "/events/2267777",
+    "attending": 0
+  },
+  {
+    "eventName": "Christian Löffler & Ensemble",
+    "date": "2025-10-19T00:00:00.000",
+    "startTime": "2025-10-19T20:00:00.000",
+    "endTime": "2025-10-19T22:30:00.000",
+    "artists": [
+      "Christian Löffler"
+    ],
+    "genres": [],
+    "lineupRaw": "<artist id=\"10576\">Christian Löffler</artist>",
+    "lineupParsed": [
+      "<artist id=\"10576\">Christian Löffler</artist>"
+    ],
+    "venue": "Kölner Philharmonie",
+    "eventUrl": "/events/2140420",
+    "attending": 18
+  },
+  {
+    "eventName": "WHEN THE SUN GOES DOWN Odonien Openair Closing 2025",
+    "date": "2025-10-19T00:00:00.000",
+    "startTime": "2025-10-19T14:00:00.000",
+    "endTime": "2025-10-19T22:00:00.000",
+    "artists": [
+      "LALENA",
+      "Leolo Lozone"
+    ],
+    "genres": [
+      "Techno",
+      "House"
+    ],
+    "lineupRaw": "Niconé (Katermukke) \n <artist id=\"119811\">LALENA</artist> (Reineke Fuchs)\nFreddy Deckert (Gewölbe)\n<artist id=\"30818\">Leolo Lozone</artist> (Treibstoff Klub)",
+    "lineupParsed": [
+      "Niconé (Katermukke)",
+      "<artist id=\"119811\">LALENA</artist> (Reineke Fuchs)",
+      "Freddy Deckert (Gewölbe)",
+      "<artist id=\"30818\">Leolo Lozone</artist> (Treibstoff Klub)"
+    ],
+    "venue": "Odonien",
+    "eventUrl": "/events/2267751",
+    "attending": 0
+  },
+  {
+    "eventName": "brat party • with charli xcx & other brat coded artists • Helios37 • köln",
+    "date": "2025-10-24T00:00:00.000",
+    "startTime": "2025-10-24T23:00:00.000",
+    "endTime": "2025-10-25T05:00:00.000",
+    "artists": [],
+    "genres": [
+      "Pop"
+    ],
+    "lineupRaw": "tba",
+    "lineupParsed": [
+      "tba"
+    ],
+    "venue": "Helios37",
+    "eventUrl": "/events/2183392",
+    "attending": 7
+  },
+  {
+    "eventName": "Alle Farben ClubTour 2025",
+    "date": "2025-10-24T00:00:00.000",
+    "startTime": "2025-10-24T22:00:00.000",
+    "endTime": "2025-10-25T05:00:00.000",
+    "artists": [
+      "Alle Farben",
+      "Goldfish"
+    ],
+    "genres": [
+      "Electro"
+    ],
+    "lineupRaw": "<artist id=\"8293\">Alle Farben</artist>\n<artist id=\"9474\">Goldfish</artist>",
+    "lineupParsed": [
+      "<artist id=\"8293\">Alle Farben</artist>",
+      "<artist id=\"9474\">Goldfish</artist>"
+    ],
+    "venue": "Bootshaus",
+    "eventUrl": "/events/2232438",
+    "attending": 3
+  },
+  {
+    "eventName": "rau.ton with Amotik, NICK DEEKEN, pik",
+    "date": "2025-10-24T00:00:00.000",
+    "startTime": "2025-10-24T23:00:00.000",
+    "endTime": "2025-10-25T06:00:00.000",
+    "artists": [
+      "Amotik",
+      "NICK DEEKEN",
+      "pik (1)"
+    ],
+    "genres": [
+      "Techno"
+    ],
+    "lineupRaw": "<artist id=\"56973\">Amotik</artist> \n<artist id=\"103644\">NICK DEEKEN</artist> \n<artist id=\"133410\">pik (1)</artist>",
+    "lineupParsed": [
+      "<artist id=\"56973\">Amotik</artist>",
+      "<artist id=\"103644\">NICK DEEKEN</artist>",
+      "<artist id=\"133410\">pik (1)</artist>"
+    ],
+    "venue": "Gewölbe",
+    "eventUrl": "/events/2272536",
+    "attending": 1
+  },
+  {
+    "eventName": "NAFT Live Techno Konzert",
+    "date": "2025-10-24T00:00:00.000",
+    "startTime": "2025-10-24T20:00:00.000",
+    "endTime": "2025-10-24T22:00:00.000",
+    "artists": [
+      "NAFT"
+    ],
+    "genres": [
+      "Trance",
+      "Techno"
+    ],
+    "lineupRaw": "<artist id=\"169072\">NAFT</artist>",
+    "lineupParsed": [
+      "<artist id=\"169072\">NAFT</artist>"
+    ],
+    "venue": "Blue Shell",
+    "eventUrl": "/events/2271023",
+    "attending": 0
+  },
+  {
+    "eventName": "Ehrenfeld XL - The Cologne Club Festival // 10 Clubs, 1 Night - Ehrenfeld & Belgian Quarter",
+    "date": "2025-10-25T00:00:00.000",
+    "startTime": "2025-10-25T22:00:00.000",
+    "endTime": "2025-10-26T08:00:00.000",
+    "artists": [
+      "Mark Reeve",
+      "Kos:mo",
+      "Chris Veron",
+      "Specific Objects",
+      "Steven Shade",
+      "Redfocks",
+      "Solique",
+      "AVANT",
+      "Matthias Olck",
+      "Ropemaker",
+      "TBA",
+      "DJ MAXXX",
+      "Atmos Blaq",
+      "Rebelle",
+      "BabaBass3000",
+      "Kamäleon",
+      "Atzendent",
+      "LÄUFF",
+      "Ferrand",
+      "SUITSIDE",
+      "COLD ASS ICE",
+      "Den Solo",
+      "HugoBass303",
+      "Pueblo Gelb",
+      "Baumeister98",
+      "Rundfunk",
+      "Speedo",
+      "Bounce MC",
+      "Esther Silex",
+      "Moses Mehdi",
+      "Enaly",
+      "Gourski",
+      "JSPR"
+    ],
+    "genres": [
+      "Techno",
+      "Acid"
+    ],
+    "lineupRaw": "Artheater (Raw & Deep Techno / Groove)\n<artist id=\"13711\">Mark Reeve</artist> (Drumcode, Afterlife // Frankfurt), <artist id=\"101540\">Kos:mo</artist> (1605 / Terminal M / Lichtblick), <artist id=\"74949\">Chris Veron</artist> (KickFire // Freiburg), DJ Matteo (Italy), <artist id=\"79912\">Specific Objects</artist> (Twice Infinity // Berlin), <artist id=\"67318\">Steven Shade</artist> (Pass The Vibe Check // Berlin), Gilles Bock (Kassiopeia / Lichtblick), <artist id=\"111902\">Redfocks</artist> (Wir Schwestern), DJ Agny (Wir Schwestern)\n\nGaragen (2000s, 90s, Trash)\nTrash Island DJ Team, DJ Jeffem (Back To The 00s), DJ Slyby (Back To The 00s)\n\nHelios 37 (Melodic Techno / Progressive House)\nAble To Resist (Afterlife // Frankfurt), <artist id=\"100650\">Solique</artist> (X, Siamese, Innervisions), <artist id=\"133105\">AVANT</artist> (Siamese, Infinite Depth), Nadine Vinzens (Frankfurt am Main), Angela Kutscher (Düsseldorf), Cat.Coll (Maitch Heart), Schoonebeek (Purble Vibrations)\n\nOdonien (Hard Techno & Schranz)\nIXAKT, <artist id=\"160960\">Matthias Olck</artist> (Reckless, Whiteline, TLL), Tommy Libera (Affenkäfig), Kotorri, Mugli Project, Dom T. b2b Michael Nice, Hectic (Techno Allianz), <artist id=\"114204\">Ropemaker</artist> (Techno Allianz), Wamborian (Bassilisk Techno), Schranz Bus: <artist id=\"21365\">TBA</artist>\n\nReineke Fuchs (HipHop, Rap, Black Music)\n<artist id=\"134670\">DJ MAXXX</artist> (Tour DJ for Bonez MC, Ufo361, GZUZ, Apple Music, 808 Nachtklub // Berlin), Mr.Vee (Reineke Fuchs), Sassy (Reineke Fuchs)\n\nStadtgarten (Afro House – Bayamo Fusion)\n<artist id=\"126120\">Atmos Blaq</artist> (South Africa), Dr. Feel (South Africa), Alvaro J (Bayamo), Danima (Bayamo)\n\nJaki Club (Amapiano – Bayamo Fusion)\n<artist id=\"59345\">Rebelle</artist> (NL), Freegah, TipTack\n\nSchrotty (Trance, Bounce, Groovy – WyldHearts Showcase)\nAschenbrenner, <artist id=\"162548\">BabaBass3000</artist>, <artist id=\"168079\">Kamäleon</artist> b2b <artist id=\"166127\">Atzendent</artist>, <artist id=\"114613\">LÄUFF</artist>, OskaMaxx b2b <artist id=\"165829\">Ferrand</artist>, Räucherlaks, <artist id=\"147329\">SUITSIDE</artist>, <artist id=\"133627\">COLD ASS ICE</artist>, <artist id=\"134208\">Den Solo</artist>, <artist id=\"152711\">HugoBass303</artist>, <artist id=\"150680\">Pueblo Gelb</artist> b2b <artist id=\"165341\">Baumeister98</artist>, <artist id=\"96835\">Rundfunk</artist> b2b Kein Planek, <artist id=\"83719\">Speedo</artist> b2b <artist id=\"162478\">Bounce MC</artist>, Emphatogen, Tommy.exe, TurboTimos\n\nYuca (House, Deep House)\nNiconé (Dantze // Berlin) b2b David Hasert (like), <artist id=\"40329\">Esther Silex</artist> (Studio Barnhus // Berlin), <artist id=\"66477\">Moses Mehdi</artist> (Nervous Records, Get Physical)\n\nClub Zimmermanns (Drum & Bass, Neurofunk)\n10xx (Viper, RIOT, Automata // NL), <artist id=\"156129\">Enaly</artist> (Beats x Bass x Cologne), <artist id=\"144042\">Gourski</artist> (Aw4ke, Nibirii), <artist id=\"17398\">JSPR</artist> (Pathfinder), Laeti (Beats x Bass x Cologne), Shutterspeed (Cologne)",
+    "lineupParsed": [
+      "Artheater (Raw & Deep Techno / Groove)",
+      "<artist id=\"13711\">Mark Reeve</artist> (Drumcode, Afterlife // Frankfurt), <artist id=\"101540\">Kos:mo</artist> (1605 / Terminal M / Lichtblick), <artist id=\"74949\">Chris Veron</artist> (KickFire // Freiburg), DJ Matteo (Italy), <artist id=\"79912\">Specific Objects</artist> (Twice Infinity // Berlin), <artist id=\"67318\">Steven Shade</artist> (Pass The Vibe Check // Berlin), Gilles Bock (Kassiopeia / Lichtblick), <artist id=\"111902\">Redfocks</artist> (Wir Schwestern), DJ Agny (Wir Schwestern)",
+      "Garagen (2000s, 90s, Trash)",
+      "Trash Island DJ Team, DJ Jeffem (Back To The 00s), DJ Slyby (Back To The 00s)",
+      "Helios 37 (Melodic Techno / Progressive House)",
+      "Able To Resist (Afterlife // Frankfurt), <artist id=\"100650\">Solique</artist> (X, Siamese, Innervisions), <artist id=\"133105\">AVANT</artist> (Siamese, Infinite Depth), Nadine Vinzens (Frankfurt am Main), Angela Kutscher (Düsseldorf), Cat.Coll (Maitch Heart), Schoonebeek (Purble Vibrations)",
+      "Odonien (Hard Techno & Schranz)",
+      "IXAKT, <artist id=\"160960\">Matthias Olck</artist> (Reckless, Whiteline, TLL), Tommy Libera (Affenkäfig), Kotorri, Mugli Project, Dom T. b2b Michael Nice, Hectic (Techno Allianz), <artist id=\"114204\">Ropemaker</artist> (Techno Allianz), Wamborian (Bassilisk Techno), Schranz Bus: <artist id=\"21365\">TBA</artist>",
+      "Reineke Fuchs (HipHop, Rap, Black Music)",
+      "<artist id=\"134670\">DJ MAXXX</artist> (Tour DJ for Bonez MC, Ufo361, GZUZ, Apple Music, 808 Nachtklub // Berlin), Mr.Vee (Reineke Fuchs), Sassy (Reineke Fuchs)",
+      "Stadtgarten (Afro House – Bayamo Fusion)",
+      "<artist id=\"126120\">Atmos Blaq</artist> (South Africa), Dr. Feel (South Africa), Alvaro J (Bayamo), Danima (Bayamo)",
+      "Jaki Club (Amapiano – Bayamo Fusion)",
+      "<artist id=\"59345\">Rebelle</artist> (NL), Freegah, TipTack",
+      "Schrotty (Trance, Bounce, Groovy – WyldHearts Showcase)",
+      "Aschenbrenner, <artist id=\"162548\">BabaBass3000</artist>, <artist id=\"168079\">Kamäleon</artist> b2b <artist id=\"166127\">Atzendent</artist>, <artist id=\"114613\">LÄUFF</artist>, OskaMaxx b2b <artist id=\"165829\">Ferrand</artist>, Räucherlaks, <artist id=\"147329\">SUITSIDE</artist>, <artist id=\"133627\">COLD ASS ICE</artist>, <artist id=\"134208\">Den Solo</artist>, <artist id=\"152711\">HugoBass303</artist>, <artist id=\"150680\">Pueblo Gelb</artist> b2b <artist id=\"165341\">Baumeister98</artist>, <artist id=\"96835\">Rundfunk</artist> b2b Kein Planek, <artist id=\"83719\">Speedo</artist> b2b <artist id=\"162478\">Bounce MC</artist>, Emphatogen, Tommy.exe, TurboTimos",
+      "Yuca (House, Deep House)",
+      "Niconé (Dantze // Berlin) b2b David Hasert (like), <artist id=\"40329\">Esther Silex</artist> (Studio Barnhus // Berlin), <artist id=\"66477\">Moses Mehdi</artist> (Nervous Records, Get Physical)",
+      "Club Zimmermanns (Drum & Bass, Neurofunk)",
+      "10xx (Viper, RIOT, Automata // NL), <artist id=\"156129\">Enaly</artist> (Beats x Bass x Cologne), <artist id=\"144042\">Gourski</artist> (Aw4ke, Nibirii), <artist id=\"17398\">JSPR</artist> (Pathfinder), Laeti (Beats x Bass x Cologne), Shutterspeed (Cologne)"
+    ],
+    "venue": "Ehrenfeld XL",
+    "eventUrl": "/events/2157837",
+    "attending": 27
+  },
+  {
+    "eventName": "fi x Kollektiv Turmstrasse & Jonathan Kaspar & Avontuur",
+    "date": "2025-10-25T00:00:00.000",
+    "startTime": "2025-10-25T23:00:00.000",
+    "endTime": "2025-10-26T08:00:00.000",
+    "artists": [
+      "Jonathan Kaspar",
+      "Kollektiv Turmstrasse",
+      "clara luise",
+      "Tava Oro"
+    ],
+    "genres": [
+      "Techno",
+      "House"
+    ],
+    "lineupRaw": "↓\n<artist id=\"24735\">Jonathan Kaspar</artist>\n<artist id=\"1752\">Kollektiv Turmstrasse</artist> (live)\n\n↑\nAvontuur w/\nArndson b2b Simon Behrendt\n<artist id=\"156163\">clara luise</artist>\n<artist id=\"170106\">Tava Oro</artist>",
+    "lineupParsed": [
+      "↓",
+      "<artist id=\"24735\">Jonathan Kaspar</artist>",
+      "<artist id=\"1752\">Kollektiv Turmstrasse</artist> (live)",
+      "↑",
+      "Avontuur w/",
+      "Arndson b2b Simon Behrendt",
+      "<artist id=\"156163\">clara luise</artist>",
+      "<artist id=\"170106\">Tava Oro</artist>"
+    ],
+    "venue": "fi",
+    "eventUrl": "/events/2243597",
+    "attending": 26
+  },
+  {
+    "eventName": "KitKatClub",
+    "date": "2025-10-25T00:00:00.000",
+    "startTime": "2025-10-25T22:00:00.000",
+    "endTime": "2025-10-26T06:00:00.000",
+    "artists": [
+      "Criss Source"
+    ],
+    "genres": [
+      "Techno",
+      "Tech House"
+    ],
+    "lineupRaw": "Clark Kent \n<artist id=\"8205\">Criss Source</artist> \nDer PUK",
+    "lineupParsed": [
+      "Clark Kent",
+      "<artist id=\"8205\">Criss Source</artist>",
+      "Der PUK"
+    ],
+    "venue": "Bootshaus",
+    "eventUrl": "/events/2256346",
+    "attending": 5
+  },
+  {
+    "eventName": "CLUBNACHT MIT Sabura",
+    "date": "2025-10-25T00:00:00.000",
+    "startTime": "2025-10-25T23:00:00.000",
+    "endTime": "2025-10-26T07:00:00.000",
+    "artists": [
+      "Sabura"
+    ],
+    "genres": [
+      "Techno"
+    ],
+    "lineupRaw": "<artist id=\"107613\">Sabura</artist> \nMax Jennoschek B2B Saltz\nPHI Φ \nElias Paul",
+    "lineupParsed": [
+      "<artist id=\"107613\">Sabura</artist>",
+      "Max Jennoschek B2B Saltz",
+      "PHI Φ",
+      "Elias Paul"
+    ],
+    "venue": "Nachtigall",
+    "eventUrl": "/events/2257508",
+    "attending": 2
+  },
+  {
+    "eventName": "Schrotty – Wyldhearts Showcase // Ehrenfeld XL – 10 Clubs, 1 Night, 2 Districts",
+    "date": "2025-10-25T00:00:00.000",
+    "startTime": "2025-10-25T22:00:00.000",
+    "endTime": "2025-10-26T06:00:00.000",
+    "artists": [
+      "BabaBass3000",
+      "Kamäleon",
+      "Atzendent",
+      "LÄUFF",
+      "Ferrand",
+      "SUITSIDE",
+      "COLD ASS ICE",
+      "Den Solo",
+      "HugoBass303",
+      "Pueblo Gelb",
+      "Baumeister98",
+      "Rundfunk",
+      "Speedo",
+      "Bounce MC"
+    ],
+    "genres": [
+      "Trance"
+    ],
+    "lineupRaw": "Aschenbrenner\n<artist id=\"162548\">BabaBass3000</artist>\n<artist id=\"168079\">Kamäleon</artist> b2b <artist id=\"166127\">Atzendent</artist>\n<artist id=\"114613\">LÄUFF</artist>\nOskaMaxx b2b <artist id=\"165829\">Ferrand</artist>\nRäucherlaks\n<artist id=\"147329\">SUITSIDE</artist>\n<artist id=\"133627\">COLD ASS ICE</artist>\n<artist id=\"134208\">Den Solo</artist>\n<artist id=\"152711\">HugoBass303</artist>\n<artist id=\"150680\">Pueblo Gelb</artist> b2b <artist id=\"165341\">Baumeister98</artist>\n<artist id=\"96835\">Rundfunk</artist> b2b Kein Planek\n<artist id=\"83719\">Speedo</artist> b2b <artist id=\"162478\">Bounce MC</artist>\nEmphatogen\nTommy.exe\nTurboTimos",
+    "lineupParsed": [
+      "Aschenbrenner",
+      "<artist id=\"162548\">BabaBass3000</artist>",
+      "<artist id=\"168079\">Kamäleon</artist> b2b <artist id=\"166127\">Atzendent</artist>",
+      "<artist id=\"114613\">LÄUFF</artist>",
+      "OskaMaxx b2b <artist id=\"165829\">Ferrand</artist>",
+      "Räucherlaks",
+      "<artist id=\"147329\">SUITSIDE</artist>",
+      "<artist id=\"133627\">COLD ASS ICE</artist>",
+      "<artist id=\"134208\">Den Solo</artist>",
+      "<artist id=\"152711\">HugoBass303</artist>",
+      "<artist id=\"150680\">Pueblo Gelb</artist> b2b <artist id=\"165341\">Baumeister98</artist>",
+      "<artist id=\"96835\">Rundfunk</artist> b2b Kein Planek",
+      "<artist id=\"83719\">Speedo</artist> b2b <artist id=\"162478\">Bounce MC</artist>",
+      "Emphatogen",
+      "Tommy.exe",
+      "TurboTimos"
+    ],
+    "venue": "Schrotty",
+    "eventUrl": "/events/2271100",
+    "attending": 2
+  },
+  {
+    "eventName": "Club Zimmermanns with 10xx (Viper, NL) // Ehrenfeld XL – 10 Clubs, 1 Night, 2 Districts",
+    "date": "2025-10-25T00:00:00.000",
+    "startTime": "2025-10-25T23:00:00.000",
+    "endTime": "2025-10-26T05:00:00.000",
+    "artists": [
+      "Enaly",
+      "Gourski",
+      "JSPR"
+    ],
+    "genres": [
+      "Drum & Bass"
+    ],
+    "lineupRaw": "10xx (Viper, RIOT, Automata // NL)\n<artist id=\"156129\">Enaly</artist> (Beats x Bass x Cologne)\n<artist id=\"144042\">Gourski</artist> (Aw4ke, Nibirii)\n<artist id=\"17398\">JSPR</artist> (Pathfinder)\nLaeti (Beats x Bass x Cologne)\nShutterspeed (Cologne)",
+    "lineupParsed": [
+      "10xx (Viper, RIOT, Automata // NL)",
+      "<artist id=\"156129\">Enaly</artist> (Beats x Bass x Cologne)",
+      "<artist id=\"144042\">Gourski</artist> (Aw4ke, Nibirii)",
+      "<artist id=\"17398\">JSPR</artist> (Pathfinder)",
+      "Laeti (Beats x Bass x Cologne)",
+      "Shutterspeed (Cologne)"
+    ],
+    "venue": "Club Z in Zimmermans",
+    "eventUrl": "/events/2271086",
+    "attending": 0
+  },
+  {
+    "eventName": "YUCA with Niconé (Dantze // Berlin) // Ehrenfeld XL – 10 Clubs, 1 Night, 2 Districts",
+    "date": "2025-10-25T00:00:00.000",
+    "startTime": "2025-10-25T22:00:00.000",
+    "endTime": "2025-10-26T06:00:00.000",
+    "artists": [
+      "Niconé",
+      "Esther Silex",
+      "Moses Mehdi",
+      "Just a Name"
+    ],
+    "genres": [
+      "House",
+      "Deep House"
+    ],
+    "lineupRaw": "<artist id=\"27472\">Niconé</artist> (Dantze, Berlin) b2b David Hasert (like)\n<artist id=\"40329\">Esther Silex</artist> (Studio Barnhus, Berlin)\n<artist id=\"66477\">Moses Mehdi</artist> (Nervous Records, Get Physical)\n<artist id=\"107866\">Just a Name</artist> (Odonien Records)",
+    "lineupParsed": [
+      "<artist id=\"27472\">Niconé</artist> (Dantze, Berlin) b2b David Hasert (like)",
+      "<artist id=\"40329\">Esther Silex</artist> (Studio Barnhus, Berlin)",
+      "<artist id=\"66477\">Moses Mehdi</artist> (Nervous Records, Get Physical)",
+      "<artist id=\"107866\">Just a Name</artist> (Odonien Records)"
+    ],
+    "venue": "Yuca Club",
+    "eventUrl": "/events/2271090",
+    "attending": 0
+  },
+  {
+    "eventName": "Bayamo Fusion with Atmos Blaq & Dr. Feel // Ehrenfeld XL – 10 Clubs, 1 Night, 2 Districts",
+    "date": "2025-10-25T00:00:00.000",
+    "startTime": "2025-10-25T22:00:00.000",
+    "endTime": "2025-10-26T06:00:00.000",
+    "artists": [
+      "Atmos Blaq",
+      "Rebelle"
+    ],
+    "genres": [
+      "Amapiano",
+      "Afro House"
+    ],
+    "lineupRaw": "Stadtgarten Saal (Afro House):\n<artist id=\"126120\">Atmos Blaq</artist> (South Africa)\nDr. Feel (South Africa)\nAlvaro J (Bayamo)\nDanima (Bayamo)\n\nJaki Club (Amapiano):\n<artist id=\"59345\">Rebelle</artist> (NL)\nFreegah\nTipTack",
+    "lineupParsed": [
+      "Stadtgarten Saal (Afro House):",
+      "<artist id=\"126120\">Atmos Blaq</artist> (South Africa)",
+      "Dr. Feel (South Africa)",
+      "Alvaro J (Bayamo)",
+      "Danima (Bayamo)",
+      "Jaki Club (Amapiano):",
+      "<artist id=\"59345\">Rebelle</artist> (NL)",
+      "Freegah",
+      "TipTack"
+    ],
+    "venue": "Stadtgarten Konzertsaal / Cafe",
+    "eventUrl": "/events/2271096",
+    "attending": 0
+  },
+  {
+    "eventName": "Odonien with IXAKT, Matthias Olck & Tommy Libera // Ehrenfeld XL – 10 Clubs, 1 Night, 2 Distric",
+    "date": "2025-10-25T00:00:00.000",
+    "startTime": "2025-10-25T22:00:00.000",
+    "endTime": "2025-10-26T06:00:00.000",
+    "artists": [
+      "Matthias Olck",
+      "Ropemaker",
+      "TBA"
+    ],
+    "genres": [
+      "Techno",
+      "Hard Drum"
+    ],
+    "lineupRaw": "IXAKT\n<artist id=\"160960\">Matthias Olck</artist> (Reckless, Whiteline, TLL)\nTommy Libera (Affenkäfig)\nKotorri\nMugli Project\nDom T. b2b Michael Nice\nHectic (Techno Allianz)\n<artist id=\"114204\">Ropemaker</artist> (Techno Allianz)\nWamborian (Bassilisk Techno)\nSchranz Bus: <artist id=\"21365\">TBA</artist>",
+    "lineupParsed": [
+      "IXAKT",
+      "<artist id=\"160960\">Matthias Olck</artist> (Reckless, Whiteline, TLL)",
+      "Tommy Libera (Affenkäfig)",
+      "Kotorri",
+      "Mugli Project",
+      "Dom T. b2b Michael Nice",
+      "Hectic (Techno Allianz)",
+      "<artist id=\"114204\">Ropemaker</artist> (Techno Allianz)",
+      "Wamborian (Bassilisk Techno)",
+      "Schranz Bus: <artist id=\"21365\">TBA</artist>"
+    ],
+    "venue": "Odonien",
+    "eventUrl": "/events/2271104",
+    "attending": 0
+  },
+  {
+    "eventName": "Helios37 with Able To Resist (Afterlife) // Ehrenfeld XL – 10 Clubs, 1 Night, 2 Districts",
+    "date": "2025-10-25T00:00:00.000",
+    "startTime": "2025-10-25T23:00:00.000",
+    "endTime": "2025-10-26T06:00:00.000",
+    "artists": [
+      "Solique",
+      "AVANT"
+    ],
+    "genres": [
+      "Tech House"
+    ],
+    "lineupRaw": "Main:\nAble To Resist (Afterlife // Frankfurt)\n<artist id=\"100650\">Solique</artist> (X, Siamese, Innervisions)\n<artist id=\"133105\">AVANT</artist> (Siamese, Infinite Depth)\nNadine Vinzens (Frankfurt am Main)\nAngela Kutscher (Düsseldorf)\n\nSweatbox:\nCat.Coll (Maitch Heart)\nSchoonebeek (Purble Vibrations)",
+    "lineupParsed": [
+      "Main:",
+      "Able To Resist (Afterlife // Frankfurt)",
+      "<artist id=\"100650\">Solique</artist> (X, Siamese, Innervisions)",
+      "<artist id=\"133105\">AVANT</artist> (Siamese, Infinite Depth)",
+      "Nadine Vinzens (Frankfurt am Main)",
+      "Angela Kutscher (Düsseldorf)",
+      "Sweatbox:",
+      "Cat.Coll (Maitch Heart)",
+      "Schoonebeek (Purble Vibrations)"
+    ],
+    "venue": "Helios37",
+    "eventUrl": "/events/2271119",
+    "attending": 0
+  },
+  {
+    "eventName": "Artheater with Mark Reeve (Drumcode) // Ehrenfeld XL – 10 Clubs, 1 Night, 2 Districts",
+    "date": "2025-10-25T00:00:00.000",
+    "startTime": "2025-10-25T23:00:00.000",
+    "endTime": "2025-10-26T06:00:00.000",
+    "artists": [
+      "Mark Reeve",
+      "Kos:mo",
+      "Chris Veron",
+      "Specific Objects",
+      "Steven Shade",
+      "Redfocks"
+    ],
+    "genres": [
+      "Techno"
+    ],
+    "lineupRaw": "Main:\n<artist id=\"13711\">Mark Reeve</artist> (Drumcode, Afterlife // Frankfurt)\n<artist id=\"101540\">Kos:mo</artist> (1605 / Terminal M / Lichtblick)\n<artist id=\"74949\">Chris Veron</artist> (KickFire // Freiburg)\nDJ Matteo (Italy)\n\nBasement:\n<artist id=\"79912\">Specific Objects</artist> (Twice Infinity // Berlin)\n<artist id=\"67318\">Steven Shade</artist> (Pass The Vibe Check // Berlin)\nGilles Bock (Kassiopeia / Lichtblick)\n<artist id=\"111902\">Redfocks</artist> (Wir Schwestern)\nDJ Agny (Wir Schwestern)",
+    "lineupParsed": [
+      "Main:",
+      "<artist id=\"13711\">Mark Reeve</artist> (Drumcode, Afterlife // Frankfurt)",
+      "<artist id=\"101540\">Kos:mo</artist> (1605 / Terminal M / Lichtblick)",
+      "<artist id=\"74949\">Chris Veron</artist> (KickFire // Freiburg)",
+      "DJ Matteo (Italy)",
+      "Basement:",
+      "<artist id=\"79912\">Specific Objects</artist> (Twice Infinity // Berlin)",
+      "<artist id=\"67318\">Steven Shade</artist> (Pass The Vibe Check // Berlin)",
+      "Gilles Bock (Kassiopeia / Lichtblick)",
+      "<artist id=\"111902\">Redfocks</artist> (Wir Schwestern)",
+      "DJ Agny (Wir Schwestern)"
+    ],
+    "venue": "Artheater",
+    "eventUrl": "/events/2271128",
+    "attending": 0
+  },
+  {
+    "eventName": "WHEN THE SUN GOES DOWN Odonien Openair Closing 2025",
+    "date": "2025-10-26T00:00:00.000",
+    "startTime": "2025-10-26T14:00:00.000",
+    "endTime": "2025-10-26T22:00:00.000",
+    "artists": [
+      "LALENA",
+      "Leolo Lozone"
+    ],
+    "genres": [
+      "Techno",
+      "House"
+    ],
+    "lineupRaw": "Niconé (Katermukke)\n<artist id=\"119811\">LALENA</artist> (Reineke Fuchs)\nFreddy Deckert (Gewölbe)\n<artist id=\"30818\">Leolo Lozone</artist> (Treibstoff Klub)",
+    "lineupParsed": [
+      "Niconé (Katermukke)",
+      "<artist id=\"119811\">LALENA</artist> (Reineke Fuchs)",
+      "Freddy Deckert (Gewölbe)",
+      "<artist id=\"30818\">Leolo Lozone</artist> (Treibstoff Klub)"
+    ],
+    "venue": "Odonien",
+    "eventUrl": "/events/2267756",
+    "attending": 1
+  },
+  {
+    "eventName": "ANIMADO with ALAN FRITZPATRICK (Abschlusstour)",
+    "date": "2025-10-31T00:00:00.000",
+    "startTime": "2025-10-31T23:00:00.000",
+    "endTime": "2025-11-01T06:00:00.000",
+    "artists": [
+      "Alan Fitzpatrick"
+    ],
+    "genres": [
+      "Techno"
+    ],
+    "lineupRaw": "<artist id=\"7777\">Alan Fitzpatrick</artist>",
+    "lineupParsed": [
+      "<artist id=\"7777\">Alan Fitzpatrick</artist>"
+    ],
+    "venue": "Helios37",
+    "eventUrl": "/events/2237078",
+    "attending": 14
+  },
+  {
+    "eventName": "Schrotty Halloween with Klanglos & Mark Dekoda",
+    "date": "2025-10-31T00:00:00.000",
+    "startTime": "2025-10-31T23:00:00.000",
+    "endTime": "2025-11-01T07:00:00.000",
+    "artists": [
+      "Klanglos",
+      "Mark Dekoda"
+    ],
+    "genres": [
+      "Techno"
+    ],
+    "lineupRaw": "<artist id=\"103290\">Klanglos</artist> <artist id=\"123201\">Mark Dekoda</artist>",
+    "lineupParsed": [
+      "<artist id=\"103290\">Klanglos</artist> <artist id=\"123201\">Mark Dekoda</artist>"
+    ],
+    "venue": "Schrotty",
+    "eventUrl": "/events/2258087",
+    "attending": 9
+  },
+  {
+    "eventName": "Loonyland Halloween",
+    "date": "2025-10-31T00:00:00.000",
+    "startTime": "2025-10-31T21:00:00.000",
+    "endTime": "2025-11-01T06:00:00.000",
+    "artists": [
+      "Blasterjaxx",
+      "Jerome",
+      "Danth",
+      "MAUSIO",
+      "Paul Wolf"
+    ],
+    "genres": [
+      "Electro"
+    ],
+    "lineupRaw": "Mainfloor:\n<artist id=\"48554\">Blasterjaxx</artist>\n<artist id=\"38171\">Jerome</artist>\nTeknoclash\nOliver Magenta\n<artist id=\"141434\">Danth</artist>\n\nBlckbx: \n<artist id=\"135499\">MAUSIO</artist>\n<artist id=\"136971\">Paul Wolf</artist>\nLiquidfive\nKevin Arnold\n\nDreherei: \nEMIN\nISIS CLOUDT\nREBKO\n\nBus: \nBen Tenner\nJvrdy\nDJ FÄBS",
+    "lineupParsed": [
+      "Mainfloor:",
+      "<artist id=\"48554\">Blasterjaxx</artist>",
+      "<artist id=\"38171\">Jerome</artist>",
+      "Teknoclash",
+      "Oliver Magenta",
+      "<artist id=\"141434\">Danth</artist>",
+      "Blckbx:",
+      "<artist id=\"135499\">MAUSIO</artist>",
+      "<artist id=\"136971\">Paul Wolf</artist>",
+      "Liquidfive",
+      "Kevin Arnold",
+      "Dreherei:",
+      "EMIN",
+      "ISIS CLOUDT",
+      "REBKO",
+      "Bus:",
+      "Ben Tenner",
+      "Jvrdy",
+      "DJ FÄBS"
+    ],
+    "venue": "Bootshaus",
+    "eventUrl": "/events/2235008",
+    "attending": 3
+  },
+  {
+    "eventName": "fi = altshift5 with Etage147 & Hoove & Mephis & Hyperlove Collective",
+    "date": "2025-10-31T00:00:00.000",
+    "startTime": "2025-10-31T23:00:00.000",
+    "endTime": "2025-11-01T08:00:00.000",
+    "artists": [
+      "Alfalfa (2)",
+      "Pascal Wagner",
+      "Leon Hagen",
+      "DJ ASS TITS",
+      "Miezibub"
+    ],
+    "genres": [
+      "Techno",
+      "House"
+    ],
+    "lineupRaw": "↓\nETAGE147 & HOOVE & MEPHIS w/\n<artist id=\"114649\">Alfalfa (2)</artist> B2B PAUL SEHL\nHUGO HELTEN B2B <artist id=\"79951\">Pascal Wagner</artist>\n<artist id=\"112230\">Leon Hagen</artist> B2B ROMEU\n\n↑\nHYPERLOVE COLLECTIVE w/\n<artist id=\"140815\">DJ ASS TITS</artist>\nJUNO.J\n<artist id=\"124142\">Miezibub</artist>\nSLAYMIRA",
+    "lineupParsed": [
+      "↓",
+      "ETAGE147 & HOOVE & MEPHIS w/",
+      "<artist id=\"114649\">Alfalfa (2)</artist> B2B PAUL SEHL",
+      "HUGO HELTEN B2B <artist id=\"79951\">Pascal Wagner</artist>",
+      "<artist id=\"112230\">Leon Hagen</artist> B2B ROMEU",
+      "↑",
+      "HYPERLOVE COLLECTIVE w/",
+      "<artist id=\"140815\">DJ ASS TITS</artist>",
+      "JUNO.J",
+      "<artist id=\"124142\">Miezibub</artist>",
+      "SLAYMIRA"
+    ],
+    "venue": "fi",
+    "eventUrl": "/events/2262436",
+    "attending": 3
+  },
+  {
+    "eventName": "Artheater Invites - Grace Dahl - The Lady Machine - Disguised - Halloween",
+    "date": "2025-10-31T00:00:00.000",
+    "startTime": "2025-10-31T23:00:00.000",
+    "endTime": "2025-11-01T08:00:00.000",
+    "artists": [
+      "Grace Dahl",
+      "The Lady Machine",
+      "Disguised",
+      "Elisen",
+      "EPHIE",
+      "Juan Del Chambo"
+    ],
+    "genres": [
+      "Techno"
+    ],
+    "lineupRaw": "<artist id=\"64279\">Grace Dahl</artist>\n<artist id=\"78330\">The Lady Machine</artist>\n<artist id=\"102026\">Disguised</artist>\n<artist id=\"138541\">Elisen</artist>\n<artist id=\"84080\">EPHIE</artist>\n<artist id=\"121105\">Juan Del Chambo</artist>",
+    "lineupParsed": [
+      "<artist id=\"64279\">Grace Dahl</artist>",
+      "<artist id=\"78330\">The Lady Machine</artist>",
+      "<artist id=\"102026\">Disguised</artist>",
+      "<artist id=\"138541\">Elisen</artist>",
+      "<artist id=\"84080\">EPHIE</artist>",
+      "<artist id=\"121105\">Juan Del Chambo</artist>"
+    ],
+    "venue": "Artheater",
+    "eventUrl": "/events/2265600",
+    "attending": 3
+  },
+  {
+    "eventName": "Pathfinder & Basswerk pres. HALLOWEEN BASS feat. ENEI (Critical - London/UK)",
+    "date": "2025-10-31T00:00:00.000",
+    "startTime": "2025-10-31T22:30:00.000",
+    "endTime": "2025-11-01T06:00:00.000",
+    "artists": [],
+    "genres": [
+      "Drum & Bass"
+    ],
+    "lineupRaw": "@ENEI (Critical Rec, London)\n@GOURSKI (Nibirii)\n@BADLOKK (Hanzom Music)\n@THE GREEN MAN (TGM) (Basswerk)\n@DJ BASIC (Pathfinder/Deegree)\n@JUMPAT (Basswerk)\n@RINC b2b @JSPR (Pathfinder)\n@MC CHEVY (Basswerk)\nVJane MADELEINE STEPPONAT",
+    "lineupParsed": [
+      "@ENEI (Critical Rec, London)",
+      "@GOURSKI (Nibirii)",
+      "@BADLOKK (Hanzom Music)",
+      "@THE GREEN MAN (TGM) (Basswerk)",
+      "@DJ BASIC (Pathfinder/Deegree)",
+      "@JUMPAT (Basswerk)",
+      "@RINC b2b @JSPR (Pathfinder)",
+      "@MC CHEVY (Basswerk)",
+      "VJane MADELEINE STEPPONAT"
+    ],
+    "venue": "Gebäude 9",
+    "eventUrl": "/events/2265768",
+    "attending": 0
+  },
+  {
+    "eventName": "SECRETRAVES HALLOWEEN SPECIAL",
+    "date": "2025-10-31T00:00:00.000",
+    "startTime": "2025-10-31T21:00:00.000",
+    "endTime": "2025-11-01T08:00:00.000",
+    "artists": [],
+    "genres": [
+      "Techno"
+    ],
+    "lineupRaw": "XXXXXXXXX\nXXXXXXXXX\nXXXXXXXXX\nXXXXXXXXX\nXXXXXXXXX",
+    "lineupParsed": [
+      "XXXXXXXXX",
+      "XXXXXXXXX",
+      "XXXXXXXXX",
+      "XXXXXXXXX",
+      "XXXXXXXXX"
+    ],
+    "venue": "TBA - SECRET WAREHOUSE",
+    "eventUrl": "/events/2269435",
+    "attending": 0
+  },
+  {
+    "eventName": "Praerie Festival Afterparty /w Mha iri, Andreas Henneberg, Konfusia, Levt, Aio, Maurice Mino",
+    "date": "2025-11-01T00:00:00.000",
+    "startTime": "2025-11-01T22:00:00.000",
+    "endTime": "2025-11-02T09:00:00.000",
+    "artists": [
+      "Mha iri",
+      "Andreas Henneberg",
+      "Konfusia",
+      "Levt",
+      "Aio",
+      "Maurice Mino",
+      "Sin:port",
+      "Invaria"
+    ],
+    "genres": [
+      "Techno",
+      "Tech House"
+    ],
+    "lineupRaw": "<artist id=\"77347\">Mha iri</artist> \n<artist id=\"4377\">Andreas Henneberg</artist> \n<artist id=\"89368\">Konfusia</artist>\n<artist id=\"88270\">Levt</artist> \n<artist id=\"70232\">Aio</artist> \n<artist id=\"69442\">Maurice Mino</artist> \n<artist id=\"80014\">Sin:port</artist> \n<artist id=\"120261\">Invaria</artist> \n+ 3 Newcommer*innen Slots im Bus",
+    "lineupParsed": [
+      "<artist id=\"77347\">Mha iri</artist>",
+      "<artist id=\"4377\">Andreas Henneberg</artist>",
+      "<artist id=\"89368\">Konfusia</artist>",
+      "<artist id=\"88270\">Levt</artist>",
+      "<artist id=\"70232\">Aio</artist>",
+      "<artist id=\"69442\">Maurice Mino</artist>",
+      "<artist id=\"80014\">Sin:port</artist>",
+      "<artist id=\"120261\">Invaria</artist>",
+      "+ 3 Newcommer*innen Slots im Bus"
+    ],
+    "venue": "Odonien",
+    "eventUrl": "/events/2253417",
+    "attending": 5
+  },
+  {
+    "eventName": "9 Jahre Techno Allianz Part II",
+    "date": "2025-11-01T00:00:00.000",
+    "startTime": "2025-11-01T23:00:00.000",
+    "endTime": "2025-11-02T07:00:00.000",
+    "artists": [],
+    "genres": [],
+    "lineupRaw": "tba",
+    "lineupParsed": [
+      "tba"
+    ],
+    "venue": "Elektroküche",
+    "eventUrl": "/events/2254882",
+    "attending": 5
+  },
+  {
+    "eventName": "fi = altshift5 with DJ Nobu & Das ist das Ja",
+    "date": "2025-11-01T00:00:00.000",
+    "startTime": "2025-11-01T23:00:00.000",
+    "endTime": "2025-11-02T08:00:00.000",
+    "artists": [
+      "DJ Nobu",
+      "Philipp Stoffel",
+      "Play Boy Joe"
+    ],
+    "genres": [
+      "Techno",
+      "House"
+    ],
+    "lineupRaw": "↓\nDI²\n<artist id=\"17327\">DJ Nobu</artist>\n<artist id=\"144908\">Philipp Stoffel</artist>\n\n↑\nDAS IST DAS JA w/\nJAN OBEN \n<artist id=\"148089\">Play Boy Joe</artist> B2B BERGEN\nSPÖKI B2B DJ KARRIERE",
+    "lineupParsed": [
+      "↓",
+      "DI²",
+      "<artist id=\"17327\">DJ Nobu</artist>",
+      "<artist id=\"144908\">Philipp Stoffel</artist>",
+      "↑",
+      "DAS IST DAS JA w/",
+      "JAN OBEN",
+      "<artist id=\"148089\">Play Boy Joe</artist> B2B BERGEN",
+      "SPÖKI B2B DJ KARRIERE"
+    ],
+    "venue": "fi",
+    "eventUrl": "/events/2265918",
+    "attending": 4
+  },
+  {
+    "eventName": "The Light Clubbing at Friesenbar",
+    "date": "2025-11-01T00:00:00.000",
+    "startTime": "2025-11-01T20:00:00.000",
+    "endTime": "2025-11-02T05:00:00.000",
+    "artists": [],
+    "genres": [],
+    "lineupRaw": "Schoenhousen\nMarco Montana\nStuart Dee",
+    "lineupParsed": [
+      "Schoenhousen",
+      "Marco Montana",
+      "Stuart Dee"
+    ],
+    "venue": "Friesen Bar",
+    "eventUrl": "/events/2269500",
+    "attending": 0
+  },
+  {
+    "eventName": "Weval",
+    "date": "2025-11-05T00:00:00.000",
+    "startTime": "2025-11-05T19:00:00.000",
+    "endTime": "2025-11-05T23:00:00.000",
+    "artists": [
+      "Weval"
+    ],
+    "genres": [
+      "Electronica"
+    ],
+    "lineupRaw": "<artist id=\"43811\">Weval</artist>",
+    "lineupParsed": [
+      "<artist id=\"43811\">Weval</artist>"
+    ],
+    "venue": "Stadthalle",
+    "eventUrl": "/events/2212749",
+    "attending": 9
+  },
+  {
+    "eventName": "Week-End Fest XIV",
+    "date": "2025-11-07T00:00:00.000",
+    "startTime": "2025-11-07T19:00:00.000",
+    "endTime": "2025-11-09T05:00:00.000",
+    "artists": [
+      "Smerz",
+      "Neue Grafik",
+      "Carl Craig",
+      "Emma-Jean Thackray",
+      "A Guy Called Gerald"
+    ],
+    "genres": [
+      "Experimental",
+      "Club"
+    ],
+    "lineupRaw": "<artist id=\"74824\">Smerz</artist> / Charles Tolliver / Angel Bat Dawid & Naima Nefertari / Garth Erasmus / <artist id=\"50551\">Neue Grafik</artist> <artist id=\"379\">Carl Craig</artist> /<artist id=\"91430\">Emma-Jean Thackray</artist> / Céline Dessberg / Anna Domino / Polypixa / <artist id=\"1330\">A Guy Called Gerald</artist> / E.P.I.Q",
+    "lineupParsed": [
+      "<artist id=\"74824\">Smerz</artist> / Charles Tolliver / Angel Bat Dawid & Naima Nefertari / Garth Erasmus / <artist id=\"50551\">Neue Grafik</artist> <artist id=\"379\">Carl Craig</artist> /<artist id=\"91430\">Emma-Jean Thackray</artist> / Céline Dessberg / Anna Domino / Polypixa / <artist id=\"1330\">A Guy Called Gerald</artist> / E.P.I.Q"
+    ],
+    "venue": "Stadtgarten Konzertsaal / Cafe",
+    "eventUrl": "/events/2243439",
+    "attending": 9
+  },
+  {
+    "eventName": "Deepblue 15 YRS Edition w. Harris & FORD / Jebroer",
+    "date": "2025-11-07T00:00:00.000",
+    "startTime": "2025-11-07T23:00:00.000",
+    "endTime": "2025-11-08T06:00:00.000",
+    "artists": [
+      "Harris",
+      "Dannic",
+      "Jebroer"
+    ],
+    "genres": [
+      "Electro"
+    ],
+    "lineupRaw": "Mainfloor:\n<artist id=\"3400\">Harris</artist> & Ford\n<artist id=\"48590\">Dannic</artist> b2b Tiefblau\nLuke Madness\nCamic\n\nBlckbx:\n<artist id=\"79032\">Jebroer</artist>\nLost Identity\nOliver Magenta\nTimbo\nDMNK\n\nDreherei:\nRelova - all night long",
+    "lineupParsed": [
+      "Mainfloor:",
+      "<artist id=\"3400\">Harris</artist> & Ford",
+      "<artist id=\"48590\">Dannic</artist> b2b Tiefblau",
+      "Luke Madness",
+      "Camic",
+      "Blckbx:",
+      "<artist id=\"79032\">Jebroer</artist>",
+      "Lost Identity",
+      "Oliver Magenta",
+      "Timbo",
+      "DMNK",
+      "Dreherei:",
+      "Relova - all night long"
+    ],
+    "venue": "Bootshaus",
+    "eventUrl": "/events/2267656",
+    "attending": 1
+  },
+  {
+    "eventName": "HARD EDITION x Azyr, Winson, Nikolina, TANJA MIJU & Johannes Schuster",
+    "date": "2025-11-08T00:00:00.000",
+    "startTime": "2025-11-08T23:00:00.000",
+    "endTime": "2025-11-09T08:00:00.000",
+    "artists": [
+      "Azyr",
+      "Winson",
+      "NIKOLINA_",
+      "TANJA MIJU",
+      "Johannes Schuster"
+    ],
+    "genres": [
+      "Techno"
+    ],
+    "lineupRaw": "<artist id=\"104651\">Azyr</artist>\n<artist id=\"109511\">Winson</artist>\n<artist id=\"102782\">NIKOLINA_</artist>\n<artist id=\"116692\">TANJA MIJU</artist>\n& <artist id=\"93694\">Johannes Schuster</artist> (All Night Long)",
+    "lineupParsed": [
+      "<artist id=\"104651\">Azyr</artist>",
+      "<artist id=\"109511\">Winson</artist>",
+      "<artist id=\"102782\">NIKOLINA_</artist>",
+      "<artist id=\"116692\">TANJA MIJU</artist>",
+      "& <artist id=\"93694\">Johannes Schuster</artist> (All Night Long)"
+    ],
+    "venue": "Bootshaus",
+    "eventUrl": "/events/2244540",
+    "attending": 28
+  },
+  {
+    "eventName": "Week-End Fest XIV",
+    "date": "2025-11-07T00:00:00.000",
+    "startTime": "2025-11-07T19:00:00.000",
+    "endTime": "2025-11-09T05:00:00.000",
+    "artists": [
+      "Smerz",
+      "Neue Grafik",
+      "Carl Craig",
+      "Emma-Jean Thackray",
+      "A Guy Called Gerald"
+    ],
+    "genres": [
+      "Experimental",
+      "Club"
+    ],
+    "lineupRaw": "<artist id=\"74824\">Smerz</artist> / Charles Tolliver / Angel Bat Dawid & Naima Nefertari / Garth Erasmus / <artist id=\"50551\">Neue Grafik</artist> <artist id=\"379\">Carl Craig</artist> /<artist id=\"91430\">Emma-Jean Thackray</artist> / Céline Dessberg / Anna Domino / Polypixa / <artist id=\"1330\">A Guy Called Gerald</artist> / E.P.I.Q",
+    "lineupParsed": [
+      "<artist id=\"74824\">Smerz</artist> / Charles Tolliver / Angel Bat Dawid & Naima Nefertari / Garth Erasmus / <artist id=\"50551\">Neue Grafik</artist> <artist id=\"379\">Carl Craig</artist> /<artist id=\"91430\">Emma-Jean Thackray</artist> / Céline Dessberg / Anna Domino / Polypixa / <artist id=\"1330\">A Guy Called Gerald</artist> / E.P.I.Q"
+    ],
+    "venue": "Stadtgarten Konzertsaal / Cafe",
+    "eventUrl": "/events/2243439",
+    "attending": 9
+  },
+  {
+    "eventName": "fi x Tipping Point with Frida Darko && Tiefgang",
+    "date": "2025-11-08T00:00:00.000",
+    "startTime": "2025-11-08T23:00:00.000",
+    "endTime": "2025-11-09T08:00:00.000",
+    "artists": [
+      "FLAVE",
+      "Frida Darko",
+      "Detmolt"
+    ],
+    "genres": [
+      "Techno",
+      "House"
+    ],
+    "lineupRaw": "↓\nATRIC\n<artist id=\"142832\">FLAVE</artist>\n<artist id=\"110838\">Frida Darko</artist>\n\n↑\nTIEFGANG w/\n<artist id=\"58463\">Detmolt</artist>\nKIKI KOKOLORES\nKIRA KETE B2B SOPHYA\nKRACHIM B2B NINA YPSILON",
+    "lineupParsed": [
+      "↓",
+      "ATRIC",
+      "<artist id=\"142832\">FLAVE</artist>",
+      "<artist id=\"110838\">Frida Darko</artist>",
+      "↑",
+      "TIEFGANG w/",
+      "<artist id=\"58463\">Detmolt</artist>",
+      "KIKI KOKOLORES",
+      "KIRA KETE B2B SOPHYA",
+      "KRACHIM B2B NINA YPSILON"
+    ],
+    "venue": "fi",
+    "eventUrl": "/events/2259545",
+    "attending": 4
+  },
+  {
+    "eventName": "Improvisation Sans Frontières",
+    "date": "2025-11-08T00:00:00.000",
+    "startTime": "2025-11-08T21:00:00.000",
+    "endTime": "2025-11-08T23:59:00.000",
+    "artists": [
+      "Jörg Burger",
+      "Ümit Han"
+    ],
+    "genres": [
+      "Experimental",
+      "Krautrock"
+    ],
+    "lineupRaw": "Harald Grosskopf\nDominik von Senger\n<artist id=\"32869\">Jörg Burger</artist>\n<artist id=\"18230\">Ümit Han</artist>\nSchlammpeitziger\nAngelos Gavrias\nEnde Monk",
+    "lineupParsed": [
+      "Harald Grosskopf",
+      "Dominik von Senger",
+      "<artist id=\"32869\">Jörg Burger</artist>",
+      "<artist id=\"18230\">Ümit Han</artist>",
+      "Schlammpeitziger",
+      "Angelos Gavrias",
+      "Ende Monk"
+    ],
+    "venue": "Filmhaus",
+    "eventUrl": "/events/2252284",
+    "attending": 1
+  },
+  {
+    "eventName": "KLUENGEL XXL - 30 DJS 3 Stages, 14 Hours of Party",
+    "date": "2025-11-11T00:00:00.000",
+    "startTime": "2025-11-11T18:00:00.000",
+    "endTime": "2025-11-12T07:00:00.000",
+    "artists": [
+      "Diffrent",
+      "Johannes Schuster",
+      "Cleopard2000",
+      "DJ Hyperdrive",
+      "Neon Graveyard",
+      "Vagabund",
+      "ST.Techno",
+      "HUELLE"
+    ],
+    "genres": [],
+    "lineupRaw": "<artist id=\"129734\">Diffrent</artist> \n<artist id=\"93694\">Johannes Schuster</artist> \n<artist id=\"120421\">Cleopard2000</artist> \n<artist id=\"93149\">DJ Hyperdrive</artist> \n <artist id=\"106870\">Neon Graveyard</artist> \nNeuf\nD4ddy Wellness\n<artist id=\"134197\">Vagabund</artist> \nLch8\nProssowski\nSchumacher b2b Zeze\nMatias Fultot b2b <artist id=\"158629\">ST.Techno</artist>  \nSneaky Pete b2b Dilly Dally\nLocolorenz b2b Aaron\nLuke Baker b2b Ruben\nTill Püttmann\n<artist id=\"120854\">HUELLE</artist> \nKish \nNintenduos2ds\nBoys do Cry\nFiftyfine\nTorbentorben",
+    "lineupParsed": [
+      "<artist id=\"129734\">Diffrent</artist>",
+      "<artist id=\"93694\">Johannes Schuster</artist>",
+      "<artist id=\"120421\">Cleopard2000</artist>",
+      "<artist id=\"93149\">DJ Hyperdrive</artist>",
+      "<artist id=\"106870\">Neon Graveyard</artist>",
+      "Neuf",
+      "D4ddy Wellness",
+      "<artist id=\"134197\">Vagabund</artist>",
+      "Lch8",
+      "Prossowski",
+      "Schumacher b2b Zeze",
+      "Matias Fultot b2b <artist id=\"158629\">ST.Techno</artist>",
+      "Sneaky Pete b2b Dilly Dally",
+      "Locolorenz b2b Aaron",
+      "Luke Baker b2b Ruben",
+      "Till Püttmann",
+      "<artist id=\"120854\">HUELLE</artist>",
+      "Kish",
+      "Nintenduos2ds",
+      "Boys do Cry",
+      "Fiftyfine",
+      "Torbentorben"
+    ],
+    "venue": "Schrotty",
+    "eventUrl": "/events/2268059",
+    "attending": 100
+  },
+  {
+    "eventName": "18h Outdoor&Indoor Rave I Oliver Koletzki, Hidden Empire uvm",
+    "date": "2025-11-11T00:00:00.000",
+    "startTime": "2025-11-11T14:00:00.000",
+    "endTime": "2025-11-12T08:00:00.000",
+    "artists": [
+      "Oliver Koletzki",
+      "Hidden Empire"
+    ],
+    "genres": [
+      "Techno",
+      "House"
+    ],
+    "lineupRaw": "<artist id=\"694\">Oliver Koletzki</artist> <artist id=\"57066\">Hidden Empire</artist>",
+    "lineupParsed": [
+      "<artist id=\"694\">Oliver Koletzki</artist> <artist id=\"57066\">Hidden Empire</artist>"
+    ],
+    "venue": "Odonien",
+    "eventUrl": "/events/2257356",
+    "attending": 14
+  },
+  {
+    "eventName": "ANIMADI with SPACE92 (Abschlusstour)",
+    "date": "2025-11-11T00:00:00.000",
+    "startTime": "2025-11-11T20:00:00.000",
+    "endTime": "2025-11-12T06:00:00.000",
+    "artists": [
+      "Space 92"
+    ],
+    "genres": [
+      "Techno"
+    ],
+    "lineupRaw": "<artist id=\"114513\">Space 92</artist>",
+    "lineupParsed": [
+      "<artist id=\"114513\">Space 92</artist>"
+    ],
+    "venue": "Helios37",
+    "eventUrl": "/events/2237085",
+    "attending": 5
+  },
+  {
+    "eventName": "KARNEVAL!?! – Der Tanz auf der Membran",
+    "date": "2025-11-11T00:00:00.000",
+    "startTime": "2025-11-11T16:00:00.000",
+    "endTime": "2025-11-12T06:00:00.000",
+    "artists": [],
+    "genres": [
+      "Trance",
+      "Drum & Bass"
+    ],
+    "lineupRaw": "Stadtgarten Saal – Hip Hop, Rap & Club Hits\n• Rien Ne Va Plus DJ Team\n\nLounge – Kölsch Sounds, Carnival Classics & Sing-alongs\n• Step Bros.\n\nJAKI Club – Trance, Techno, Drum & Bass, Bounce & Speedhouse\n• Gourski (Nibirii)\n• INFERNUS7 (Beats x Bass x Cologne)\n• KBS (Beats x Bass x Cologne)\n• Kolt Siewerts (PLAY! / drumandbass.de)\n• LSG (Beats x Bass x Cologne)\n• Oskamaxx (Wyld Hearts)\n• Rebko (Drop That! / PLAY! Music)",
+    "lineupParsed": [
+      "Stadtgarten Saal – Hip Hop, Rap & Club Hits",
+      "• Rien Ne Va Plus DJ Team",
+      "Lounge – Kölsch Sounds, Carnival Classics & Sing-alongs",
+      "• Step Bros.",
+      "JAKI Club – Trance, Techno, Drum & Bass, Bounce & Speedhouse",
+      "• Gourski (Nibirii)",
+      "• INFERNUS7 (Beats x Bass x Cologne)",
+      "• KBS (Beats x Bass x Cologne)",
+      "• Kolt Siewerts (PLAY! / drumandbass.de)",
+      "• LSG (Beats x Bass x Cologne)",
+      "• Oskamaxx (Wyld Hearts)",
+      "• Rebko (Drop That! / PLAY! Music)"
+    ],
+    "venue": "Stadtgarten Konzertsaal / Cafe",
+    "eventUrl": "/events/2263506",
+    "attending": 1
+  },
+  {
+    "eventName": "CHROME COLOGNE with GRAVEDGR, Luciid, Ramona, uvm",
+    "date": "2025-11-14T00:00:00.000",
+    "startTime": "2025-11-14T22:30:00.000",
+    "endTime": "2025-11-15T08:00:00.000",
+    "artists": [
+      "CÖLN",
+      "GRAVEDGR",
+      "Leonard Palm",
+      "Luciid",
+      "Ramona (2)"
+    ],
+    "genres": [
+      "Techno"
+    ],
+    "lineupRaw": "Lineup a-z:\n<artist id=\"107681\">CÖLN</artist>\n<artist id=\"120878\">GRAVEDGR</artist>\nJAYRON\n<artist id=\"147251\">Leonard Palm</artist>\n<artist id=\"96342\">Luciid</artist>\nNEGITIV\n<artist id=\"87882\">Ramona (2)</artist>",
+    "lineupParsed": [
+      "Lineup a-z:",
+      "<artist id=\"107681\">CÖLN</artist>",
+      "<artist id=\"120878\">GRAVEDGR</artist>",
+      "JAYRON",
+      "<artist id=\"147251\">Leonard Palm</artist>",
+      "<artist id=\"96342\">Luciid</artist>",
+      "NEGITIV",
+      "<artist id=\"87882\">Ramona (2)</artist>"
+    ],
+    "venue": "Bootshaus",
+    "eventUrl": "/events/2185601",
+    "attending": 14
+  },
+  {
+    "eventName": "BergWacht x Römertanz im Schrotty with Oliver Huntemann, Alex Stein uvm",
+    "date": "2025-11-14T00:00:00.000",
+    "startTime": "2025-11-14T23:00:00.000",
+    "endTime": "2025-11-15T07:00:00.000",
+    "artists": [
+      "Oliver Huntemann",
+      "Alex Stein",
+      "EIK music",
+      "justUS",
+      "Liho"
+    ],
+    "genres": [
+      "Techno"
+    ],
+    "lineupRaw": "<artist id=\"875\">Oliver Huntemann</artist> \n<artist id=\"73645\">Alex Stein</artist> \nCatom\n<artist id=\"128571\">EIK music</artist>  \nFnT \n<artist id=\"86017\">justUS</artist> \nKlarabell\n<artist id=\"22245\">Liho</artist> \nPhilipp Ruhmhardt",
+    "lineupParsed": [
+      "<artist id=\"875\">Oliver Huntemann</artist>",
+      "<artist id=\"73645\">Alex Stein</artist>",
+      "Catom",
+      "<artist id=\"128571\">EIK music</artist>",
+      "FnT",
+      "<artist id=\"86017\">justUS</artist>",
+      "Klarabell",
+      "<artist id=\"22245\">Liho</artist>",
+      "Philipp Ruhmhardt"
+    ],
+    "venue": "Schrotty",
+    "eventUrl": "/events/2263218",
+    "attending": 6
+  },
+  {
+    "eventName": "4 Years EhrenKlub Pt 1 with KRUELTY, SLVL, USH uvm",
+    "date": "2025-11-15T00:00:00.000",
+    "startTime": "2025-11-15T23:00:00.000",
+    "endTime": "2025-11-16T08:00:00.000",
+    "artists": [
+      "Chris El Greco",
+      "DEXTASY",
+      "KRUELTY",
+      "SLVL"
+    ],
+    "genres": [
+      "Trance",
+      "Techno"
+    ],
+    "lineupRaw": "Lineup Main (A – Z)\n\n* CAMILLA V\n\n* <artist id=\"153711\">Chris El Greco</artist>\n\n* <artist id=\"134955\">DEXTASY</artist>\n\n* GREEKZ B2B KARAMUSTAN\n\n* <artist id=\"144671\">KRUELTY</artist>\n\n* LAURA VOM JUPITER\n\n* <artist id=\"117926\">SLVL</artist>\n\n* USH\n\n\n2nd FLOOR hosted by CHRISSYJEEY\n\n* CHRISSYJEEY & FRIENDS",
+    "lineupParsed": [
+      "Lineup Main (A – Z)",
+      "* CAMILLA V",
+      "* <artist id=\"153711\">Chris El Greco</artist>",
+      "* <artist id=\"134955\">DEXTASY</artist>",
+      "* GREEKZ B2B KARAMUSTAN",
+      "* <artist id=\"144671\">KRUELTY</artist>",
+      "* LAURA VOM JUPITER",
+      "* <artist id=\"117926\">SLVL</artist>",
+      "* USH",
+      "2nd FLOOR hosted by CHRISSYJEEY",
+      "* CHRISSYJEEY & FRIENDS"
+    ],
+    "venue": "Schrotty",
+    "eventUrl": "/events/2257149",
+    "attending": 18
+  },
+  {
+    "eventName": "Wilde Herzen + Peinlo Pop Party • Helios 37• Köln",
+    "date": "2025-11-15T00:00:00.000",
+    "startTime": "2025-11-15T23:00:00.000",
+    "endTime": "2025-11-16T05:00:00.000",
+    "artists": [],
+    "genres": [
+      "Electro",
+      "Pop"
+    ],
+    "lineupRaw": "King Kong Kicks",
+    "lineupParsed": [
+      "King Kong Kicks"
+    ],
+    "venue": "Helios37",
+    "eventUrl": "/events/2217338",
+    "attending": 0
+  },
+  {
+    "eventName": "Nusha & Sylvie Miles in Odonien",
+    "date": "2025-11-21T00:00:00.000",
+    "startTime": "2025-11-21T23:00:00.000",
+    "endTime": "2025-11-22T08:00:00.000",
+    "artists": [
+      "Nusha",
+      "Sylvie Miles"
+    ],
+    "genres": [
+      "Techno"
+    ],
+    "lineupRaw": "<artist id=\"21823\">Nusha</artist> <artist id=\"130988\">Sylvie Miles</artist>",
+    "lineupParsed": [
+      "<artist id=\"21823\">Nusha</artist> <artist id=\"130988\">Sylvie Miles</artist>"
+    ],
+    "venue": "Odonien",
+    "eventUrl": "/events/2255505",
+    "attending": 3
+  },
+  {
+    "eventName": "RUIDORUIDO Ongoing Symptoms",
+    "date": "2025-11-21T00:00:00.000",
+    "startTime": "2025-11-21T21:00:00.000",
+    "endTime": "2025-11-22T06:00:00.000",
+    "artists": [],
+    "genres": [
+      "Techno",
+      "Electro"
+    ],
+    "lineupRaw": "RuidoRuido",
+    "lineupParsed": [
+      "RuidoRuido"
+    ],
+    "venue": "Coco Schmitz",
+    "eventUrl": "/events/2269096",
+    "attending": 0
+  },
+  {
+    "eventName": "Affenkäfig Rules xxx Bootshaus xxx Paracek & Friends",
+    "date": "2025-11-22T00:00:00.000",
+    "startTime": "2025-11-22T23:00:00.000",
+    "endTime": "2025-11-23T07:00:00.000",
+    "artists": [
+      "Cristobal Pesce",
+      "Tiefundton",
+      "Matthias Olck",
+      "sarah4K",
+      "DJ DRECKISCH",
+      "Carotin",
+      "CARGO",
+      "ELOISA",
+      "HOTBOI2300"
+    ],
+    "genres": [
+      "Techno"
+    ],
+    "lineupRaw": "xxx MAINFLOOR xxx \n<artist id=\"170021\">Cristobal Pesce</artist> \n<artist id=\"152310\">Tiefundton</artist>\n<artist id=\"160960\">Matthias Olck</artist>\nTOMMY LIBERA\n\nxxx BLCKBX xxx \nPARACEK \n<artist id=\"130335\">sarah4K</artist>\n<artist id=\"146992\">DJ DRECKISCH</artist>\n<artist id=\"128802\">Carotin</artist>\n<artist id=\"7683\">CARGO</artist>\n<artist id=\"126201\">ELOISA</artist>\n\nxxx DREHEREI xxx \n<artist id=\"152728\">HOTBOI2300</artist>\nTURBOTIMOS",
+    "lineupParsed": [
+      "xxx MAINFLOOR xxx",
+      "<artist id=\"170021\">Cristobal Pesce</artist>",
+      "<artist id=\"152310\">Tiefundton</artist>",
+      "<artist id=\"160960\">Matthias Olck</artist>",
+      "TOMMY LIBERA",
+      "xxx BLCKBX xxx",
+      "PARACEK",
+      "<artist id=\"130335\">sarah4K</artist>",
+      "<artist id=\"146992\">DJ DRECKISCH</artist>",
+      "<artist id=\"128802\">Carotin</artist>",
+      "<artist id=\"7683\">CARGO</artist>",
+      "<artist id=\"126201\">ELOISA</artist>",
+      "xxx DREHEREI xxx",
+      "<artist id=\"152728\">HOTBOI2300</artist>",
+      "TURBOTIMOS"
+    ],
+    "venue": "Bootshaus",
+    "eventUrl": "/events/2247122",
+    "attending": 24
+  },
+  {
+    "eventName": "fi x Dominik Eulberg x Neue Wellen",
+    "date": "2025-11-22T00:00:00.000",
+    "startTime": "2025-11-22T23:00:00.000",
+    "endTime": "2025-11-23T08:00:00.000",
+    "artists": [
+      "Dominik Eulberg",
+      "Cosanne"
+    ],
+    "genres": [
+      "Techno",
+      "House"
+    ],
+    "lineupRaw": "<artist id=\"606\">Dominik Eulberg</artist> \n\n<artist id=\"17480\">Cosanne</artist>",
+    "lineupParsed": [
+      "<artist id=\"606\">Dominik Eulberg</artist>",
+      "<artist id=\"17480\">Cosanne</artist>"
+    ],
+    "venue": "fi",
+    "eventUrl": "/events/2258951",
+    "attending": 11
+  },
+  {
+    "eventName": "LoopLab Vol.2 - Teddy Killerz (COOKED Album tour) / T & Sugah / Tsuki / Rythmind /",
+    "date": "2025-11-22T00:00:00.000",
+    "startTime": "2025-11-22T19:00:00.000",
+    "endTime": "2025-11-23T05:00:00.000",
+    "artists": [
+      "Teddy Killerz",
+      "T & Sugah",
+      "Badlokk"
+    ],
+    "genres": [
+      "Drum & Bass",
+      "Dubstep"
+    ],
+    "lineupRaw": "Headliners: <artist id=\"123564\">Teddy Killerz</artist> (COOKED Album Tour) | <artist id=\"92982\">T & Sugah</artist> \nSpecial Guest: Tsuki\n\nSupport: <artist id=\"131421\">Badlokk</artist> | LAETI | Sinjo | Ferris\n\nLive Loopers: Rythmind | Robin Cavailles | TechTonic (KBA x Kaos) | BreZ | Kristóf7s | Antrix | Redfrost | Shinex | Sagau",
+    "lineupParsed": [
+      "Headliners: <artist id=\"123564\">Teddy Killerz</artist> (COOKED Album Tour) | <artist id=\"92982\">T & Sugah</artist>",
+      "Special Guest: Tsuki",
+      "Support: <artist id=\"131421\">Badlokk</artist> | LAETI | Sinjo | Ferris",
+      "Live Loopers: Rythmind | Robin Cavailles | TechTonic (KBA x Kaos) | BreZ | Kristóf7s | Antrix | Redfrost | Shinex | Sagau"
+    ],
+    "venue": "Schrotty",
+    "eventUrl": "/events/2233553",
+    "attending": 4
+  },
+  {
+    "eventName": "Sub Zero Project pres. 50/50 - Cologne",
+    "date": "2025-11-28T00:00:00.000",
+    "startTime": "2025-11-28T23:00:00.000",
+    "endTime": "2025-11-29T06:00:00.000",
+    "artists": [],
+    "genres": [
+      "Hardcore"
+    ],
+    "lineupRaw": "Mainfloor:\nSUB ZERO PROJECT\nADRENALIZE\nTOZA",
+    "lineupParsed": [
+      "Mainfloor:",
+      "SUB ZERO PROJECT",
+      "ADRENALIZE",
+      "TOZA"
+    ],
+    "venue": "Bootshaus",
+    "eventUrl": "/events/2262543",
+    "attending": 0
+  },
+  {
+    "eventName": "unreal pres. KUKO all night long (Residency Celebration)",
+    "date": "2025-11-29T00:00:00.000",
+    "startTime": "2025-11-29T23:00:00.000",
+    "endTime": "2025-11-30T07:00:00.000",
+    "artists": [
+      "KUKO"
+    ],
+    "genres": [
+      "Techno"
+    ],
+    "lineupRaw": "<artist id=\"126663\">KUKO</artist>",
+    "lineupParsed": [
+      "<artist id=\"126663\">KUKO</artist>"
+    ],
+    "venue": "Carlswerk Victoria",
+    "eventUrl": "/events/2134805",
+    "attending": 97
+  },
+  {
+    "eventName": "Chin Chin Köln - Walhalla",
+    "date": "2025-11-29T00:00:00.000",
+    "startTime": "2025-11-29T23:00:00.000",
+    "endTime": "2025-11-30T06:00:00.000",
+    "artists": [],
+    "genres": [
+      "Techno",
+      "Pop"
+    ],
+    "lineupRaw": "@b.b.bounce (Bounce Techno)\n\n@nico.held b2b @Lou.key(Techno)\n\n@juliusbx (Pop)\n@fabulous_productions_ (Performance)",
+    "lineupParsed": [
+      "@b.b.bounce (Bounce Techno)",
+      "@nico.held b2b @Lou.key(Techno)",
+      "@juliusbx (Pop)",
+      "@fabulous_productions_ (Performance)"
+    ],
+    "venue": "Club Bahnhof Ehrenfeld",
+    "eventUrl": "/events/2224251",
+    "attending": 1
+  },
+  {
+    "eventName": "Naughty - St. Nicholas Festival Closing Party",
+    "date": "2025-11-30T00:00:00.000",
+    "startTime": "2025-11-30T20:30:00.000",
+    "endTime": "2025-12-01T06:30:00.000",
+    "artists": [
+      "Chris Bekker",
+      "Skippo"
+    ],
+    "genres": [
+      "Progressive House",
+      "Tech House"
+    ],
+    "lineupRaw": "<artist id=\"145736\">Chris Bekker</artist> \n<artist id=\"112993\">Skippo</artist> \nLuuk de Keizer",
+    "lineupParsed": [
+      "<artist id=\"145736\">Chris Bekker</artist>",
+      "<artist id=\"112993\">Skippo</artist>",
+      "Luuk de Keizer"
+    ],
+    "venue": "Nachtflug & Starz",
+    "eventUrl": "/events/2227268",
+    "attending": 2
+  },
+  {
+    "eventName": "Schrotthagen Nostalgie & Traurigkeit Tour",
+    "date": "2025-12-05T00:00:00.000",
+    "startTime": "2025-12-05T21:00:00.000",
+    "endTime": "2025-12-06T03:00:00.000",
+    "artists": [
+      "Schrotthagen"
+    ],
+    "genres": [
+      "Techno"
+    ],
+    "lineupRaw": "<artist id=\"151787\">Schrotthagen</artist>",
+    "lineupParsed": [
+      "<artist id=\"151787\">Schrotthagen</artist>"
+    ],
+    "venue": "Live Music Hall",
+    "eventUrl": "/events/2121986",
+    "attending": 26
+  },
+  {
+    "eventName": "Above & Beyond pres by Bootshaus",
+    "date": "2025-12-05T00:00:00.000",
+    "startTime": "2025-12-05T23:00:00.000",
+    "endTime": "2025-12-06T06:00:00.000",
+    "artists": [
+      "Above & Beyond"
+    ],
+    "genres": [
+      "Trance"
+    ],
+    "lineupRaw": "Mainfloor:\n<artist id=\"480\">Above & Beyond</artist>",
+    "lineupParsed": [
+      "Mainfloor:",
+      "<artist id=\"480\">Above & Beyond</artist>"
+    ],
+    "venue": "Bootshaus",
+    "eventUrl": "/events/2262513",
+    "attending": 3
+  },
+  {
+    "eventName": "HOLLER AT ME pres. Noel Holler / Karla Blum / oSwald",
+    "date": "2025-12-06T00:00:00.000",
+    "startTime": "2025-12-06T22:00:00.000",
+    "endTime": "2025-12-07T05:00:00.000",
+    "artists": [
+      "Noel Holler",
+      "Karla Blum",
+      "oSwald"
+    ],
+    "genres": [
+      "Techno",
+      "Electro"
+    ],
+    "lineupRaw": "Mainfloor:\n<artist id=\"132905\">Noel Holler</artist>\n<artist id=\"117242\">Karla Blum</artist>\n<artist id=\"24866\">oSwald</artist>\nMOLU",
+    "lineupParsed": [
+      "Mainfloor:",
+      "<artist id=\"132905\">Noel Holler</artist>",
+      "<artist id=\"117242\">Karla Blum</artist>",
+      "<artist id=\"24866\">oSwald</artist>",
+      "MOLU"
+    ],
+    "venue": "Bootshaus",
+    "eventUrl": "/events/2272207",
+    "attending": 0
+  },
+  {
+    "eventName": "NOPHONE x Kontur x Darkart w/Beste Hira",
+    "date": "2025-12-12T00:00:00.000",
+    "startTime": "2025-12-12T23:00:00.000",
+    "endTime": "2025-12-13T08:00:00.000",
+    "artists": [],
+    "genres": [
+      "Techno"
+    ],
+    "lineupRaw": "T.b.a",
+    "lineupParsed": [
+      "T.b.a"
+    ],
+    "venue": "Odonien",
+    "eventUrl": "/events/2222628",
+    "attending": 25
+  },
+  {
+    "eventName": "Techno Allianz Schranz Only Pres. ViperXXL Bday",
+    "date": "2025-12-12T00:00:00.000",
+    "startTime": "2025-12-12T23:00:00.000",
+    "endTime": "2025-12-13T07:00:00.000",
+    "artists": [],
+    "genres": [
+      "Techno"
+    ],
+    "lineupRaw": "TBA",
+    "lineupParsed": [
+      "TBA"
+    ],
+    "venue": "Elektroküche",
+    "eventUrl": "/events/2169368",
+    "attending": 15
+  },
+  {
+    "eventName": "fi x [a:rpia:r] & Avontuur",
+    "date": "2025-12-12T00:00:00.000",
+    "startTime": "2025-12-12T23:00:00.000",
+    "endTime": "2025-12-13T08:00:00.000",
+    "artists": [
+      "Petre Inspirescu",
+      "Raresh",
+      "Rhadoo",
+      "Soft Force"
+    ],
+    "genres": [
+      "House",
+      "Electro"
+    ],
+    "lineupRaw": "↓\n[a:rpia:r] w/\n<artist id=\"1712\">Petre Inspirescu</artist>\n<artist id=\"1025\">Raresh</artist>\n<artist id=\"2527\">Rhadoo</artist>\n\n↑\nAVONTUUR w/\nARNDSON B2B SIMON BEHRENDT\nDAVID DRÖGE \n<artist id=\"104884\">Soft Force</artist>\nSOPHIETJE",
+    "lineupParsed": [
+      "↓",
+      "[a:rpia:r] w/",
+      "<artist id=\"1712\">Petre Inspirescu</artist>",
+      "<artist id=\"1025\">Raresh</artist>",
+      "<artist id=\"2527\">Rhadoo</artist>",
+      "↑",
+      "AVONTUUR w/",
+      "ARNDSON B2B SIMON BEHRENDT",
+      "DAVID DRÖGE",
+      "<artist id=\"104884\">Soft Force</artist>",
+      "SOPHIETJE"
+    ],
+    "venue": "fi",
+    "eventUrl": "/events/2267622",
+    "attending": 7
+  },
+  {
+    "eventName": "Kevin de Vries / Kölsch pres by ..,- & Bootshaus",
+    "date": "2025-12-13T00:00:00.000",
+    "startTime": "2025-12-13T22:00:00.000",
+    "endTime": "2025-12-14T06:00:00.000",
+    "artists": [
+      "Against All Ødds"
+    ],
+    "genres": [
+      "Techno",
+      "Electro"
+    ],
+    "lineupRaw": "Mainfloor:\nKevin de Vries\nKölsch\nAvant\nSolique\n<artist id=\"145335\">Against All Ødds</artist>",
+    "lineupParsed": [
+      "Mainfloor:",
+      "Kevin de Vries",
+      "Kölsch",
+      "Avant",
+      "Solique",
+      "<artist id=\"145335\">Against All Ødds</artist>"
+    ],
+    "venue": "Bootshaus",
+    "eventUrl": "/events/2225990",
+    "attending": 21
+  },
+  {
+    "eventName": "Lexy & K-Paul",
+    "date": "2025-12-13T00:00:00.000",
+    "startTime": "2025-12-13T23:00:00.000",
+    "endTime": "2025-12-14T08:00:00.000",
+    "artists": [
+      "Lexy & K-Paul"
+    ],
+    "genres": [
+      "Techno",
+      "House"
+    ],
+    "lineupRaw": "<artist id=\"17505\">Lexy & K-Paul</artist>",
+    "lineupParsed": [
+      "<artist id=\"17505\">Lexy & K-Paul</artist>"
+    ],
+    "venue": "Odonien",
+    "eventUrl": "/events/2267721",
+    "attending": 1
+  },
+  {
+    "eventName": "RÄIVE - Steve Clash Club Tour - Köln",
+    "date": "2025-12-13T00:00:00.000",
+    "startTime": "2025-12-13T23:00:00.000",
+    "endTime": "2025-12-14T05:00:00.000",
+    "artists": [
+      "Gourski",
+      "Steve Clash"
+    ],
+    "genres": [
+      "Drum & Bass",
+      "House"
+    ],
+    "lineupRaw": "<artist id=\"144042\">Gourski</artist> \n<artist id=\"52861\">Steve Clash</artist>",
+    "lineupParsed": [
+      "<artist id=\"144042\">Gourski</artist>",
+      "<artist id=\"52861\">Steve Clash</artist>"
+    ],
+    "venue": "Yuca Club",
+    "eventUrl": "/events/2196420",
+    "attending": 0
+  },
+  {
+    "eventName": "King Kong Kicks + Rave is King • Indie Pop & Hypes • Helios 37 • Köln",
+    "date": "2025-12-13T00:00:00.000",
+    "startTime": "2025-12-13T23:00:00.000",
+    "endTime": "2025-12-14T05:00:00.000",
+    "artists": [],
+    "genres": [
+      "Pop"
+    ],
+    "lineupRaw": "King Kong Kicks",
+    "lineupParsed": [
+      "King Kong Kicks"
+    ],
+    "venue": "Helios37",
+    "eventUrl": "/events/2213925",
+    "attending": 0
+  },
+  {
+    "eventName": "Oliver Magenta and Friends",
+    "date": "2025-12-13T00:00:00.000",
+    "startTime": "2025-12-13T22:00:00.000",
+    "endTime": "2025-12-14T05:00:00.000",
+    "artists": [],
+    "genres": [
+      "Electro"
+    ],
+    "lineupRaw": "Blckbx:\nOLIVER MAGNETA\nmore TBA",
+    "lineupParsed": [
+      "Blckbx:",
+      "OLIVER MAGNETA",
+      "more TBA"
+    ],
+    "venue": "Bootshaus",
+    "eventUrl": "/events/2262425",
+    "attending": 0
+  },
+  {
+    "eventName": "ANIMADO - THE LAST DANCE (DAS FINALE BEVOR WIR AUFHÖREN)",
+    "date": "2025-12-19T00:00:00.000",
+    "startTime": "2025-12-19T23:00:00.000",
+    "endTime": "2025-12-20T06:00:00.000",
+    "artists": [],
+    "genres": [
+      "Techno"
+    ],
+    "lineupRaw": "UNBEKANNT",
+    "lineupParsed": [
+      "UNBEKANNT"
+    ],
+    "venue": "Artheater",
+    "eventUrl": "/events/2237087",
+    "attending": 5
+  }
+]

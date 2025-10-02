@@ -1,0 +1,237 @@
+[
+  {
+    "eventName": "Zehn Jahre Zehn DJs",
+    "date": "2025-10-02T00:00:00.000",
+    "startTime": "2025-10-02T22:00:00.000",
+    "endTime": "2025-10-03T05:00:00.000",
+    "artists": [
+      "Lukas Lehmann",
+      "Phonk D",
+      "Sven Helwig",
+      "David Kohlmann",
+      "Alexander Antonakis"
+    ],
+    "genres": [
+      "Club"
+    ],
+    "lineupRaw": "<artist id=\"64623\">Lukas Lehmann</artist>\n<artist id=\"53338\">Phonk D</artist>\n<artist id=\"32720\">Sven Helwig</artist> \n<artist id=\"98416\">David Kohlmann</artist> \n<artist id=\"38010\">Alexander Antonakis</artist>\nArndt Jahraus\nNouki\nurban soul\nSteevott\nMTAS",
+    "lineupParsed": [
+      "<artist id=\"64623\">Lukas Lehmann</artist>",
+      "<artist id=\"53338\">Phonk D</artist>",
+      "<artist id=\"32720\">Sven Helwig</artist>",
+      "<artist id=\"98416\">David Kohlmann</artist>",
+      "<artist id=\"38010\">Alexander Antonakis</artist>",
+      "Arndt Jahraus",
+      "Nouki",
+      "urban soul",
+      "Steevott",
+      "MTAS"
+    ],
+    "venue": "Weststadtcafé",
+    "eventUrl": "/events/2260990",
+    "attending": 56
+  },
+  {
+    "eventName": "Wir Sind Anders mit AKA AKA",
+    "date": "2025-10-02T00:00:00.000",
+    "startTime": "2025-10-02T23:00:00.000",
+    "endTime": "2025-10-03T07:00:00.000",
+    "artists": [
+      "AKA AKA",
+      "Swen Baez",
+      "Dalson"
+    ],
+    "genres": [
+      "Techno",
+      "Tech House"
+    ],
+    "lineupRaw": "<artist id=\"6961\">AKA AKA</artist> \nSTK Project\nRaffy Lima\n<artist id=\"117715\">Swen Baez</artist> \nTim Ziemer\n<artist id=\"59851\">Dalson</artist>",
+    "lineupParsed": [
+      "<artist id=\"6961\">AKA AKA</artist>",
+      "STK Project",
+      "Raffy Lima",
+      "<artist id=\"117715\">Swen Baez</artist>",
+      "Tim Ziemer",
+      "<artist id=\"59851\">Dalson</artist>"
+    ],
+    "venue": "Der Ponyhof",
+    "eventUrl": "/events/2258769",
+    "attending": 1
+  },
+  {
+    "eventName": "Restless meets Keepsakes",
+    "date": "2025-10-03T00:00:00.000",
+    "startTime": "2025-10-03T23:00:00.000",
+    "endTime": "2025-10-04T06:00:00.000",
+    "artists": [
+      "Keepsakes",
+      "Arp (SNT)",
+      "Resit Can"
+    ],
+    "genres": [
+      "Techno"
+    ],
+    "lineupRaw": "<artist id=\"64025\">Keepsakes</artist> \n<artist id=\"123145\">Arp (SNT)</artist> \n<artist id=\"128005\">Resit Can</artist>",
+    "lineupParsed": [
+      "<artist id=\"64025\">Keepsakes</artist>",
+      "<artist id=\"123145\">Arp (SNT)</artist>",
+      "<artist id=\"128005\">Resit Can</artist>"
+    ],
+    "venue": "Galerie Kurzweil",
+    "eventUrl": "/events/2244379",
+    "attending": 5
+  },
+  {
+    "eventName": "WERK",
+    "date": "2025-10-03T00:00:00.000",
+    "startTime": "2025-10-03T20:00:00.000",
+    "endTime": "2025-10-04T05:00:00.000",
+    "artists": [
+      "Timo Soriano"
+    ],
+    "genres": [
+      "House",
+      "Deep House"
+    ],
+    "lineupRaw": "Max Blissé \nJume\nMichèle van Geldere \n<artist id=\"39018\">Timo Soriano</artist>",
+    "lineupParsed": [
+      "Max Blissé",
+      "Jume",
+      "Michèle van Geldere",
+      "<artist id=\"39018\">Timo Soriano</artist>"
+    ],
+    "venue": "Weststadtcafé",
+    "eventUrl": "/events/2247267",
+    "attending": 1
+  },
+  {
+    "eventName": "SOM x Trance Impulse",
+    "date": "2025-10-11T00:00:00.000",
+    "startTime": "2025-10-11T23:00:00.000",
+    "endTime": "2025-10-12T08:00:00.000",
+    "artists": [
+      "buz",
+      "ToxicFish",
+      "assena"
+    ],
+    "genres": [
+      "Techno",
+      "Psytrance"
+    ],
+    "lineupRaw": "<artist id=\"130529\">buz</artist> \n<artist id=\"132247\">ToxicFish</artist> \n<artist id=\"158674\">assena</artist>",
+    "lineupParsed": [
+      "<artist id=\"130529\">buz</artist>",
+      "<artist id=\"132247\">ToxicFish</artist>",
+      "<artist id=\"158674\">assena</artist>"
+    ],
+    "venue": "TBA - Zweifalltorweg 15, Darmstadt",
+    "eventUrl": "/events/2258826",
+    "attending": 3
+  },
+  {
+    "eventName": "SOM x IBA",
+    "date": "2025-10-17T00:00:00.000",
+    "startTime": "2025-10-17T22:00:00.000",
+    "endTime": "2025-10-18T05:00:00.000",
+    "artists": [
+      "buz",
+      "ToxicFish",
+      "assena"
+    ],
+    "genres": [
+      "Trance",
+      "Techno"
+    ],
+    "lineupRaw": "<artist id=\"130529\">buz</artist> \n<artist id=\"132247\">ToxicFish</artist> \n<artist id=\"158674\">assena</artist>",
+    "lineupParsed": [
+      "<artist id=\"130529\">buz</artist>",
+      "<artist id=\"132247\">ToxicFish</artist>",
+      "<artist id=\"158674\">assena</artist>"
+    ],
+    "venue": "Galerie Kurzweil",
+    "eventUrl": "/events/2258827",
+    "attending": 3
+  },
+  {
+    "eventName": "Bloodmoon Techno Halloween Rave",
+    "date": "2025-10-31T00:00:00.000",
+    "startTime": "2025-10-31T22:00:00.000",
+    "endTime": "2025-11-01T06:00:00.000",
+    "artists": [],
+    "genres": [
+      "Techno",
+      "Hardcore"
+    ],
+    "lineupRaw": "Un1que\nCalamity\nTwo Face\nDruckvoll\nVICA\nContest Winner (to be announced)",
+    "lineupParsed": [
+      "Un1que",
+      "Calamity",
+      "Two Face",
+      "Druckvoll",
+      "VICA",
+      "Contest Winner (to be announced)"
+    ],
+    "venue": "TBA - Labor 21",
+    "eventUrl": "/events/2266083",
+    "attending": 2
+  },
+  {
+    "eventName": "Centralstation ist Anders pres. Alfred Heinrichs",
+    "date": "2025-12-13T00:00:00.000",
+    "startTime": "2025-12-13T22:30:00.000",
+    "endTime": "2025-12-14T04:00:00.000",
+    "artists": [],
+    "genres": [
+      "Techno"
+    ],
+    "lineupRaw": "Alfred Heinrichs\nChris Hartwig\nLorenzo di Turi",
+    "lineupParsed": [
+      "Alfred Heinrichs",
+      "Chris Hartwig",
+      "Lorenzo di Turi"
+    ],
+    "venue": "Centralstation",
+    "eventUrl": "/events/2266610",
+    "attending": 0
+  },
+  {
+    "eventName": "Restless meets Surgeon",
+    "date": "2025-12-20T00:00:00.000",
+    "startTime": "2025-12-20T23:00:00.000",
+    "endTime": "2025-12-21T06:00:00.000",
+    "artists": [
+      "Surgeon",
+      "Resit Can"
+    ],
+    "genres": [
+      "Techno"
+    ],
+    "lineupRaw": "<artist id=\"624\">Surgeon</artist> \n<artist id=\"128005\">Resit Can</artist> \n-TBA",
+    "lineupParsed": [
+      "<artist id=\"624\">Surgeon</artist>",
+      "<artist id=\"128005\">Resit Can</artist>",
+      "-TBA"
+    ],
+    "venue": "Galerie Kurzweil",
+    "eventUrl": "/events/2244370",
+    "attending": 6
+  },
+  {
+    "eventName": "XMAS SPEZIAL",
+    "date": "2025-12-25T00:00:00.000",
+    "startTime": "2025-12-25T23:00:00.000",
+    "endTime": "2025-12-26T08:00:00.000",
+    "artists": [],
+    "genres": [
+      "House",
+      "Electro"
+    ],
+    "lineupRaw": "Tba",
+    "lineupParsed": [
+      "Tba"
+    ],
+    "venue": "Galerie Kurzweil",
+    "eventUrl": "/events/2178482",
+    "attending": 4
+  }
+]
