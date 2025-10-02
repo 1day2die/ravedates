@@ -119,9 +119,15 @@ async function loadRegions() {
   const { regions } = await fetchJSON('/api/regions');
   state.regions = regions.sort();
   renderRegionsSkeleton();
+  // Alle Regionen direkt (parallel) laden, damit Filter/Genres vollständig sind
+  await Promise.all(state.regions.map(r => loadRegionEvents(r).catch(err => {
+    console.error('Region Laden fehlgeschlagen', r, err);
+  })));
+  // Nach vollständigem Laden Genres/Filter aktualisieren
+  rebuildGenreSelect();
+  applyFiltersAndRenderAll();
   // Top Events unabhängig laden
   await loadTopEvents();
-  // Genres werden erst nach dem Laden einzelner Regionen befüllt
 }
 
 async function loadRegionEvents(region) {
@@ -203,14 +209,14 @@ function renderRegionsSkeleton() {
     const wrapper = document.createElement('div');
     wrapper.id = `region-${r}`;
     wrapper.className = 'border border-neutral-700 rounded-lg overflow-hidden bg-neutral-800/50 backdrop-blur-sm';
-    // Einheitlicher Status-Text – keine Region wird auto-geladen
+    // Status zeigt nun direkt: Wird geladen (weil wir sofort alle Regionen laden)
     wrapper.innerHTML = `
       <button class="w-full flex justify-between items-center px-4 py-3 font-semibold bg-neutral-800/60 hover:bg-neutral-700/60 transition region-toggle" data-region-toggle="${r}">
         <span>${escapeHtml(regionTitle(r))}</span>
         <span class="chevron text-neutral-400">▼</span>
       </button>
       <div class="region-content hidden divide-y divide-neutral-800" data-region-content="${r}">
-        <div class="p-4 text-sm text-neutral-400" data-region-status>Noch nicht geladen. Aufklappen zum Laden.</div>
+        <div class="p-4 text-sm text-neutral-400" data-region-status>Lade Events...</div>
       </div>`;
     regionsContainer.appendChild(wrapper);
   });
@@ -337,7 +343,7 @@ function openModal(ev, region) {
     lines.push(`<div><h4 class='font-semibold mb-1 text-sm'>Lineup</h4><pre class='text-[11px] whitespace-pre-wrap bg-neutral-800/60 p-2 rounded'>${escapeHtml(ev.lineupRaw)}</pre></div>`);
   }
   if (ev.eventUrl) {
-    lines.push(`<div class='text-xs'><span class='text-neutral-400'>Event URL:</span><br><code>${escapeHtml(ev.eventUrl)}</code></div>`);
+    lines.push(`<div class='text-xs'><span class='text-emerald-300'><a href='https://de.ra.co${escapeHtml(ev.eventUrl)}'>Mehr Infos zum Event (hier klicken)</a></div>`);
   }
   modalBody.innerHTML = lines.join('');
   modal.classList.remove('hidden');
