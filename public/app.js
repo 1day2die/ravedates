@@ -337,7 +337,7 @@ function renderRegion(region) {
   filtered.forEach(ev => {
     const already = votedSet.has(ev.voteId);
     const item = document.createElement('div');
-    item.className = 'event-item group px-4 py-3 mb-2 last:mb-0 flex flex-col gap-2 hover:bg-neutral-700/40 transition border border-neutral-800/80 rounded-md shadow-[0_0_0_1px_rgba(255,255,255,0.04)]';
+    item.className = 'event-item group px-4 py-3 mb-6 last:mb-0 flex flex-col gap-2 hover:bg-neutral-700/40 transition border border-neutral-800/80 rounded-md shadow-[0_0_0_1px_rgba(255,255,255,0.04)]';
     const sortedGenres = (ev.genres || []).slice().sort((a,b)=>a.localeCompare(b,'de',{sensitivity:'base'}));
     const genreTags = sortedGenres.map(g => createNeonTag(g, 'genre')).join('');
 

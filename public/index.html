@@ -183,13 +183,14 @@
     /* Neon Separator unter jedem Event-Listen-Item (Regionen-Liste) */
     .event-item { position: relative; }
     .event-item:not(:last-child)::after {
+      /* Symmetrischer Abstand: mb-6 = 24px; offset 10px + line 4px + 10px */
+      bottom: -10px !important;
+      height: 4px !important;
       content: '';
       position: absolute;
       left: 50%;
-      bottom: -6px; /* etwas Abstand unterhalb des Items */
       transform: translateX(-50%);
       width: 75%;
-      height: 3px;
       pointer-events: none;
       background: radial-gradient(circle at 50% 50%, rgba(255,13,217,0.95) 0%, rgba(255,13,217,0.6) 20%, rgba(0,234,255,0.5) 45%, rgba(0,234,255,0.15) 60%, rgba(0,0,0,0) 75%);
       filter: blur(2px) brightness(1.15);
@@ -197,13 +198,14 @@
     }
     /* leichte horizontale Lichtausbreitung darunter */
     .event-item:not(:last-child)::before {
+      /* Glow etwas unter der Linie platzieren */
+      bottom: -14px !important;
+      height: 14px !important;
       content: '';
       position: absolute;
       left: 50%;
-      bottom: -10px;
       transform: translateX(-50%);
       width: 40%;
-      height: 10px;
       pointer-events: none;
       background: radial-gradient(circle at 50% 20%, rgba(255,13,217,0.55), rgba(0,234,255,0.15) 55%, rgba(0,0,0,0) 70%);
       filter: blur(8px) saturate(140%);
